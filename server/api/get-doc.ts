@@ -1,18 +1,15 @@
 import data from '@/static/data.json';
 import {Route, RouteSlim} from "@/static/types";
+import withoutEndingSlash from "~/utils/withoutEndingSlash";
 
 const d = data as Route[];
 
-function withoutEndSlash(str: string) {
-    return str.substring(0, str.length - 1);
-}
-
 function findRoute(routes: Route[], path: string): Route | null {
-    const res = routes.filter(x => withoutEndSlash(x.route) === path);
+    const res = routes.filter(x => withoutEndingSlash(x.route) === path);
 
     if (res.length > 0) return res[0];
 
-    const suspects = routes.filter(x => path.startsWith(withoutEndSlash(x.route)))
+    const suspects = routes.filter(x => path.startsWith(withoutEndingSlash(x.route)))
 
     for (let s of suspects) {
         let res = findRoute(s.children, path);
@@ -29,14 +26,9 @@ export default defineEventHandler(async e => {
 
     const path = atob(query.path as string);
 
-    const res = findRoute(d, path) as RouteSlim | null;
+    const res = findRoute(d, path);
 
     if (res === null) return null;
-
-    for (let i of res.children) {
-        i.body = null;
-        i.outline = null;
-    }
 
     return res;
 })

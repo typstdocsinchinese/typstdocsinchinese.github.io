@@ -11,7 +11,7 @@ type Nullable<T> = null | T;
 
 type Part = 'Library' | 'Language' | null;
 
-interface Outline {
+export interface Outline {
     id: string;
     name: string;
     children: Outline[];
@@ -104,8 +104,23 @@ export interface Route {
     description: string;
     part: Part;
     outline: Outline[];
-    body: Body<'html', string> | Body<'category', Category> | Body<'func', Func> | Body<'type', Type> | Body<'symbols', Symbols>;
+    body: Body<PageType.HTML, string>
+        | Body<PageType.Category, Category>
+        | Body<PageType.Func, Func>
+        | Body<PageType.Type, Type>
+        | Body<PageType.Symbols, Symbols>
+        | Body<PageType.Group, Group>;
     children: Route[];
+}
+
+export enum PageType {
+    Category = 'category',
+    Func = 'func',
+    Type = 'type',
+    Symbols = 'symbols',
+    Group = 'group',
+    HTML = 'html',
+    Unknown = '-'
 }
 
 export interface RouteSlim extends Omit<Route, 'body' | 'children' | 'outline'> {
