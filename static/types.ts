@@ -1,5 +1,5 @@
 /**
- * Note: this file might be updated frequently according to the claim of JSON structure unstability which appears when running typst-doc.
+ * Note: this file might be updated frequently according to the claim of JSON structure instability which appears when running typst-doc.
  */
 
 type Body<T extends string, V> = {
