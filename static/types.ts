@@ -7,7 +7,7 @@ type Body<T extends string, V> = {
     content: V;
 };
 
-type Nullable<T> = null | T;
+export type Nullable<T> = null | T;
 
 type Part = 'Library' | 'Language' | null;
 
@@ -17,7 +17,7 @@ export interface Outline {
     children: Outline[];
 }
 
-interface Category {
+export interface Category {
     name: string;
     title: string;
     details: string;
@@ -30,7 +30,7 @@ interface Category {
     shorthands: Nullable<Shorthands>;
 }
 
-interface Func {
+export interface Func {
     path: string[];
     name: string;
     title: string;
@@ -46,7 +46,7 @@ interface Func {
     scope: Func[];
 }
 
-interface FuncParam {
+export interface FuncParam {
     name: string;
     details: string;
     example: Nullable<string>;
@@ -60,7 +60,7 @@ interface FuncParam {
     settable: boolean;
 }
 
-interface Type {
+export interface Type {
     name: string;
     title: string;
     keywords: string[];
@@ -70,26 +70,26 @@ interface Type {
     scope: Func[];
 }
 
-interface Group {
+export interface Group {
     name: string;
     title: string;
     details: string;
     functions: Func[];
 }
 
-interface Symbols {
+export interface Symbols {
     name: string;
     title: string;
     details: string;
     list: Symbol[];
 }
 
-interface Shorthands {
+export interface Shorthands {
     markup: Symbol[];
     math: Symbol[]
 }
 
-interface Symbol {
+export interface Symbol {
     name: string;
     codepoint: number;
     accent: boolean;
