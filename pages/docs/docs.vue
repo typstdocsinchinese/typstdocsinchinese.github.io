@@ -60,27 +60,7 @@ async function fetchDocumentation() {
       break;
     }
 
-    case PageType.Category: {
-      object.value = res.body.content;
-      break;
-    }
-
-    case PageType.Type: {
-      object.value = res.body.content;
-      break;
-    }
-
-    case PageType.Func: {
-      object.value = res.body.content;
-      break;
-    }
-
-    case PageType.Group: {
-      object.value = res.body.content;
-      break;
-    }
-
-    case PageType.Symbols: {
+    default: {
       object.value = res.body.content;
       break;
     }
