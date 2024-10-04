@@ -36,7 +36,7 @@ const docPath = `/docs${withoutEndingSlash(useRoute().params.docPath as string)}
 const pageType = ref<PageType>(PageType.Unknown);
 const title = ref('');
 const description = ref('');
-const outline = ref<Outline[]>([]);
+const outline = useState<Outline[] | null>('outline');
 
 const htmlBody = ref('');
 const object = ref<Nullable<Func | Category | Type | Group | Symbols>>(null);

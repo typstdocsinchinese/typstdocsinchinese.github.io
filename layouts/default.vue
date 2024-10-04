@@ -3,7 +3,9 @@
   <main>
     <contents/>
     <slot/>
-    <toc/>
+    <client-only>
+      <toc/>
+    </client-only>
   </main>
 </template>
 

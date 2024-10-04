@@ -1,9 +1,9 @@
 <template>
-  <h1><code>{{ object.name }}</code></h1>
+  <h1 id="summary"><code>{{ object.name }}</code></h1>
   <div class="type-details" v-html="object.details"/>
   <div class="type-constructor" v-if="object.constructor">
     <h2>Constructor</h2>
-    <func :omit-name="true" :single-page="false" :value="object.constructor"/>
+    <func param-id-prefix="constructor" :omit-name="true" :single-page="false" :value="object.constructor"/>
   </div>
   <div class="type-scope" v-if="object.scope.length > 0">
     <h2>Definitions</h2>

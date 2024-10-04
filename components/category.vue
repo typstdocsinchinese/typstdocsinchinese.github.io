@@ -1,7 +1,7 @@
 <template>
-  <h1>{{ object.title }}</h1>
+  <h1 id="summary">{{ object.title }}</h1>
   <div class="category-details" v-html="object.details"/>
-  <h2>Definitions</h2>
+  <h2 id="definitions">Definitions</h2>
   <ul>
     <li v-for="x in object.items">
       <router-link :to="x.route">{{ x.name }}</router-link>
@@ -9,7 +9,7 @@
     </li>
   </ul>
   <div class="category-shorthands" v-if="object.shorthands">
-    <h2>Shorthands</h2>
+    <h2 id="shorthands">Shorthands</h2>
     <p>Shorthands are concise sequences of characters that evoke specific glyphs. Shorthands and other ways to produce
       symbols can be used interchangeably. You can use different sets of shorthands in math and markup mode. Some
       shorthands, like ~ for a non-breaking space produce non-printing symbols, which are indicated with gray

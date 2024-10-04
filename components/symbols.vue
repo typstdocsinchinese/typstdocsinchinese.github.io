@@ -1,5 +1,5 @@
 <template>
-  <h1>{{ object.name }}</h1>
+  <h1 id="summary">{{ object.name }}</h1>
   <div class="symbol-details" v-html="object.details"/>
   <div class="symbol-display">
     <div class="symbol" v-for="x in object.list">
