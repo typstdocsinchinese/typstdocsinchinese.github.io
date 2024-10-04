@@ -21,6 +21,10 @@
         <div v-if="x.example" class="param-example" v-html="x.example"/>
       </div>
     </div>
+    <div class="func-scope scope" v-if="object.scope.length > 0">
+      <h2>Definitions</h2>
+      <func v-for="x in object.scope" :single-page="false" :value="x"/>
+    </div>
   </div>
 </template>
 
@@ -58,4 +62,6 @@ function getParamId(name: string, objectName = '') {
 }
 
 const object = props.value as Func;
+
+console.log(object)
 </script>

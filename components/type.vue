@@ -5,7 +5,7 @@
     <h2>Constructor</h2>
     <func param-id-prefix="constructor" :omit-name="true" :single-page="false" :value="object.constructor"/>
   </div>
-  <div class="type-scope" v-if="object.scope.length > 0">
+  <div class="type-scope scope" v-if="object.scope.length > 0">
     <h2>Definitions</h2>
     <func v-for="x in object.scope" :single-page="false" :value="x"/>
   </div>
