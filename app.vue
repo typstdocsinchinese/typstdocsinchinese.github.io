@@ -1,5 +1,9 @@
 <template>
-  <div>
+  <NuxtLayout>
     <NuxtPage/>
-  </div>
+  </NuxtLayout>
 </template>
+
+<script lang="ts" setup>
+import '@/assets/global.scss';
+</script>

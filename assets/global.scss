@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin: 0;
+}
+
+body, button {
+  font-family: "Hanken Grotesk", 'Inter', -apple-system, system-ui, 'PingFang SC', '微软雅黑', 'Microsoft YaHei UI', sans-serif;
+  font-optical-sizing: auto;
+}
+
+.spacer {
+  flex: 1;
+}
