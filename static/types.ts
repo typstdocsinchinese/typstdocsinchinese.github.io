@@ -128,3 +128,14 @@ export interface RouteSlim extends Omit<Route, 'body' | 'children' | 'outline'> 
     outline: null,
     children: RouteSlim[]
 }
+
+export interface ContentsItem {
+    title: string;
+    route: string;
+    children: ContentsItemChild[]
+}
+
+export interface ContentsItemChild extends Omit<ContentsItem, 'children'> {
+    part: string | null;
+    children: ContentsItemChild[];
+}
