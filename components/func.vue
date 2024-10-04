@@ -58,6 +58,4 @@ function getParamId(name: string, objectName = '') {
 }
 
 const object = props.value as Func;
-
-console.log(object)
 </script>

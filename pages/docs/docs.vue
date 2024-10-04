@@ -30,13 +30,14 @@ import {
   type Type
 } from "@/static/types";
 import withoutEndingSlash from "~/utils/withoutEndingSlash";
+import useOutline from "~/composables/useOutline";
 
 const docPath = `/docs${withoutEndingSlash(useRoute().params.docPath as string)}`;
 
 const pageType = ref<PageType>(PageType.Unknown);
 const title = ref('');
 const description = ref('');
-const outline = useState<Outline[] | null>('outline');
+const outline = useOutline();
 
 const htmlBody = ref('');
 const object = ref<Nullable<Func | Category | Type | Group | Symbols>>(null);

@@ -14,7 +14,8 @@ const props = defineProps({
   }
 });
 
-const object = props.outline as Outline[];
+const object = ref(props.outline as Outline[]);
+watch(() => props.outline, v => object.value = props.outline as Outline[]);
 </script>
 
 <style lang="scss">
