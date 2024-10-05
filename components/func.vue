@@ -22,7 +22,7 @@
       </div>
     </div>
     <div class="func-scope scope" v-if="object.scope.length > 0">
-      <h2>Definitions</h2>
+      <h2 id="definitions">Definitions</h2>
       <func v-for="x in object.scope" :single-page="false" :value="x"/>
     </div>
   </div>
