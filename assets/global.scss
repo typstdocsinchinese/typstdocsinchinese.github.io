@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+@import "typo";
 
 $primary: #239dae;
 
@@ -7,8 +8,12 @@ body {
 }
 
 body, button {
-  font-family: "Hanken Grotesk", 'Inter', -apple-system, system-ui, 'PingFang SC', '微软雅黑', 'Microsoft YaHei UI', sans-serif;
+  font-family: "Hanken Grotesk", 'Inter', -apple-system, ui-snas-serif, system-ui, 'PingFang SC', '微软雅黑', 'Microsoft YaHei UI', sans-serif;
   font-optical-sizing: auto;
+}
+
+pre, code {
+  font-family: 'Cascadia Code', 'Cascadia Mono', ui-monospace, Consolas, monospace;
 }
 
 .spacer {
