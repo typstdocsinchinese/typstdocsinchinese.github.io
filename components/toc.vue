@@ -1,5 +1,6 @@
 <template>
   <div class="outlines" v-if="outline !== null && outline.length !== 0">
+    <h5>TOC</h5>
     <toc-renderer :outline="outline"/>
   </div>
 </template>
