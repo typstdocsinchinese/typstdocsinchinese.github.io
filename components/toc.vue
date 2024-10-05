@@ -5,7 +5,6 @@
 </template>
 
 <script lang="ts" setup>
-import type {Outline} from "~/static/types";
 import TocRenderer from "~/components/toc-renderer.vue";
 import useOutline from "~/composables/useOutline";
 

@@ -1,6 +1,6 @@
 <template>
-  <div class="content-item" v-for="x in object">
-    <router-link :to="x.route">{{ x.title }}</router-link>
+  <div class="content-item sidebar-link" v-for="x in object">
+    <sidebar-link :route="x.route" :title="x.title" :collapsable="x.children.length > 0"/>
     <contents-children-renderer v-if="x.children.length > 0" :contents="x.children"/>
   </div>
 </template>

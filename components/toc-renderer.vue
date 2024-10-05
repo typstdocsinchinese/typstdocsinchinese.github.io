@@ -1,5 +1,5 @@
 <template>
-  <div class="toc-item" v-for="x in object">
+  <div class="toc-item sidebar-link" v-for="x in object">
     <a :href="`#${x.id}`">{{ x.name }}</a>
     <toc-renderer v-if="x.children" :outline="x.children"/>
   </div>

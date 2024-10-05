@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
 
+$primary: #239dae;
+
 body {
   margin: 0;
 }
@@ -11,4 +13,12 @@ body, button {
 
 .spacer {
   flex: 1;
+}
+
+a:visited {
+  color: #5d25c6;
+}
+
+a:link {
+  color: #007aff;
 }
