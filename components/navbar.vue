@@ -30,11 +30,12 @@ nav {
   align-items: center;
   gap: 32px;
 
-  span {
+  > span {
     color: #565565;
     display: block;
     font-size: 18px;
     padding-bottom: 4px;
+    max-width: 100%;
   }
 }
 
