@@ -6,17 +6,19 @@
     <div class="func-details" v-html="object.details"/>
     <div class="func-example" v-if="object.example" v-html="object.example"/>
     <h2 v-if="singlePage">Parameters</h2>
-    <pre class="func-definition">
-      <code>
-      {{ object.self ? 'self.' : '' }}{{ object.name }}({{ object.params.map(x => x.types.join(' or ')).join(', ') }}) -> {{
-          object.returns.join(' or ')
-        }}
-      </code>
-    </pre>
+    <pre class="func-definition" v-html="`<code>${buildFunctionDefinition(object)}</code>`"/>
     <div class="func-params">
       <div class="param" v-for="x in object.params">
-        <component :is="singlePage ? 'h3' : 'h4'" :id="getParamId(x.name, object.name)"><code>{{ x.name }}</code>
-          <small>{{ x.types.join(' or ') }}</small></component>
+        <div class="param-title">
+          <component :is="singlePage ? 'h3' : 'h4'" :id="getParamId(x.name, object.name)"><code>{{ x.name }}</code>
+          </component>
+          <div class="param-type" v-html="'<code>' + x.types.map(y => `<span class='type'>${y}</span>`).join(' | ') + '</code>'"/>
+          <div class="param-props">
+            <template v-for="y in ['positional', 'settable', 'variadic', 'required']">
+              <span class="prop" v-if="x[y]">{{ Cap(y) }}</span>
+            </template>
+          </div>
+        </div>
         <div class="param-details" v-html="x.details"/>
         <div v-if="x.example" class="param-example" v-html="x.example"/>
       </div>
@@ -46,6 +48,10 @@ const props = defineProps({
   }
 });
 
+function Cap(str: string) {
+  return `${str[0].toUpperCase()}${str.slice(1, str.length)}`;
+}
+
 function getFunctionNameId(name: string) {
   if (props.singlePage) return 'summary';
   if (props.paramIdPrefix.length > 0) return `${props.paramIdPrefix}-${name}`;
@@ -61,7 +67,59 @@ function getParamId(name: string, objectName = '') {
   return `definitions-${objectName}-${name}`;
 }
 
-const object = props.value as Func;
+function buildFunctionDefinition(object: Func) {
+  let res = '';
+  const longParam = object.params.length >= 3;
 
-console.log(object)
+  if (object.self) res += 'self.';
+  if (object.path.length > 0) res += object.path.join('.') + '.';
+
+  res += object.name;
+  res += '(';
+  if (object.params.length > 0) {
+    res += longParam ? '\n  ' : ' ';
+    res += object.params.map((x) => {
+      let r = '';
+
+      if (x.name && x.named) {
+        r += `${x.name}: `
+      }
+
+      r += `<span class="type">${x.types.join(' | ')}</span>`;
+      return r;
+    }).join(`,${longParam ? '\n  ' : ' '}`);
+    res += longParam ? '\n' : ' ';
+  }
+  res += ')';
+
+  if (object.returns.length > 0) {
+    res += ` -> ${object.returns.join(' | ')}`;
+  }
+
+  return res;
+}
+
+const object = props.value as Func;
 </script>
+
+<style lang="scss">
+.param-title {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  .param-type {
+    margin-left: 16px;
+  }
+
+  .param-props {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    .prop {
+      font-style: italic;
+    }
+  }
+}
+</style>
