@@ -1,7 +1,9 @@
 <template>
   <navbar/>
   <main>
-    <contents/>
+    <client-only>
+      <contents/>
+    </client-only>
     <slot/>
     <client-only>
       <toc/>
