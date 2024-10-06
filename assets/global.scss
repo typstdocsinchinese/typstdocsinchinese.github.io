@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
 @import "typo";
-
-$primary: #239dae;
+@import "var";
 
 body {
   margin: 0;
@@ -12,7 +11,7 @@ body, button {
   font-optical-sizing: auto;
 }
 
-pre, code {
+pre, code, original .content {
   font-family: 'Cascadia Code', 'Cascadia Mono', ui-monospace, Consolas, monospace;
 }
 
