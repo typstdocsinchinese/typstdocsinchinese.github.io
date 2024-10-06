@@ -1,0 +1,73 @@
+/**
+Color palette comes from official doc:
+https://typst.app/docs
+ */
+
+.typ-comment {
+  color: #8a8a8a
+}
+
+.typ-escape {
+  color: #1d6c76
+}
+
+.typ-strong {
+  font-weight: 700
+}
+
+.typ-emph {
+  font-style: italic
+}
+
+.typ-link {
+  text-decoration: underline
+}
+
+.typ-raw {
+  color: #818181
+}
+
+.typ-label, .typ-ref {
+  color: #1d6c76
+}
+
+.typ-heading {
+  font-weight: 700;
+  text-decoration: underline
+}
+
+.typ-marker {
+  color: #8b41b1
+}
+
+.typ-term {
+  font-weight: 700
+}
+
+.typ-math-delim {
+  color: #298e0d
+}
+
+.typ-math-op {
+  color: #1d6c76
+}
+
+.typ-key {
+  color: #d73a49
+}
+
+.typ-num {
+  color: #b60157
+}
+
+.typ-str {
+  color: #298e0d
+}
+
+.typ-func {
+  color: #4b69c6
+}
+
+.typ-pol {
+  color: #8b41b1
+}
