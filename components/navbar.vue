@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <div class="logo-box">
+    <div class="logo-box" @click="navigateTo('/docs')">
       <img class="typst-logo" src="/typst.svg" alt="typst-logo"/>
       <span>中文文档</span>
     </div>
@@ -60,6 +60,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 32px;
+  cursor: pointer;
 
   > span {
     color: #565565;
