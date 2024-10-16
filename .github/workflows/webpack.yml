@@ -27,6 +27,7 @@ jobs:
     - name: Checkout and copy
       run: |
         git config --global user.name doc-site
+        git config --global user.email runner@runner
         git clone https://github.com/typstdocsinchinese/typstdocsinchinese.github.io.git tt
         cd tt
         git remote set-url origin https://Subilan:${{ secrets.TOKEN }}@github.com/typstdocsinchinese/typstdocsinchinese.github.io
