@@ -22,4 +22,8 @@ watch(() => props.outline, v => object.value = props.outline as Outline[]);
 .toc-item .toc-item {
   margin-left: 16px;
 }
+
+.toc-item {
+  margin-bottom: 4px;
+}
 </style>

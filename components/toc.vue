@@ -1,6 +1,6 @@
 <template>
   <div class="outlines" v-if="outline !== null && outline.length !== 0">
-    <h5>TOC</h5>
+    <div class="outline-title">CONTENTS</div>
     <toc-renderer :outline="outline"/>
   </div>
 </template>
@@ -11,3 +11,11 @@ import useOutline from "~/composables/useOutline";
 
 const outline = useOutline();
 </script>
+
+<style lang="scss">
+.outline-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+</style>
