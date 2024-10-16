@@ -120,7 +120,8 @@ export enum PageType {
     Symbols = 'symbols',
     Group = 'group',
     HTML = 'html',
-    Unknown = '-'
+    Unknown = '-',
+    NotFound = 'not-found'
 }
 
 export interface RouteSlim extends Omit<Route, 'body' | 'children' | 'outline'> {
