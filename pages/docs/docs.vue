@@ -16,6 +16,9 @@
     <div class="page-symbols" v-else-if="pageType === PageType.Symbols">
       <Symbols :value="object"/>
     </div>
+    <div class="page-notfound" v-else-if="pageType === PageType.NotFound">
+      <NotFound/>
+    </div>
   </article>
 </template>
 
@@ -32,6 +35,7 @@ import {
 } from "@/static/types";
 import withoutEndingSlash from "~/utils/withoutEndingSlash";
 import useOutline from "~/composables/useOutline";
+import NotFound from "~/components/not-found.vue";
 
 const docPath = `/docs${withoutEndingSlash(useRoute().params.docPath as string)}`;
 
@@ -49,7 +53,7 @@ async function fetchDocumentation() {
   const res = await $fetch<Route | null>(`/api/get-doc?path=${btoa(docPath)}`);
 
   if (!res) {
-    navigateTo('/404');
+    pageType.value = PageType.NotFound;
     return;
   }
 
