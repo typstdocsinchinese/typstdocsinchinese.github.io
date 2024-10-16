@@ -15,30 +15,7 @@
   </nav>
 </template>
 
-<style lang="scss" scoped>
-nav {
-  padding: 24px 32px;
-  display: flex;
-}
-
-.typst-logo {
-  filter: invert(47%) sepia(80%) saturate(436%) hue-rotate(139deg) brightness(95%) contrast(86%);
-}
-
-.logo-box {
-  display: flex;
-  align-items: center;
-  gap: 32px;
-
-  > span {
-    color: #565565;
-    display: block;
-    font-size: 18px;
-    padding-bottom: 4px;
-    max-width: 100%;
-  }
-}
-
+<style lang="scss">
 .nav-btn {
   background-color: #ebf7f9;
   border-radius: 8px;
@@ -65,6 +42,31 @@ nav {
   &.primary {
     background-color: #127885;
     color: #fdfdfd;
+  }
+}
+</style>
+
+<style lang="scss" scoped>
+nav {
+  padding: 24px 32px;
+  display: flex;
+}
+
+.typst-logo {
+  filter: invert(47%) sepia(80%) saturate(436%) hue-rotate(139deg) brightness(95%) contrast(86%);
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+
+  > span {
+    color: #565565;
+    display: block;
+    font-size: 18px;
+    padding-bottom: 4px;
+    max-width: 100%;
   }
 }
 
