@@ -36,6 +36,7 @@ import {
 import withoutEndingSlash from "~/utils/withoutEndingSlash";
 import useOutline from "~/composables/useOutline";
 import NotFound from "~/components/not-found.vue";
+import getDoc from "~/utils/getDoc";
 
 const docPath = `/docs${withoutEndingSlash(useRoute().params.docPath as string)}`;
 
@@ -49,8 +50,8 @@ const arti = ref<HTMLDivElement | null>(null);
 const htmlBody = ref('');
 const object = ref<Nullable<Func | Category | Type | Group | Symbols>>(null);
 
-async function fetchDocumentation() {
-  const res = await $fetch<Route | null>(`/api/get-doc?path=${btoa(docPath)}`);
+function fetchDocumentation() {
+  const res = getDoc(docPath);
 
   if (!res) {
     pageType.value = PageType.NotFound;
@@ -96,7 +97,7 @@ function wrapOriginalContents() {
   }
 }
 
-await fetchDocumentation();
+fetchDocumentation();
 
 watch(arti, () => wrapOriginalContents());
 </script>
