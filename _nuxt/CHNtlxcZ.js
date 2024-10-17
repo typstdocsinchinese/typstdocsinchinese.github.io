@@ -1,4 +1,4 @@
-import{d as z,g as $,t as e,v as t,x as r,y,J as a,K as h,L as k,M as g,z as v,A as C,B as F,N as A,O as D,P as L,u as W,r as T,E as B}from"./CFs_PTh7.js";import{u as _}from"./BX99cR55.js";import{_ as H}from"./DlAUqK2U.js";const N={id:"summary"},O=["innerHTML"],Y={key:0,class:"category-shorthands"},G={class:"shorthands"},V={class:"shorthand"},U={class:"shorthands"},X={class:"shorthand"},J=z({__name:"category",props:{value:{required:!0}},setup(n){const s=n.value;return(m,l)=>{const u=$("router-link");return e(),t(h,null,[r("h1",N,y(a(s).title),1),r("div",{class:"category-details",innerHTML:a(s).details},null,8,O),l[5]||(l[5]=r("h2",{id:"definitions"},"Definitions",-1)),r("ul",null,[(e(!0),t(h,null,k(a(s).items,d=>(e(),t("li",null,[v(u,{to:d.route},{default:C(()=>[F(y(d.name),1)]),_:2},1032,["to"]),F(" — "+y(d.oneliner),1)]))),256))]),a(s).shorthands?(e(),t("div",Y,[l[0]||(l[0]=r("h2",{id:"shorthands"},"Shorthands",-1)),l[1]||(l[1]=r("p",null,"Shorthands are concise sequences of characters that evoke specific glyphs. Shorthands and other ways to produce symbols can be used interchangeably. You can use different sets of shorthands in math and markup mode. Some shorthands, like ~ for a non-breaking space produce non-printing symbols, which are indicated with gray placeholder text.",-1)),l[2]||(l[2]=r("p",null," You can deactivate a shorthand's interpretation by escaping any of its characters. If you escape a single character in a shorthand, the remaining unescaped characters may form a different shorthand.",-1)),l[3]||(l[3]=r("h3",null,"Within Markup Mode",-1)),r("div",G,[(e(!0),t(h,null,k(a(s).shorthands.markup,d=>(e(),t("div",V,y(d.name),1))),256))]),l[4]||(l[4]=r("h3",null,"Within Math Mode",-1)),r("div",U,[(e(!0),t(h,null,k(a(s).shorthands.math,d=>(e(),t("div",X,y(d.name),1))),256))])])):g("",!0)],64)}}}),K={class:"func"},Q=["innerHTML"],Z=["innerHTML"],aa={key:2},ea=["innerHTML"],na={class:"func-params"},sa={class:"param"},ta={class:"param-title"},ra=["innerHTML"],pa={class:"param-props"},la={key:0,class:"prop"},oa=["innerHTML"],ca=["innerHTML"],ia={key:3,class:"func-scope scope"},I=z({__name:"func",props:{value:{required:!0},omitName:{default:!1},singlePage:{default:!0},paramIdPrefix:{default:""}},setup(n){const p=n;function s(o){return`${o[0].toUpperCase()}${o.slice(1,o.length)}`}function m(o){return o.map(i=>`<span class="typ typ-${i}">${i}</span>`)}function l(o){return p.singlePage?"summary":p.paramIdPrefix.length>0?`${p.paramIdPrefix}-${o}`:`definitions-${o}`}function u(o,i=""){return p.singlePage?`parameters-${o}`:p.paramIdPrefix.length>0?p.paramIdPrefix==="constructor"?`${p.paramIdPrefix}-${o}`:`${p.paramIdPrefix}-${i}-${o}`:`definitions-${i}-${o}`}function d(o){let i="";const q=o.params.length>=3;return o.self?i+="self.":o.path.length>0&&(i+=o.path.join(".")+"."),i+=o.name,i+="(",o.params.length>0&&(i+=q?`
+import{d as z,g as $,t as e,v as t,x as r,y,J as a,K as h,L as k,M as g,z as v,A as C,B as F,N as A,O as D,P as L,u as W,r as T,E as B}from"./rpfaEqvq.js";import{u as _}from"./npZdIj8d.js";import{_ as H}from"./DlAUqK2U.js";const N={id:"summary"},O=["innerHTML"],Y={key:0,class:"category-shorthands"},G={class:"shorthands"},V={class:"shorthand"},U={class:"shorthands"},X={class:"shorthand"},J=z({__name:"category",props:{value:{required:!0}},setup(n){const s=n.value;return(m,l)=>{const u=$("router-link");return e(),t(h,null,[r("h1",N,y(a(s).title),1),r("div",{class:"category-details",innerHTML:a(s).details},null,8,O),l[5]||(l[5]=r("h2",{id:"definitions"},"Definitions",-1)),r("ul",null,[(e(!0),t(h,null,k(a(s).items,d=>(e(),t("li",null,[v(u,{to:d.route},{default:C(()=>[F(y(d.name),1)]),_:2},1032,["to"]),F(" — "+y(d.oneliner),1)]))),256))]),a(s).shorthands?(e(),t("div",Y,[l[0]||(l[0]=r("h2",{id:"shorthands"},"Shorthands",-1)),l[1]||(l[1]=r("p",null,"Shorthands are concise sequences of characters that evoke specific glyphs. Shorthands and other ways to produce symbols can be used interchangeably. You can use different sets of shorthands in math and markup mode. Some shorthands, like ~ for a non-breaking space produce non-printing symbols, which are indicated with gray placeholder text.",-1)),l[2]||(l[2]=r("p",null," You can deactivate a shorthand's interpretation by escaping any of its characters. If you escape a single character in a shorthand, the remaining unescaped characters may form a different shorthand.",-1)),l[3]||(l[3]=r("h3",null,"Within Markup Mode",-1)),r("div",G,[(e(!0),t(h,null,k(a(s).shorthands.markup,d=>(e(),t("div",V,y(d.name),1))),256))]),l[4]||(l[4]=r("h3",null,"Within Math Mode",-1)),r("div",U,[(e(!0),t(h,null,k(a(s).shorthands.math,d=>(e(),t("div",X,y(d.name),1))),256))])])):g("",!0)],64)}}}),K={class:"func"},Q=["innerHTML"],Z=["innerHTML"],aa={key:2},ea=["innerHTML"],na={class:"func-params"},sa={class:"param"},ta={class:"param-title"},ra=["innerHTML"],pa={class:"param-props"},la={key:0,class:"prop"},oa=["innerHTML"],ca=["innerHTML"],ia={key:3,class:"func-scope scope"},I=z({__name:"func",props:{value:{required:!0},omitName:{default:!1},singlePage:{default:!0},paramIdPrefix:{default:""}},setup(n){const p=n;function s(o){return`${o[0].toUpperCase()}${o.slice(1,o.length)}`}function m(o){return o.map(i=>`<span class="typ typ-${i}">${i}</span>`)}function l(o){return p.singlePage?"summary":p.paramIdPrefix.length>0?`${p.paramIdPrefix}-${o}`:`definitions-${o}`}function u(o,i=""){return p.singlePage?`parameters-${o}`:p.paramIdPrefix.length>0?p.paramIdPrefix==="constructor"?`${p.paramIdPrefix}-${o}`:`${p.paramIdPrefix}-${i}-${o}`:`definitions-${i}-${o}`}function d(o){let i="";const q=o.params.length>=3;return o.self?i+="self.":o.path.length>0&&(i+=o.path.join(".")+"."),i+=o.name,i+="(",o.params.length>0&&(i+=q?`
   `:" ",i+=o.params.map(c=>{let w="";return c.name&&c.named&&(w+=`${c.name}: `),w+=m(c.types).join(" | "),w}).join(`,${q?`
   `:" "}`),i+=q?`
 `:" "),i+=")",o.returns.length>0&&(i+=` -> ${m(o.returns).join(" | ")}`),i}const f=p.value;return(o,i)=>{const q=I;return e(),t("div",K,[n.omitName?g("",!0):(e(),A(D(n.singlePage?"h1":"h3"),{key:0,id:l(a(f).name)},{default:C(()=>[r("code",null,y(a(f).name),1)]),_:1},8,["id"])),r("div",{class:"func-details",innerHTML:a(f).details},null,8,Q),a(f).example?(e(),t("div",{key:1,class:"func-example",innerHTML:a(f).example},null,8,Z)):g("",!0),n.singlePage?(e(),t("h2",aa,"Parameters")):g("",!0),r("pre",{class:"func-definition",innerHTML:`<code>${d(a(f))}</code>`},null,8,ea),r("div",na,[(e(!0),t(h,null,k(a(f).params,c=>(e(),t("div",sa,[r("div",ta,[(e(),A(D(n.singlePage?"h3":"h4"),{id:u(c.name,a(f).name)},{default:C(()=>[r("code",null,y(c.name),1)]),_:2},1032,["id"])),r("div",{class:"param-type",innerHTML:`<code>${m(c.types).join(" | ")}</code>`},null,8,ra),r("div",pa,[(e(),t(h,null,k(["positional","settable","variadic","required"],w=>(e(),t(h,null,[c[w]?(e(),t("span",la,y(s(w)),1)):g("",!0)],64))),64))])]),r("div",{class:"param-details",innerHTML:c.details},null,8,oa),c.example?(e(),t("div",{key:0,class:"param-example",innerHTML:c.example},null,8,ca)):g("",!0)]))),256))]),a(f).scope.length>0?(e(),t("div",ia,[i[0]||(i[0]=r("h2",{id:"definitions"},"Definitions",-1)),(e(!0),t(h,null,k(a(f).scope,c=>(e(),A(q,{"single-page":!1,value:c},null,8,["value"]))),256))])):g("",!0)])}}}),da={id:"summary"},ua=["innerHTML"],ha={key:0,class:"type-constructor"},fa={key:1,class:"type-scope scope"},ya=z({__name:"type",props:{value:{required:!0}},setup(n){const s=n.value;return(m,l)=>{const u=I;return e(),t(h,null,[r("h1",da,[r("code",null,y(a(s).name),1)]),r("div",{class:"type-details",innerHTML:a(s).details},null,8,ua),a(s).constructor?(e(),t("div",ha,[l[0]||(l[0]=r("h2",null,"Constructor",-1)),v(u,{"param-id-prefix":"constructor","omit-name":!0,"single-page":!1,value:a(s).constructor},null,8,["value"])])):g("",!0),a(s).scope.length>0?(e(),t("div",fa,[l[1]||(l[1]=r("h2",null,"Definitions",-1)),(e(!0),t(h,null,k(a(s).scope,d=>(e(),A(u,{"single-page":!1,value:d},null,8,["value"]))),256))])):g("",!0)],64)}}}),ma={id:"summary"},wa=["innerHTML"],ba={class:"group-functions"},ga=z({__name:"group",props:{value:{required:!0}},setup(n){const s=n.value;return(m,l)=>{const u=I;return e(),t(h,null,[r("h1",ma,y(a(s).title),1),r("div",{class:"group-details",innerHTML:a(s).details},null,8,wa),r("div",ba,[l[0]||(l[0]=r("h2",null,"Functions",-1)),(e(!0),t(h,null,k(a(s).functions,d=>(e(),A(u,{"param-id-prefix":"functions","single-page":!1,value:d},null,8,["value"]))),256))])],64)}}}),ka={id:"summary"},va=["innerHTML"],qa={class:"symbol-display"},xa={class:"symbol"},Sa=z({__name:"symbols",props:{value:{required:!0}},setup(n){const s=n.value;return(m,l)=>(e(),t(h,null,[r("h1",ka,y(a(s).name),1),r("div",{class:"symbol-details",innerHTML:a(s).details},null,8,va),r("div",qa,[(e(!0),t(h,null,k(a(s).list,u=>(e(),t("div",xa,y(u.name),1))),256))])],64))}});var b=(n=>(n.Category="category",n.Func="func",n.Type="type",n.Symbols="symbols",n.Group="group",n.HTML="html",n.Unknown="-",n.NotFound="not-found",n))(b||{});function j(n){return n.endsWith("/")?n.substring(0,n.length-1):n}const Ta={},za={class:"typ-str"};function Aa(n,p){return e(),t(h,null,[p[3]||(p[3]=r("h1",null,"404 - Not Found",-1)),r("p",null,[p[1]||(p[1]=F("你所请求的页面 ")),r("code",za,'"'+y(("useRoute"in n?n.useRoute:a(L))().fullPath)+'"',1),p[2]||(p[2]=F(" 不存在，请检查 URL 是否正确。")),r("button",{class:"nav-btn primary",onClick:p[0]||(p[0]=s=>("useRouter"in n?n.useRouter:a(W))().go(-1))},"« 返回上一页")])],64)}const Pa=H(Ta,[["render",Aa],["__scopeId","data-v-c694cd71"]]);function E(n,p){const s=n.filter(l=>j(l.route)===p);if(s.length>0)return s[0];const m=n.filter(l=>p.startsWith(j(l.route)));for(let l of m){let u=E(l.children,p);if(u)return u}return null}const Fa=[{route:"/docs/",title:"概览",description:`Learn how to use Typst to compose documents faster. Get started with the
@@ -1785,8 +1785,6 @@ literal string or content block that should be directly substituted for the
 element. And apart from a function, the left-hand side of a show rule can also
 take a number of other _selectors_ that define what to apply the transformation
 to:
----
-译注：此处 right-hand side 不宜强调右值，因此直接翻译成右侧 right side。left-hand side 同理，理解为 left side
 </original>
 <ul>
 <li>
@@ -1834,55 +1832,86 @@ to:
 We started Project in 2019
 and are still working on it.
 Project is progressing badly.
-</code></pre><div class="preview"><img src="/docs/assets/9d1ab4328900af1bb72044bdbfb05199.png" alt="Preview" /></div></div>`},children:[]},{route:"/docs/reference/scripting/",title:"Scripting",description:"Automate your document with Typst's scripting capabilities.",part:null,outline:[{id:"expressions",name:"Expressions",children:[]},{id:"blocks",name:"Blocks",children:[]},{id:"bindings",name:"Bindings",children:[]},{id:"conditionals",name:"Conditionals",children:[]},{id:"loops",name:"Loops",children:[]},{id:"fields",name:"Fields",children:[]},{id:"methods",name:"Methods",children:[]},{id:"modules",name:"Modules",children:[]},{id:"packages",name:"Packages",children:[]},{id:"operators",name:"Operators",children:[]}],body:{kind:"html",content:`<h1>Scripting</h1>
-<p>Typst embeds a powerful scripting language. You can automate your documents and
+</code></pre><div class="preview"><img src="/docs/assets/9d1ab4328900af1bb72044bdbfb05199.png" alt="Preview" /></div></div>`},children:[]},{route:"/docs/reference/scripting/",title:"脚本编写",description:"Automate your document with Typst's scripting capabilities.",part:null,outline:[{id:"表达式",name:"表达式",children:[]},{id:"块",name:"块",children:[]},{id:"绑定与解构",name:"绑定与解构",children:[]},{id:"条件语句",name:"条件语句",children:[]},{id:"循环",name:"循环",children:[]},{id:"字段",name:"字段",children:[]},{id:"方法",name:"方法",children:[]},{id:"模块",name:"模块",children:[]},{id:"包",name:"包",children:[]},{id:"运算符",name:"运算符",children:[]}],body:{kind:"html",content:`<h1>脚本编写</h1>
+<p>Typst 内置有强大的脚本语言，你可以用代码来自动化排版以及创建更多广泛适用的样式。下面是对脚本相关概念的简单介绍。</p>
+<original>
+Typst embeds a powerful scripting language. You can automate your documents and
 create more sophisticated styles with code. Below is an overview over the
-scripting concepts.</p>
-<h2 id="expressions">Expressions</h2>
-<p>In Typst, markup and code are fused into one. All but the most common elements
-are created with <em>functions.</em> To make this as convenient as possible, Typst
+scripting concepts.
+</original>
+<h2 id="表达式">表达式</h2>
+<p>在 Typst 中，标记（markup）与代码（code）是互相融合在一起的。几乎所有常见元素都是用 <em>函数</em> 创建的。为尽可能的方便，Typst
+提供了将代码表达式嵌入 markup 中的紧凑语法：用 <code>#</code> 开头即可写出表达式，表达式之外的内容仍然作为正常的 markup
+识别。如果接下来要输入的内容并非表达式，但仍然会被算作表达式的一部分，那么可以用分号 <code>;</code> 来强制终止表达式。</p>
+<original>
+In Typst, markup and code are fused into one. All but the most common elements
+are created with _functions._ To make this as convenient as possible, Typst
 provides compact syntax to embed a code expression into markup: An expression is
-introduced with a hash (<code>#</code>) and normal markup parsing resumes after the
+introduced with a hash (\`#\`) and normal markup parsing resumes after the
 expression is finished. If a character would continue the expression but should
 be interpreted as text, the expression can forcibly be ended with a semicolon
-(<code>;</code>).</p>
+(\`;\`).
+</original>
 <div class="previewed-code"><pre><code><span class="typ-func">#</span><span class="typ-func">emph</span><span class="typ-punct">[</span>Hello<span class="typ-punct">]</span> <span class="typ-escape">\\</span>
 <span class="typ-pol">#</span><span class="typ-pol">emoji</span><span class="typ-punct">.</span><span class="typ-pol">face</span> <span class="typ-escape">\\</span>
 <span class="typ-str">#</span><span class="typ-str">&quot;hello&quot;</span><span class="typ-punct">.</span><span class="typ-func">len</span><span class="typ-punct">(</span><span class="typ-punct">)</span>
 </code></pre><div class="preview"><img src="/docs/assets/5ebe230c3bc59885482cc6c5cb393d24.png" alt="Preview" /></div></div>
-<p>The example above shows a few of the available expressions, including
-<a href="/docs/reference/foundations/function/">function calls</a>, <a href="/docs/reference/scripting/#fields">field accesses</a>, and
-<a href="/docs/reference/scripting/#methods">method calls</a>. More kinds of expressions are
+<p>上面的例子展示了一些可用的表达式，包括<a href="/docs/reference/foundations/function/">函数调用</a>、<a href="/docs/reference/scripting/#fields">字段访问</a>
+以及<a href="/docs/reference/scripting/#methods">方法调用</a>。本节接下来的内容会讨论更多表达式类型。有一小部分表达式是不能配合井号来使用的，例如二元运算符表达式，但可以借助括号将其放在
+markup 里，就像 <code><span class="typ-punct">#</span><span class="typ-punct">(</span><span class="typ-num">1</span> <span class="typ-op">+</span> <span class="typ-num">2</span><span class="typ-punct">)</span></code> 这样。</p>
+<original>
+The example above shows a few of the available expressions, including
+[function calls]($function), [field accesses]($scripting/#fields), and
+[method calls]($scripting/#methods). More kinds of expressions are
 discussed in the remainder of this chapter. A few kinds of expressions are not
 compatible with the hash syntax (e.g. binary operator expressions). To embed
-these into markup, you can use parentheses, as in <code><span class="typ-punct">#</span><span class="typ-punct">(</span><span class="typ-num">1</span> <span class="typ-op">+</span> <span class="typ-num">2</span><span class="typ-punct">)</span></code>.</p>
-<h2 id="blocks">Blocks</h2>
-<p>To structure your code and embed markup into it, Typst provides two kinds of
-<em>blocks:</em></p>
+these into markup, you can use parentheses, as in \`[#(1 + 2)]\`.
+</original>
+<h2 id="块">块</h2>
+<p>为了能够合理安排代码以及在代码内加入 markup，Typst 提供了两种 <em>块</em>：</p>
+<original>
+To structure your code and embed markup into it, Typst provides two kinds of
+_blocks:_
+</original>
 <ul>
-<li>
-<p><strong>Code block:</strong> <code><span class="typ-punct">{</span> <span class="typ-key">let</span> x <span class="typ-op">=</span> <span class="typ-num">1</span><span class="typ-punct">;</span> x <span class="typ-op">+</span> <span class="typ-num">2</span> <span class="typ-punct">}</span></code> <br />
-When writing code, you'll probably want to split up your computation into
-multiple statements, create some intermediate variables and so on. Code blocks
-let you write multiple expressions where one is expected. The individual
-expressions in a code block should be separated by line breaks or semicolons.
-The output values of the individual expressions in a code block are joined to
-determine the block's value. Expressions without useful output, like <code><span class="typ-key">let</span></code>
-bindings yield <code><span class="typ-key">none</span></code>, which can be joined with any value without effect.</p>
-</li>
-<li>
-<p><strong>Content block:</strong> <code><span class="typ-punct">[</span><span class="typ-strong">*Hey*</span> there!<span class="typ-punct">]</span></code> <br />
-With content blocks, you can handle markup/content as a programmatic value,
-store it in variables and pass it to <a href="/docs/reference/foundations/function/">functions</a>. Content
-blocks are delimited by square brackets and can contain arbitrary markup. A
-content block results in a value of type <a href="/docs/reference/foundations/content/" title="content">content</a>. An arbitrary number of
-content blocks can be passed as trailing arguments to functions. That is,
-<code><span class="typ-func">list</span><span class="typ-punct">(</span><span class="typ-punct">[</span>A<span class="typ-punct">]</span><span class="typ-punct">,</span> <span class="typ-punct">[</span>B<span class="typ-punct">]</span><span class="typ-punct">)</span></code> is equivalent to <code><span class="typ-func">list</span><span class="typ-punct">[</span>A<span class="typ-punct">]</span><span class="typ-punct">[</span>B<span class="typ-punct">]</span></code>.</p>
-</li>
+<li><strong>代码块：</strong> <code><span class="typ-punct">{</span> <span class="typ-key">let</span> x <span class="typ-op">=</span> <span class="typ-num">1</span><span class="typ-punct">;</span> x <span class="typ-op">+</span> <span class="typ-num">2</span> <span class="typ-punct">}</span></code> <br />
+在编写代码的时候，你可能会想要将一系列的计算拆分成多个式子，创建一些中间变量等等。
+代码块可以让你在原本只能放一句代码的地方编写多个表达式。在代码块中，单个语句之间必须以换行或者分号分隔。
+代码块中的表达式的结果最终被加在一起，成为该块的最终值。对于那些不输出有效结果的语句，例如 <code><span class="typ-key">let</span></code> 绑定表达式只会
+返回 <code><span class="typ-key">none</span></code>，它与任何值加在一起时，不会对结果产生任何影响。</li>
 </ul>
-<p>Content and code blocks can be nested arbitrarily. In the example below,
-<code><span class="typ-punct">[</span>hello <span class="typ-punct">]</span></code> is joined with the output of  <code>a <span class="typ-op">+</span> <span class="typ-punct">[</span> the <span class="typ-punct">]</span> <span class="typ-op">+</span> b</code> yielding
-<code><span class="typ-punct">[</span>hello from the <span class="typ-strong">*world*</span><span class="typ-punct">]</span></code>.</p>
+<original>
+- **Code block:** \`{{ let x = 1; x + 2 }}\` \\
+  When writing code, you'll probably want to split up your computation into
+  multiple statements, create some intermediate variables and so on. Code blocks
+  let you write multiple expressions where one is expected. The individual
+  expressions in a code block should be separated by line breaks or semicolons.
+  The output values of the individual expressions in a code block are joined to
+  determine the block's value. Expressions without useful output, like \`{let}\`
+  bindings yield \`{none}\`, which can be joined with any value without effect.
+</original>
+<ul>
+<li><strong>内容块：</strong> <code><span class="typ-punct">[</span><span class="typ-strong">*Hey*</span> there!<span class="typ-punct">]</span></code> <br />
+利用内容块，你可以将 markup 作为编程中的值进行处理，例如可以将它存在变量里并传入到<a href="/docs/reference/foundations/function/">函数</a>中。
+内容块以方括号分隔，其内容是任意的 markup，它最终会产出 <a href="/docs/reference/foundations/content/" title="content">content</a> 类型的值。内容块可以放在函数
+的后面来传入函数，也就是说 <code><span class="typ-func">list</span><span class="typ-punct">(</span><span class="typ-punct">[</span>A<span class="typ-punct">]</span><span class="typ-punct">,</span> <span class="typ-punct">[</span>B<span class="typ-punct">]</span><span class="typ-punct">)</span></code> 相当于 <code><span class="typ-func">list</span><span class="typ-punct">[</span>A<span class="typ-punct">]</span><span class="typ-punct">[</span>B<span class="typ-punct">]</span></code>。</li>
+</ul>
+<original>
+- **Content block:** \`{[*Hey* there!]}\` \\
+  With content blocks, you can handle markup/content as a programmatic value,
+  store it in variables and pass it to [functions]($function). Content
+  blocks are delimited by square brackets and can contain arbitrary markup. A
+  content block results in a value of type [content]. An arbitrary number of
+  content blocks can be passed as trailing arguments to functions. That is,
+  \`{list([A], [B])}\` is equivalent to \`{list[A][B]}\`.
+</original>
+<p>内容块和代码块可以嵌套。在下面的例子里，<code><span class="typ-punct">[</span>hello <span class="typ-punct">]</span></code> 的值与 <code>a <span class="typ-op">+</span> <span class="typ-punct">[</span> the <span class="typ-punct">]</span> <span class="typ-op">+</span> b</code>
+加在了一起，最终产生 <code><span class="typ-punct">[</span>hello from the <span class="typ-strong">*world*</span><span class="typ-punct">]</span></code>。</p>
+<original>
+Content and code blocks can be nested arbitrarily. In the example below,
+\`{[hello ]}\` is joined with the output of  \`{a + [ the ] + b}\` yielding
+\`{[hello from the *world*]}\`.
+</original>
 <div class="previewed-code"><pre><code><span class="typ-punct">#</span><span class="typ-punct">{</span>
   <span class="typ-key">let</span> a <span class="typ-op">=</span> <span class="typ-punct">[</span>from<span class="typ-punct">]</span>
   <span class="typ-key">let</span> b <span class="typ-op">=</span> <span class="typ-punct">[</span><span class="typ-strong">*world*</span><span class="typ-punct">]</span>
@@ -1890,14 +1919,19 @@ content blocks can be passed as trailing arguments to functions. That is,
   a <span class="typ-op">+</span> <span class="typ-punct">[</span> the <span class="typ-punct">]</span> <span class="typ-op">+</span> b
 <span class="typ-punct">}</span>
 </code></pre><div class="preview"><img src="/docs/assets/a0a3cf07e5b3a836acb2998b20e4aa0c.png" alt="Preview" /></div></div>
-<h2 id="bindings">Bindings and Destructuring</h2>
-<p>As already demonstrated above, variables can be defined with <code><span class="typ-key">let</span></code> bindings.
-The variable is assigned the value of the expression that follows the <code>=</code> sign.
+<h2 id="绑定与解构">绑定与解构</h2>
+<p>如前文所述，变量可以用 <code><span class="typ-key">let</span></code> 绑定来定义，它会被赋予 <code>=</code>
+号之后的表达式的返回值。如果变量没有被手动赋值，则会被默认初始化为 <code><span class="typ-key">none</span></code>。<code><span class="typ-key">let</span></code>
+关键字也可以用来创建<a href="/docs/reference/foundations/function/#defining-functions">自定义的具名函数</a>。变量一经赋值，其后的部分都可以访问到它的值（在其所在的块或文件范围内）。</p>
+<original>
+As already demonstrated above, variables can be defined with \`{let}\` bindings.
+The variable is assigned the value of the expression that follows the \`=\` sign.
 The assignment of a value is optional, if no value is assigned, the variable
-will be initialized as <code><span class="typ-key">none</span></code>. The <code><span class="typ-key">let</span></code> keyword can also be used to create
-a <a href="/docs/reference/foundations/function/#defining-functions">custom named function</a>. Variables can be
+will be initialized as \`{none}\`. The \`{let}\` keyword can also be used to create
+a [custom named function]($function/#defining-functions). Variables can be
 accessed for the rest of the containing block (or the rest of the file if there
-is no containing block).</p>
+is no containing block).
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">let</span> name <span class="typ-op">=</span> <span class="typ-str">&quot;Typst&quot;</span>
 This is <span class="typ-pol">#</span><span class="typ-pol">name</span>&#39;s documentation.
 It explains <span class="typ-pol">#</span><span class="typ-pol">name</span>.
@@ -1905,11 +1939,15 @@ It explains <span class="typ-pol">#</span><span class="typ-pol">name</span>.
 <span class="typ-key">#</span><span class="typ-key">let</span> <span class="typ-func">add</span><span class="typ-punct">(</span>x<span class="typ-punct">,</span> y<span class="typ-punct">)</span> <span class="typ-op">=</span> x <span class="typ-op">+</span> y
 Sum is <span class="typ-func">#</span><span class="typ-func">add</span><span class="typ-punct">(</span><span class="typ-num">2</span><span class="typ-punct">,</span> <span class="typ-num">3</span><span class="typ-punct">)</span>.
 </code></pre><div class="preview"><img src="/docs/assets/5ee31726b8dde8b563b0ffa837e51da8.png" alt="Preview" /></div></div>
-<p>Let bindings can also be used to destructure <a href="/docs/reference/foundations/array/">arrays</a> and
-<a href="/docs/reference/foundations/dictionary/">dictionaries</a>. In this case, the left-hand side of the
-assignment should mirror an array or dictionary. The <code>..</code> operator can be used
+<p>let 绑定还可以用来解构<a href="/docs/reference/foundations/array/">数组</a>和<a href="/docs/reference/foundations/dictionary/">字典</a>。在这种情况下，等号左侧在形式上应该与右侧保持一致。<code>..</code>
+操作符可以用来代替数组和字典中的剩余部分元素。</p>
+<original>
+Let bindings can also be used to destructure [arrays]($array) and
+[dictionaries]($dictionary). In this case, the left-hand side of the
+assignment should mirror an array or dictionary. The \`..\` operator can be used
 once in the pattern to collect the remainder of the array's or dictionary's
-items.</p>
+items.
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">let</span> <span class="typ-punct">(</span>x<span class="typ-punct">,</span> y<span class="typ-punct">)</span> <span class="typ-op">=</span> <span class="typ-punct">(</span><span class="typ-num">1</span><span class="typ-punct">,</span> <span class="typ-num">2</span><span class="typ-punct">)</span>
 The coordinates are <span class="typ-pol">#</span><span class="typ-pol">x</span>, <span class="typ-pol">#</span><span class="typ-pol">y</span>.
 
@@ -1934,19 +1972,28 @@ Homer wrote <span class="typ-pol">#</span><span class="typ-pol">h</span>.
   <span class="typ-pol">#</span><span class="typ-pol">author</span> wrote <span class="typ-pol">#</span><span class="typ-pol">title</span>.
 <span class="typ-punct">]</span>
 </code></pre><div class="preview"><img src="/docs/assets/57efd120df5827f86f06ce281845fded.png" alt="Preview" /></div></div>
-<p>You can use the underscore to discard elements in a destructuring pattern:</p>
+<p>在解构模板（译者注：即等号左侧）中，你可以用下划线来舍弃那些不需要的元素。</p>
+<original>
+You can use the underscore to discard elements in a destructuring pattern:
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">let</span> <span class="typ-punct">(</span>_<span class="typ-punct">,</span> y<span class="typ-punct">,</span> _<span class="typ-punct">)</span> <span class="typ-op">=</span> <span class="typ-punct">(</span><span class="typ-num">1</span><span class="typ-punct">,</span> <span class="typ-num">2</span><span class="typ-punct">,</span> <span class="typ-num">3</span><span class="typ-punct">)</span>
 The y coordinate is <span class="typ-pol">#</span><span class="typ-pol">y</span>.
 </code></pre><div class="preview"><img src="/docs/assets/7e41b273add5734b154f1ff6f129b6a6.png" alt="Preview" /></div></div>
-<p>Destructuring also work in argument lists of functions ...</p>
+<p>在函数的参数列表中也可以使用解构。</p>
+<original>
+Destructuring also work in argument lists of functions ...
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">let</span> left <span class="typ-op">=</span> <span class="typ-punct">(</span><span class="typ-num">2</span><span class="typ-punct">,</span> <span class="typ-num">4</span><span class="typ-punct">,</span> <span class="typ-num">5</span><span class="typ-punct">)</span>
 <span class="typ-key">#</span><span class="typ-key">let</span> right <span class="typ-op">=</span> <span class="typ-punct">(</span><span class="typ-num">3</span><span class="typ-punct">,</span> <span class="typ-num">2</span><span class="typ-punct">,</span> <span class="typ-num">6</span><span class="typ-punct">)</span>
 <span class="typ-pol">#</span><span class="typ-pol">left</span><span class="typ-punct">.</span><span class="typ-func">zip</span><span class="typ-punct">(</span>right<span class="typ-punct">)</span><span class="typ-punct">.</span><span class="typ-func">map</span><span class="typ-punct">(</span>
   <span class="typ-punct">(</span><span class="typ-punct">(</span>a<span class="typ-punct">,</span>b<span class="typ-punct">)</span><span class="typ-punct">)</span> <span class="typ-op">=&gt;</span> a <span class="typ-op">+</span> b
 <span class="typ-punct">)</span>
 </code></pre><div class="preview"><img src="/docs/assets/fb15e587e03fd899240b233127104c93.png" alt="Preview" /></div></div>
-<p>... and on the left-hand side of normal assignments. This can be useful to
-swap variables among other things.</p>
+<p>在一般的赋值语句左侧也可以用解构。这在需要交换变量的值时很有用。</p>
+<original>
+... and on the left-hand side of normal assignments. This can be useful to
+swap variables among other things.
+</original>
 <div class="previewed-code"><pre><code><span class="typ-punct">#</span><span class="typ-punct">{</span>
   <span class="typ-key">let</span> a <span class="typ-op">=</span> <span class="typ-num">1</span>
   <span class="typ-key">let</span> b <span class="typ-op">=</span> <span class="typ-num">2</span>
@@ -1954,34 +2001,48 @@ swap variables among other things.</p>
   <span class="typ-punct">[</span>a = <span class="typ-pol">#</span><span class="typ-pol">a</span>, b = <span class="typ-pol">#</span><span class="typ-pol">b</span><span class="typ-punct">]</span>
 <span class="typ-punct">}</span>
 </code></pre><div class="preview"><img src="/docs/assets/94553af210fb7e617bacbe7a29a39ca9.png" alt="Preview" /></div></div>
-<h2 id="conditionals">Conditionals</h2>
-<p>With a conditional, you can display or compute different things depending on
-whether some condition is fulfilled. Typst supports <code><span class="typ-key">if</span></code>, <code>else <span class="typ-key">if</span></code> and
-<code>else</code> expression. When the condition evaluates to <code><span class="typ-key">true</span></code>, the conditional
+<h2 id="条件语句">条件语句</h2>
+<p>借助条件语句，你可以根据条件是否满足与否，来选择展示内容或者进行计算。Typst 支持 <code><span class="typ-key">if</span></code>、<code>else <span class="typ-key">if</span></code> 和 <code>else</code>
+表达式。当条件取值为 <code><span class="typ-key">true</span></code> 时，条件语句会返回 if 后的内容，否则返回 else 后的内容。</p>
+<original>
+With a conditional, you can display or compute different things depending on
+whether some condition is fulfilled. Typst supports \`{if}\`, \`{else if}\` and
+\`{else}\` expression. When the condition evaluates to \`{true}\`, the conditional
 yields the value resulting from the if's body, otherwise yields the value
-resulting from the else's body.</p>
+resulting from the else's body.
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">if</span> <span class="typ-num">1</span> <span class="typ-op">&lt;</span> <span class="typ-num">2</span> <span class="typ-punct">[</span>
   This is shown
 <span class="typ-punct">]</span> <span class="typ-key">else</span> <span class="typ-punct">[</span>
   This is not.
 <span class="typ-punct">]</span>
 </code></pre><div class="preview"><img src="/docs/assets/12d2b28f72285713707aaead6c4bec73.png" alt="Preview" /></div></div>
-<p>Each branch can have a code or content block as its body.</p>
+<p>每一个分支都可以以一个代码块或者内容块为主体。</p>
+<original>
+Each branch can have a code or content block as its body.
+</original>
 <ul>
 <li><code><span class="typ-key">if</span> condition <span class="typ-punct">{</span>..<span class="typ-punct">}</span></code></li>
 <li><code><span class="typ-key">if</span> condition <span class="typ-punct">[</span>..<span class="typ-punct">]</span></code></li>
 <li><code><span class="typ-key">if</span> condition <span class="typ-punct">[</span>..<span class="typ-punct">]</span> <span class="typ-key">else</span> <span class="typ-punct">{</span>..<span class="typ-punct">}</span></code></li>
 <li><code><span class="typ-key">if</span> condition <span class="typ-punct">[</span>..<span class="typ-punct">]</span> <span class="typ-key">else</span> <span class="typ-key">if</span> condition <span class="typ-punct">{</span>..<span class="typ-punct">}</span> <span class="typ-key">else</span> <span class="typ-punct">[</span>..<span class="typ-punct">]</span></code></li>
 </ul>
-<h2 id="loops">Loops</h2>
-<p>With loops, you can repeat content or compute something iteratively. Typst
-supports two types of loops: <code><span class="typ-key">for</span></code> and <code><span class="typ-key">while</span></code> loops. The former iterate
+<h2 id="循环">循环</h2>
+<p>借助循环，你可以重复显示一些内容，或者迭代计算一些东西。Typst 支持 <code><span class="typ-key">for</span></code> 和 <code><span class="typ-key">while</span></code>
+两种循环。前者用来遍历一个指定的集合，而后者持续循环直到条件不再满足。循环会将每一次遍历的结果加起来作为一个值返回。</p>
+<original>
+With loops, you can repeat content or compute something iteratively. Typst
+supports two types of loops: \`{for}\` and \`{while}\` loops. The former iterate
 over a specified collection whereas the latter iterate as long as a condition
-stays fulfilled. Just like blocks, loops <em>join</em> the results from each iteration
-into one value.</p>
-<p>In the example below, the three sentences created by the for loop join together
+stays fulfilled. Just like blocks, loops _join_ the results from each iteration
+into one value.
+</original>
+<p>在下面的例子中，使用 for 循环创建的三个句子最终被加在一起作为单个内容值，while 循环中长度为 1 的数组最终被合并成为更大的数组。</p>
+<original>
+In the example below, the three sentences created by the for loop join together
 into a single content value and the length-1 arrays in the while loop join
-together into one larger array.</p>
+together into one larger array.
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">for</span> c <span class="typ-key">in</span> <span class="typ-str">&quot;ABC&quot;</span> <span class="typ-punct">[</span>
   <span class="typ-pol">#</span><span class="typ-pol">c</span> is a letter.
 <span class="typ-punct">]</span>
@@ -1992,37 +2053,61 @@ together into one larger array.</p>
   <span class="typ-punct">(</span>n<span class="typ-punct">,</span><span class="typ-punct">)</span>
 <span class="typ-punct">}</span>
 </code></pre><div class="preview"><img src="/docs/assets/3266a5453b20ed0d83dbcdced83c1d09.png" alt="Preview" /></div></div>
-<p>For loops can iterate over a variety of collections:</p>
+<p>for 循环可以遍历许多类型的集合：</p>
+<original>
+For loops can iterate over a variety of collections:
+</original>
 <ul>
-<li>
-<p><code><span class="typ-key">for</span> value <span class="typ-key">in</span> array <span class="typ-punct">{</span>..<span class="typ-punct">}</span></code> <br />
-Iterates over the items in the <a href="/docs/reference/foundations/array/" title="array">array</a>. The destructuring syntax described in
-<a href="/docs/reference/scripting/#bindings">Let binding</a> can also be used here.</p>
-</li>
-<li>
-<p><code><span class="typ-key">for</span> pair <span class="typ-key">in</span> dict <span class="typ-punct">{</span>..<span class="typ-punct">}</span></code> <br />
-Iterates over the key-value pairs of the <a href="/docs/reference/foundations/dictionary/" title="dictionary">dictionary</a>. The pairs can also be
-destructured by using <code><span class="typ-key">for</span> <span class="typ-punct">(</span>key<span class="typ-punct">,</span> value<span class="typ-punct">)</span> <span class="typ-key">in</span> dict <span class="typ-punct">{</span>..<span class="typ-punct">}</span></code>. It is more efficient
-than <code><span class="typ-key">for</span> pair <span class="typ-key">in</span> dict<span class="typ-punct">.</span><span class="typ-func">pairs</span><span class="typ-punct">(</span><span class="typ-punct">)</span> <span class="typ-punct">{</span>..<span class="typ-punct">}</span></code> because it doesn't create a temporary
-array of all key-value pairs.</p>
-</li>
-<li>
-<p><code><span class="typ-key">for</span> letter <span class="typ-key">in</span> <span class="typ-str">&quot;abc&quot;</span> <span class="typ-punct">{</span>..<span class="typ-punct">}</span></code> <br />
-Iterates over the characters of the <a href="/docs/reference/foundations/str/">string</a>. Technically, it iterates
-over the grapheme clusters of the string. Most of the time, a grapheme cluster
-is just a single codepoint. However, a grapheme cluster could contain multiple
-codepoints, like a flag emoji.</p>
-</li>
-<li>
-<p><code><span class="typ-key">for</span> byte <span class="typ-key">in</span> <span class="typ-func">bytes</span><span class="typ-punct">(</span><span class="typ-str">&quot;😀&quot;</span><span class="typ-punct">)</span> <span class="typ-punct">{</span>..<span class="typ-punct">}</span></code> <br />
-Iterates over the <a href="/docs/reference/foundations/bytes/" title="bytes">bytes</a>, which can be converted from a <a href="/docs/reference/foundations/str/">string</a> or
-<a href="/docs/reference/data-loading/read/" title="read">read</a> from a file without encoding. Each byte value is an <a href="/docs/reference/foundations/int/">integer</a>
-between <code><span class="typ-num">0</span></code> and <code><span class="typ-num">255</span></code>.</p>
-</li>
+<li><code><span class="typ-key">for</span> value <span class="typ-key">in</span> array <span class="typ-punct">{</span>..<span class="typ-punct">}</span></code> <br />
+遍历<a href="/docs/reference/foundations/array/">数组</a>中的每一项。在<a href="#%E7%BB%91%E5%AE%9A%E4%B8%8E%E8%A7%A3%E6%9E%84">绑定与解构</a>中提到的解构语法也可以在这里使用。</li>
 </ul>
-<p>To control the execution of the loop, Typst provides the <code><span class="typ-key">break</span></code> and
-<code><span class="typ-key">continue</span></code> statements. The former performs an early exit from the loop while
-the latter skips ahead to the next iteration of the loop.</p>
+<original>
+- \`{for value in array {..}}\` \\
+  Iterates over the items in the [array]. The destructuring syntax described in
+  [Let binding]($scripting/#bindings) can also be used here.
+</original>
+<ul>
+<li><code><span class="typ-key">for</span> pair <span class="typ-key">in</span> dict <span class="typ-punct">{</span>..<span class="typ-punct">}</span></code> <br />
+遍历<a href="/docs/reference/foundations/dictionary/">字典</a>的键值对。键值对可以用 <code><span class="typ-key">for</span> <span class="typ-punct">(</span>key<span class="typ-punct">,</span> value<span class="typ-punct">)</span> <span class="typ-key">in</span> dict <span class="typ-punct">{</span>..<span class="typ-punct">}</span></code> 进行解构。
+这种写法比 <code><span class="typ-key">for</span> pair <span class="typ-key">in</span> dict<span class="typ-punct">.</span><span class="typ-func">pairs</span><span class="typ-punct">(</span><span class="typ-punct">)</span> <span class="typ-punct">{</span>..<span class="typ-punct">}</span></code> 效率更高，后者额外创建了包含所有键值对的临时数组。</li>
+</ul>
+<original>
+- \`{for pair in dict {..}}\` \\
+  Iterates over the key-value pairs of the [dictionary]. The pairs can also be
+  destructured by using \`{for (key, value) in dict {..}}\`. It is more efficient
+  than \`{for pair in dict.pairs() {..}}\` because it doesn't create a temporary
+  array of all key-value pairs.
+</original>
+<ul>
+<li><code><span class="typ-key">for</span> letter <span class="typ-key">in</span> <span class="typ-str">&quot;abc&quot;</span> <span class="typ-punct">{</span>..<span class="typ-punct">}</span></code> <br />
+遍历<a href="/docs/reference/foundations/str/">字符串</a>的每个字符。严格来说，它是在遍历字符串的字素组合（grapheme clusters）。
+多数情况下，一个字素组合就是一个 codepoint，不过也可能包含多个，
+例如旗帜的 emoji（译者注：旗帜的 emoji 可以看成是普通旗帜的 codepoint 与对应国家代号的 codepoint 的组合）。</li>
+</ul>
+<original>
+- \`{for letter in "abc" {..}}\` \\
+  Iterates over the characters of the [string]($str). Technically, it iterates
+  over the grapheme clusters of the string. Most of the time, a grapheme cluster
+  is just a single codepoint. However, a grapheme cluster could contain multiple
+  codepoints, like a flag emoji.
+</original>
+<ul>
+<li><code><span class="typ-key">for</span> byte <span class="typ-key">in</span> <span class="typ-func">bytes</span><span class="typ-punct">(</span><span class="typ-str">&quot;😀&quot;</span><span class="typ-punct">)</span> <span class="typ-punct">{</span>..<span class="typ-punct">}</span></code> <br />
+遍历所有<a href="/docs/reference/foundations/bytes/">字节</a>。所谓字节，可从<a href="/docs/reference/foundations/str/">字符串</a>转换而来，也可以通过读取文件（不进行编码）获得。
+这里的字节是一个介于 <code><span class="typ-num">0</span></code> 和 <code><span class="typ-num">255</span></code> 之间的<a href="/docs/reference/foundations/int/">整数</a>。</li>
+</ul>
+<original>
+- \`{for byte in bytes("😀") {..}}\` \\
+  Iterates over the [bytes], which can be converted from a [string]($str) or
+  [read] from a file without encoding. Each byte value is an [integer]($int)
+  between \`{0}\` and \`{255}\`.
+</original>
+<p>为了控制循环的执行过程，Typst 提供了 <code><span class="typ-key">break</span></code> 和 <code><span class="typ-key">continue</span></code> 语句。前者会中断循环，后者会跳过当前的循环流程直接进行下一个流程。</p>
+<original>
+To control the execution of the loop, Typst provides the \`{break}\` and
+\`{continue}\` statements. The former performs an early exit from the loop while
+the latter skips ahead to the next iteration of the loop.
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">for</span> letter <span class="typ-key">in</span> <span class="typ-str">&quot;abc nope&quot;</span> <span class="typ-punct">{</span>
   <span class="typ-key">if</span> letter <span class="typ-op">==</span> <span class="typ-str">&quot; &quot;</span> <span class="typ-punct">{</span>
     <span class="typ-key">break</span>
@@ -2031,27 +2116,41 @@ the latter skips ahead to the next iteration of the loop.</p>
   letter
 <span class="typ-punct">}</span>
 </code></pre><div class="preview"><img src="/docs/assets/abaaf42cb82ea13c625a3ebf99a0eeb1.png" alt="Preview" /></div></div>
-<p>The body of a loop can be a code or content block:</p>
+<p>循环体可以是代码块或者内容块。</p>
+<original>
+The body of a loop can be a code or content block:
+</original>
 <ul>
 <li><code><span class="typ-key">for</span> .. in collection <span class="typ-punct">{</span>..<span class="typ-punct">}</span></code></li>
 <li><code><span class="typ-key">for</span> .. in collection <span class="typ-punct">[</span>..<span class="typ-punct">]</span></code></li>
 <li><code><span class="typ-key">while</span> condition <span class="typ-punct">{</span>..<span class="typ-punct">}</span></code></li>
 <li><code><span class="typ-key">while</span> condition <span class="typ-punct">[</span>..<span class="typ-punct">]</span></code></li>
 </ul>
-<h2 id="fields">Fields</h2>
-<p>You can use <em>dot notation</em> to access fields on a value. For values of type
-<a href="/docs/reference/foundations/content/" title="\`content\`"><code>content</code></a>, you can also use the <a href="/docs/reference/foundations/content/#definitions-fields"><code>fields</code></a> function to list
-the fields.</p>
-<p>The value in question can be either:</p>
+<h2 id="字段">字段</h2>
+<p>你可以使用 <em>点号</em> 来访问一个值的字段。对于 <a href="/docs/reference/foundations/content/" title="\`content\`"><code>content</code></a> 类型的值，你还可以用 <a href="/docs/reference/foundations/content/#definitions-fields"><code>fields</code></a> 函数来列出它的所有字段。</p>
+<original>
+You can use _dot notation_ to access fields on a value. For values of type
+[\`content\`], you can also use the [\`fields\`]($content.fields) function to list
+the fields.
+</original>
+<p>如需访问一个值的字段，这个值应当为下面列出的任意一种：</p>
 <ul>
-<li>a <a href="/docs/reference/foundations/dictionary/" title="dictionary">dictionary</a> that has the specified key,</li>
-<li>a <a href="/docs/reference/symbols/symbol/" title="symbol">symbol</a> that has the specified modifier,</li>
-<li>a <a href="/docs/reference/foundations/module/" title="module">module</a> containing the specified definition,</li>
-<li><a href="/docs/reference/foundations/content/" title="content">content</a> consisting of an element that has the specified field. The
-available fields match the arguments of the
-<a href="/docs/reference/foundations/function/#element-functions">element function</a> that were given when the
-element was constructed.</li>
+<li><a href="/docs/reference/foundations/dictionary/">字典</a>，目标键必须存在</li>
+<li><a href="/docs/reference/symbols/symbol/">符号</a>，目标修饰器必须有效</li>
+<li><a href="/docs/reference/foundations/module/">模组</a>，目标定义必须存在</li>
+<li>包含指定字段的元素所组成的<a href="/docs/reference/foundations/content/">内容</a>。元素上存在的字段与构建该元素时传入<a href="/docs/reference/foundations/function/#element-functions">元素函数</a>
+的那些参数保持一致。</li>
 </ul>
+<original>
+The value in question can be either:
+- a [dictionary] that has the specified key,
+- a [symbol] that has the specified modifier,
+- a [module] containing the specified definition,
+- [content] consisting of an element that has the specified field. The
+  available fields match the arguments of the
+  [element function]($function/#element-functions) that were given when the
+  element was constructed.
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">let</span> it <span class="typ-op">=</span> <span class="typ-punct">[</span><span class="typ-heading">= Heading</span><span class="typ-punct">]</span>
 <span class="typ-pol">#</span><span class="typ-pol">it</span><span class="typ-punct">.</span><span class="typ-pol">body</span> <span class="typ-escape">\\</span>
 <span class="typ-pol">#</span><span class="typ-pol">it</span><span class="typ-punct">.</span><span class="typ-pol">depth</span> <span class="typ-escape">\\</span>
@@ -2062,17 +2161,24 @@ element was constructed.</li>
 <span class="typ-pol">#</span><span class="typ-pol">emoji</span><span class="typ-punct">.</span><span class="typ-pol">face</span>
 
 </code></pre><div class="preview"><img src="/docs/assets/5f29b7aa74292b8c450c34f440c855b5.png" alt="Preview" /></div></div>
-<h2 id="methods">Methods</h2>
-<p>A <em>method call</em> is a convenient way to call a function that is scoped to a
-value's <a href="/docs/reference/foundations/type/" title="type">type</a>. For example, we can call the <a href="/docs/reference/foundations/str/#definitions-len"><code>str.len</code></a> function in
-the following two equivalent ways:</p>
+<h2 id="方法">方法</h2>
+<p><em>方法调用</em> 是调用某种数据类型上专有的函数的便捷方法。例如，我们可以通过下面两种等价的方式调用 <a href="/docs/reference/foundations/str/#definitions-len"><code>str.len</code></a> 函数：</p>
+<original>
+A _method call_ is a convenient way to call a function that is scoped to a
+value's [type]. For example, we can call the [\`str.len\`]($str.len) function in
+the following two equivalent ways:
+</original>
 <div class="previewed-code"><pre><code><span class="typ-pol">#</span><span class="typ-pol">str</span><span class="typ-punct">.</span><span class="typ-func">len</span><span class="typ-punct">(</span><span class="typ-str">&quot;abc&quot;</span><span class="typ-punct">)</span> is the same as
 <span class="typ-str">#</span><span class="typ-str">&quot;abc&quot;</span><span class="typ-punct">.</span><span class="typ-func">len</span><span class="typ-punct">(</span><span class="typ-punct">)</span>
 </code></pre><div class="preview"><img src="/docs/assets/63aa24d8ad2148f375bb0db1bc9de9c.png" alt="Preview" /></div></div>
-<p>The structure of a method call is <code>value<span class="typ-punct">.</span><span class="typ-func">method</span><span class="typ-punct">(</span><span class="typ-op">..</span>args<span class="typ-punct">)</span></code> and its equivalent
-full function call is <code><span class="typ-func">type</span><span class="typ-punct">(</span>value<span class="typ-punct">)</span><span class="typ-punct">.</span><span class="typ-func">method</span><span class="typ-punct">(</span>value<span class="typ-punct">,</span> <span class="typ-op">..</span>args<span class="typ-punct">)</span></code>. The documentation
+<p>方法调用的写法是 <code>value<span class="typ-punct">.</span><span class="typ-func">method</span><span class="typ-punct">(</span><span class="typ-op">..</span>args<span class="typ-punct">)</span></code>，等价的完整函数调用写法是 <code><span class="typ-func">type</span><span class="typ-punct">(</span>value<span class="typ-punct">)</span><span class="typ-punct">.</span><span class="typ-func">method</span><span class="typ-punct">(</span>value<span class="typ-punct">,</span> <span class="typ-op">..</span>args<span class="typ-punct">)</span></code>
+。每种数据类型的文档中都列出了它们所带有的函数。方法是不能自行定义的。</p>
+<original>
+The structure of a method call is \`{value.method(..args)}\` and its equivalent
+full function call is \`{type(value).method(value, ..args)}\`. The documentation
 of each type lists it's scoped functions. You cannot currently define your own
-methods.</p>
+methods.
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">let</span> values <span class="typ-op">=</span> <span class="typ-punct">(</span><span class="typ-num">1</span><span class="typ-punct">,</span> <span class="typ-num">2</span><span class="typ-punct">,</span> <span class="typ-num">3</span><span class="typ-punct">,</span> <span class="typ-num">4</span><span class="typ-punct">)</span>
 <span class="typ-pol">#</span><span class="typ-pol">values</span><span class="typ-punct">.</span><span class="typ-func">pop</span><span class="typ-punct">(</span><span class="typ-punct">)</span> <span class="typ-escape">\\</span>
 <span class="typ-pol">#</span><span class="typ-pol">values</span><span class="typ-punct">.</span><span class="typ-func">len</span><span class="typ-punct">(</span><span class="typ-punct">)</span> <span class="typ-escape">\\</span>
@@ -2084,79 +2190,107 @@ methods.</p>
 <span class="typ-str">#</span><span class="typ-str">&quot;abc&quot;</span><span class="typ-punct">.</span><span class="typ-func">len</span><span class="typ-punct">(</span><span class="typ-punct">)</span> is the same as
 <span class="typ-pol">#</span><span class="typ-pol">str</span><span class="typ-punct">.</span><span class="typ-func">len</span><span class="typ-punct">(</span><span class="typ-str">&quot;abc&quot;</span><span class="typ-punct">)</span>
 </code></pre><div class="preview"><img src="/docs/assets/210ee87fd03a6b3797dece149114d597.png" alt="Preview" /></div></div>
-<p>There are a few special functions that modify the value they are called on (e.g.
-<a href="/docs/reference/foundations/array/#definitions-push"><code>array.push</code></a>). These functions <em>must</em> be called in method form.
+<p>有一些函数会修改调用它们时所指的目标，这些函数 <em>必须</em> 以方法的形式被调用。某些情况下，如果一个方法调用只是为了它的副作用（side
+effect），其返回值应当被忽略，不应参与后续的叠加。
+舍弃一个值的通用方法是这样一个 let 绑定：<code><span class="typ-key">let</span> _ <span class="typ-op">=</span> array<span class="typ-punct">.</span><span class="typ-func">remove</span><span class="typ-punct">(</span><span class="typ-num">1</span><span class="typ-punct">)</span></code></p>
+<original>
+There are a few special functions that modify the value they are called on (e.g.
+[\`array.push\`]($array.push)). These functions _must_ be called in method form.
 In some cases, when the method is only called for its side effect, its return
 value should be ignored (and not participate in joining). The canonical way to
-discard a value is with a let binding: <code><span class="typ-key">let</span> _ <span class="typ-op">=</span> array<span class="typ-punct">.</span><span class="typ-func">remove</span><span class="typ-punct">(</span><span class="typ-num">1</span><span class="typ-punct">)</span></code>.</p>
-<h2 id="modules">Modules</h2>
-<p>You can split up your Typst projects into multiple files called <em>modules.</em> A
-module can refer to the content and definitions of another module in multiple
-ways:</p>
+discard a value is with a let binding: \`{let _ = array.remove(1)}\`.
+</original>
+<h2 id="模块">模块</h2>
+<p>你可以将你的 Typst 项目细分为许多个文件，称为 <em>模块</em>。一个模块可以用下面几种方式来引用其它模块中的内容和定义：</p>
 <ul>
-<li>
-<p><strong>Including:</strong> <code><span class="typ-key">include</span> <span class="typ-str">&quot;bar.typ&quot;</span></code> <br />
-Evaluates the file at the path <code>bar.typ</code> and returns the resulting <a href="/docs/reference/foundations/content/" title="content">content</a>.</p>
-</li>
-<li>
-<p><strong>Import:</strong> <code><span class="typ-key">import</span> <span class="typ-str">&quot;bar.typ&quot;</span></code> <br />
-Evaluates the file at the path <code>bar.typ</code> and inserts the resulting <a href="/docs/reference/foundations/module/" title="module">module</a>
-into the current scope as <code>bar</code> (filename without extension). You can use the
-<code>as</code> keyword to rename the imported module: <code><span class="typ-key">import</span> <span class="typ-str">&quot;bar.typ&quot;</span> <span class="typ-key">as</span> baz</code>. You
-can import nested items using dot notation: <code><span class="typ-key">import</span> <span class="typ-str">&quot;bar.typ&quot;</span><span class="typ-punct">:</span> baz<span class="typ-punct">.</span>a</code>.</p>
-</li>
-<li>
-<p><strong>Import items:</strong> <code><span class="typ-key">import</span> <span class="typ-str">&quot;bar.typ&quot;</span><span class="typ-punct">:</span> a<span class="typ-punct">,</span> b</code> <br />
-Evaluates the file at the path <code>bar.typ</code>, extracts the values of the variables
-<code>a</code> and <code>b</code> (that need to be defined in <code>bar.typ</code>, e.g. through <code><span class="typ-key">let</span></code>
-bindings) and defines them in the current file. Replacing <code>a, b</code> with <code>*</code>
-loads all variables defined in a module. You can use the <code>as</code> keyword to
-rename the individual items: <code><span class="typ-key">import</span> <span class="typ-str">&quot;bar.typ&quot;</span><span class="typ-punct">:</span> a <span class="typ-key">as</span> one<span class="typ-punct">,</span> b <span class="typ-key">as</span> two</code></p>
-</li>
+<li><strong>引入（Including）：</strong> <code><span class="typ-key">include</span> <span class="typ-str">&quot;bar.typ&quot;</span></code> <br />
+解析 <code>bar.typ</code> 路径所指的文件，返回<a href="/docs/reference/foundations/content/">内容</a>作为结果。</li>
+<li><strong>导入（Importing）：</strong> <code><span class="typ-key">import</span> <span class="typ-str">&quot;bar.typ&quot;</span></code> <br />
+解析 <code>bar.typ</code> 路径所指的文件，将<a href="/docs/reference/foundations/module/">模块</a>结果插入到当前的作用域与文件名同名（除去扩展名）的变量中，例如 <code>bar</code>。
+你可以用 <code>as</code> 关键字来手动指定导入模块的名称：<code><span class="typ-key">import</span> <span class="typ-str">&quot;bar.typ&quot;</span> <span class="typ-key">as</span> baz</code>
+，还可以用点号来导入嵌套的项目： <code><span class="typ-key">import</span> <span class="typ-str">&quot;bar.typ&quot;</span><span class="typ-punct">:</span> baz<span class="typ-punct">.</span>a</code></li>
+<li><strong>导入项目：</strong> <code><span class="typ-key">import</span> <span class="typ-str">&quot;bar.typ&quot;</span><span class="typ-punct">:</span> a<span class="typ-punct">,</span> b</code> <br />
+解析 <code>bar.typ</code> 路径所指的文件，将其中的 <code>a</code> 和 <code>b</code>（也就是在 <code>bar.typ</code> 中已经用 <code><span class="typ-key">let</span></code> 绑定等方法定义过的某些变量）取出并赋值到当前文件中的同名变量中。
+将 <code>a, b</code> 换成 <code>*</code> 将导入模块中定义的全部变量。你可以用 <code>as</code>
+关键字来重命名单个项目：<code><span class="typ-key">import</span> <span class="typ-str">&quot;bar.typ&quot;</span><span class="typ-punct">:</span> a <span class="typ-key">as</span> one<span class="typ-punct">,</span> b <span class="typ-key">as</span> two</code></li>
 </ul>
-<p>Instead of a path, you can also use a <a href="/docs/reference/foundations/module/">module value</a>, as shown in the
-following example:</p>
+<original>
+You can split up your Typst projects into multiple files called _modules._ A
+module can refer to the content and definitions of another module in multiple
+ways:
+- **Including:** \`{include "bar.typ"}\` \\
+  Evaluates the file at the path \`bar.typ\` and returns the resulting [content].
+- **Import:** \`{import "bar.typ"}\` \\
+  Evaluates the file at the path \`bar.typ\` and inserts the resulting [module]
+  into the current scope as \`bar\` (filename without extension). You can use the
+  \`as\` keyword to rename the imported module: \`{import "bar.typ" as baz}\`. You
+  can import nested items using dot notation: \`{import "bar.typ": baz.a}\`.
+- **Import items:** \`{import "bar.typ": a, b}\` \\
+  Evaluates the file at the path \`bar.typ\`, extracts the values of the variables
+  \`a\` and \`b\` (that need to be defined in \`bar.typ\`, e.g. through \`{let}\`
+  bindings) and defines them in the current file. Replacing \`a, b\` with \`*\`
+  loads all variables defined in a module. You can use the \`as\` keyword to
+  rename the individual items: \`{import "bar.typ": a as one, b as two}\`
+</original>
+<p>除了路径，你还可以用<a href="/docs/reference/foundations/module/">模块值</a>来导入模块，如：</p>
+<original>
+Instead of a path, you can also use a [module value]($module), as shown in the
+following example:
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">import</span> emoji<span class="typ-punct">:</span> face
 <span class="typ-pol">#</span><span class="typ-pol">face</span><span class="typ-punct">.</span><span class="typ-pol">grin</span>
 </code></pre><div class="preview"><img src="/docs/assets/582750a9fdc5e78ea0af14425019c673.png" alt="Preview" /></div></div>
-<h2 id="packages">Packages</h2>
-<p>To reuse building blocks across projects, you can also create and import Typst
-<em>packages.</em> A package import is specified as a triple of a namespace, a name,
-and a version.</p>
+<h2 id="包">包</h2>
+<p>为了在不同的项目中复用所构建的块，你可以创建并导入 Typst <em>包</em>。包的导入包括命名空间、名称和版本三个信息。</p>
+<original>
+To reuse building blocks across projects, you can also create and import Typst
+_packages._ A package import is specified as a triple of a namespace, a name,
+and a version.
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">import</span> <span class="typ-str">&quot;@preview/example:0.1.0&quot;</span><span class="typ-punct">:</span> add
 <span class="typ-func">#</span><span class="typ-func">add</span><span class="typ-punct">(</span><span class="typ-num">2</span><span class="typ-punct">,</span> <span class="typ-num">7</span><span class="typ-punct">)</span>
 </code></pre><div class="preview"><img src="/docs/assets/3154d9c07246bafa6c84ba034756cc85.png" alt="Preview" /></div></div>
-<p>The <code>preview</code> namespace contains packages shared by the community. You can find
-all available community packages on <a href="https://typst.app/universe/">Typst Universe</a>.</p>
-<p>If you are using Typst locally, you can also create your own system-local
+<p><code>preview</code> 这一命名空间中包含了社区中共享的各种包，你可以在 <a href="https://typst.app/universe/">Typst Universe</a> 上找到可用的社区包。</p>
+<original>
+The \`preview\` namespace contains packages shared by the community. You can find
+all available community packages on [Typst Universe]($universe).
+</original>
+<p>如果你是在本地使用 Typst，你还可以自行创建本地包。要了解更多，参考 GitHub
+上的 <a href="https://github.com/typst/packages">package 仓库</a>。</p>
+<original>
+If you are using Typst locally, you can also create your own system-local
 packages. For more details on this, see the
-<a href="https://github.com/typst/packages">package repository</a>.</p>
-<h2 id="operators">Operators</h2>
-<p>The following table lists all available unary and binary operators with effect,
-arity (unary, binary) and precedence level (higher binds stronger).</p>
+[package repository](https://github.com/typst/packages).
+</original>
+<h2 id="运算符">运算符</h2>
+<p>下表列出了所有可用的一元和二元运算符以及它们的作用、操作元数和优先级（越高越优先）。</p>
+<original>
+The following table lists all available unary and binary operators with effect,
+arity (unary, binary) and precedence level (higher binds stronger).
+</original>
 <table><thead><tr><th style="text-align: center">Operator</th><th>Effect</th><th style="text-align: center">Arity</th><th style="text-align: center">Precedence</th></tr></thead><tbody>
-<tr><td style="text-align: center"><code><span class="typ-op">-</span></code></td><td>Negation</td><td style="text-align: center">Unary</td><td style="text-align: center">7</td></tr>
-<tr><td style="text-align: center"><code><span class="typ-op">+</span></code></td><td>No effect (exists for symmetry)</td><td style="text-align: center">Unary</td><td style="text-align: center">7</td></tr>
-<tr><td style="text-align: center"><code>*</code></td><td>Multiplication</td><td style="text-align: center">Binary</td><td style="text-align: center">6</td></tr>
-<tr><td style="text-align: center"><code>/</code></td><td>Division</td><td style="text-align: center">Binary</td><td style="text-align: center">6</td></tr>
-<tr><td style="text-align: center"><code><span class="typ-op">+</span></code></td><td>Addition</td><td style="text-align: center">Binary</td><td style="text-align: center">5</td></tr>
-<tr><td style="text-align: center"><code><span class="typ-op">-</span></code></td><td>Subtraction</td><td style="text-align: center">Binary</td><td style="text-align: center">5</td></tr>
-<tr><td style="text-align: center"><code>==</code></td><td>Check equality</td><td style="text-align: center">Binary</td><td style="text-align: center">4</td></tr>
-<tr><td style="text-align: center"><code>!=</code></td><td>Check inequality</td><td style="text-align: center">Binary</td><td style="text-align: center">4</td></tr>
-<tr><td style="text-align: center"><code>&lt;</code></td><td>Check less-than</td><td style="text-align: center">Binary</td><td style="text-align: center">4</td></tr>
-<tr><td style="text-align: center"><code>&lt;=</code></td><td>Check less-than or equal</td><td style="text-align: center">Binary</td><td style="text-align: center">4</td></tr>
-<tr><td style="text-align: center"><code>&gt;</code></td><td>Check greater-than</td><td style="text-align: center">Binary</td><td style="text-align: center">4</td></tr>
-<tr><td style="text-align: center"><code>&gt;=</code></td><td>Check greater-than or equal</td><td style="text-align: center">Binary</td><td style="text-align: center">4</td></tr>
-<tr><td style="text-align: center"><code>in</code></td><td>Check if in collection</td><td style="text-align: center">Binary</td><td style="text-align: center">4</td></tr>
-<tr><td style="text-align: center"><code><span class="typ-key">not</span> <span class="typ-key">in</span></code></td><td>Check if not in collection</td><td style="text-align: center">Binary</td><td style="text-align: center">4</td></tr>
-<tr><td style="text-align: center"><code><span class="typ-key">not</span></code></td><td>Logical &quot;not&quot;</td><td style="text-align: center">Unary</td><td style="text-align: center">3</td></tr>
-<tr><td style="text-align: center"><code>and</code></td><td>Short-circuiting logical &quot;and&quot;</td><td style="text-align: center">Binary</td><td style="text-align: center">3</td></tr>
-<tr><td style="text-align: center"><code>or</code></td><td>Short-circuiting logical &quot;or</td><td style="text-align: center">Binary</td><td style="text-align: center">2</td></tr>
-<tr><td style="text-align: center"><code>=</code></td><td>Assignment</td><td style="text-align: center">Binary</td><td style="text-align: center">1</td></tr>
-<tr><td style="text-align: center"><code>+=</code></td><td>Add-Assignment</td><td style="text-align: center">Binary</td><td style="text-align: center">1</td></tr>
-<tr><td style="text-align: center"><code>-=</code></td><td>Subtraction-Assignment</td><td style="text-align: center">Binary</td><td style="text-align: center">1</td></tr>
-<tr><td style="text-align: center"><code>*=</code></td><td>Multiplication-Assignment</td><td style="text-align: center">Binary</td><td style="text-align: center">1</td></tr>
-<tr><td style="text-align: center"><code>/=</code></td><td>Division-Assignment</td><td style="text-align: center">Binary</td><td style="text-align: center">1</td></tr>
+<tr><td style="text-align: center"><code><span class="typ-op">-</span></code></td><td>取反</td><td style="text-align: center">一元</td><td style="text-align: center">7</td></tr>
+<tr><td style="text-align: center"><code><span class="typ-op">+</span></code></td><td>无作用（考虑对称性保留该符号）</td><td style="text-align: center">一元</td><td style="text-align: center">7</td></tr>
+<tr><td style="text-align: center"><code>*</code></td><td>乘</td><td style="text-align: center">二元</td><td style="text-align: center">6</td></tr>
+<tr><td style="text-align: center"><code>/</code></td><td>除</td><td style="text-align: center">二元</td><td style="text-align: center">6</td></tr>
+<tr><td style="text-align: center"><code><span class="typ-op">+</span></code></td><td>加</td><td style="text-align: center">二元</td><td style="text-align: center">5</td></tr>
+<tr><td style="text-align: center"><code><span class="typ-op">-</span></code></td><td>减</td><td style="text-align: center">二元</td><td style="text-align: center">5</td></tr>
+<tr><td style="text-align: center"><code>==</code></td><td>等值判断</td><td style="text-align: center">二元</td><td style="text-align: center">4</td></tr>
+<tr><td style="text-align: center"><code>!=</code></td><td>不等值判断</td><td style="text-align: center">二元</td><td style="text-align: center">4</td></tr>
+<tr><td style="text-align: center"><code>&lt;</code></td><td>小于判断</td><td style="text-align: center">二元</td><td style="text-align: center">4</td></tr>
+<tr><td style="text-align: center"><code>&lt;=</code></td><td>小于或等于判断</td><td style="text-align: center">二元</td><td style="text-align: center">4</td></tr>
+<tr><td style="text-align: center"><code>&gt;</code></td><td>大于判断</td><td style="text-align: center">二元</td><td style="text-align: center">4</td></tr>
+<tr><td style="text-align: center"><code>&gt;=</code></td><td>大于或等于判断</td><td style="text-align: center">二元</td><td style="text-align: center">4</td></tr>
+<tr><td style="text-align: center"><code>in</code></td><td>判断是否存在于集合中</td><td style="text-align: center">二元</td><td style="text-align: center">4</td></tr>
+<tr><td style="text-align: center"><code><span class="typ-key">not</span> <span class="typ-key">in</span></code></td><td>判断是否不存在于集合中</td><td style="text-align: center">二元</td><td style="text-align: center">4</td></tr>
+<tr><td style="text-align: center"><code><span class="typ-key">not</span></code></td><td>逻辑非</td><td style="text-align: center">一元</td><td style="text-align: center">3</td></tr>
+<tr><td style="text-align: center"><code>and</code></td><td>短路逻辑与</td><td style="text-align: center">二元</td><td style="text-align: center">3</td></tr>
+<tr><td style="text-align: center"><code>or</code></td><td>短路逻辑或</td><td style="text-align: center">二元</td><td style="text-align: center">2</td></tr>
+<tr><td style="text-align: center"><code>=</code></td><td>赋值</td><td style="text-align: center">二元</td><td style="text-align: center">1</td></tr>
+<tr><td style="text-align: center"><code>+=</code></td><td>加赋值</td><td style="text-align: center">二元</td><td style="text-align: center">1</td></tr>
+<tr><td style="text-align: center"><code>-=</code></td><td>减赋值</td><td style="text-align: center">二元</td><td style="text-align: center">1</td></tr>
+<tr><td style="text-align: center"><code>*=</code></td><td>乘赋值</td><td style="text-align: center">二元</td><td style="text-align: center">1</td></tr>
+<tr><td style="text-align: center"><code>/=</code></td><td>除赋值</td><td style="text-align: center">二元</td><td style="text-align: center">1</td></tr>
 </tbody></table>`},children:[]},{route:"/docs/reference/context/",title:"Context",description:`How to deal with content that reacts to its location in the document.
 `,part:null,outline:[{id:"style-context",name:"Style Context",children:[]},{id:"location-context",name:"Location Context",children:[]},{id:"nested-contexts",name:"Nested Contexts",children:[]},{id:"compiler-iterations",name:"Compiler Iterations",children:[]}],body:{kind:"html",content:`<h1>Context</h1>
 <p>Sometimes, we want to create content that reacts to its location in the
