@@ -13,8 +13,10 @@
     "@jamescoyle/vue-icon": "^0.1.2",
     "@mdi/js": "^7.4.47",
     "nuxt": "^3.13.0",
-    "sass": "^1.79.4",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "sass": "^1.80.3"
   }
 }
