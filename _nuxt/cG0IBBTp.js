@@ -1,4 +1,4 @@
-import{d as z,g as $,t as e,v as t,x as r,y,J as a,K as h,L as k,M as g,z as v,A as C,B as F,N as A,O as D,P as L,u as W,r as T,E as B}from"./Dor6AhyN.js";import{u as _}from"./XBR3yiWw.js";import{_ as H}from"./DlAUqK2U.js";const N={id:"summary"},O=["innerHTML"],Y={key:0,class:"category-shorthands"},G={class:"shorthands"},V={class:"shorthand"},U={class:"shorthands"},X={class:"shorthand"},J=z({__name:"category",props:{value:{required:!0}},setup(n){const s=n.value;return(m,l)=>{const u=$("router-link");return e(),t(h,null,[r("h1",N,y(a(s).title),1),r("div",{class:"category-details",innerHTML:a(s).details},null,8,O),l[5]||(l[5]=r("h2",{id:"definitions"},"Definitions",-1)),r("ul",null,[(e(!0),t(h,null,k(a(s).items,d=>(e(),t("li",null,[v(u,{to:d.route},{default:C(()=>[F(y(d.name),1)]),_:2},1032,["to"]),F(" — "+y(d.oneliner),1)]))),256))]),a(s).shorthands?(e(),t("div",Y,[l[0]||(l[0]=r("h2",{id:"shorthands"},"Shorthands",-1)),l[1]||(l[1]=r("p",null,"Shorthands are concise sequences of characters that evoke specific glyphs. Shorthands and other ways to produce symbols can be used interchangeably. You can use different sets of shorthands in math and markup mode. Some shorthands, like ~ for a non-breaking space produce non-printing symbols, which are indicated with gray placeholder text.",-1)),l[2]||(l[2]=r("p",null," You can deactivate a shorthand's interpretation by escaping any of its characters. If you escape a single character in a shorthand, the remaining unescaped characters may form a different shorthand.",-1)),l[3]||(l[3]=r("h3",null,"Within Markup Mode",-1)),r("div",G,[(e(!0),t(h,null,k(a(s).shorthands.markup,d=>(e(),t("div",V,y(d.name),1))),256))]),l[4]||(l[4]=r("h3",null,"Within Math Mode",-1)),r("div",U,[(e(!0),t(h,null,k(a(s).shorthands.math,d=>(e(),t("div",X,y(d.name),1))),256))])])):g("",!0)],64)}}}),K={class:"func"},Q=["innerHTML"],Z=["innerHTML"],aa={key:2},ea=["innerHTML"],na={class:"func-params"},sa={class:"param"},ta={class:"param-title"},ra=["innerHTML"],pa={class:"param-props"},la={key:0,class:"prop"},oa=["innerHTML"],ca=["innerHTML"],ia={key:3,class:"func-scope scope"},I=z({__name:"func",props:{value:{required:!0},omitName:{default:!1},singlePage:{default:!0},paramIdPrefix:{default:""}},setup(n){const p=n;function s(o){return`${o[0].toUpperCase()}${o.slice(1,o.length)}`}function m(o){return o.map(i=>`<span class="typ typ-${i}">${i}</span>`)}function l(o){return p.singlePage?"summary":p.paramIdPrefix.length>0?`${p.paramIdPrefix}-${o}`:`definitions-${o}`}function u(o,i=""){return p.singlePage?`parameters-${o}`:p.paramIdPrefix.length>0?p.paramIdPrefix==="constructor"?`${p.paramIdPrefix}-${o}`:`${p.paramIdPrefix}-${i}-${o}`:`definitions-${i}-${o}`}function d(o){let i="";const q=o.params.length>=3;return o.self?i+="self.":o.path.length>0&&(i+=o.path.join(".")+"."),i+=o.name,i+="(",o.params.length>0&&(i+=q?`
+import{d as z,g as $,t as e,v as t,x as r,y,J as a,K as h,L as k,M as g,z as v,A as C,B as F,N as A,O as D,P as L,u as W,r as T,E as B}from"./BFLojHQW.js";import{u as _}from"./B0fzO90S.js";import{_ as H}from"./DlAUqK2U.js";const N={id:"summary"},O=["innerHTML"],Y={key:0,class:"category-shorthands"},G={class:"shorthands"},V={class:"shorthand"},U={class:"shorthands"},X={class:"shorthand"},J=z({__name:"category",props:{value:{required:!0}},setup(n){const s=n.value;return(m,l)=>{const u=$("router-link");return e(),t(h,null,[r("h1",N,y(a(s).title),1),r("div",{class:"category-details",innerHTML:a(s).details},null,8,O),l[5]||(l[5]=r("h2",{id:"definitions"},"Definitions",-1)),r("ul",null,[(e(!0),t(h,null,k(a(s).items,d=>(e(),t("li",null,[v(u,{to:d.route},{default:C(()=>[F(y(d.name),1)]),_:2},1032,["to"]),F(" — "+y(d.oneliner),1)]))),256))]),a(s).shorthands?(e(),t("div",Y,[l[0]||(l[0]=r("h2",{id:"shorthands"},"Shorthands",-1)),l[1]||(l[1]=r("p",null,"Shorthands are concise sequences of characters that evoke specific glyphs. Shorthands and other ways to produce symbols can be used interchangeably. You can use different sets of shorthands in math and markup mode. Some shorthands, like ~ for a non-breaking space produce non-printing symbols, which are indicated with gray placeholder text.",-1)),l[2]||(l[2]=r("p",null," You can deactivate a shorthand's interpretation by escaping any of its characters. If you escape a single character in a shorthand, the remaining unescaped characters may form a different shorthand.",-1)),l[3]||(l[3]=r("h3",null,"Within Markup Mode",-1)),r("div",G,[(e(!0),t(h,null,k(a(s).shorthands.markup,d=>(e(),t("div",V,y(d.name),1))),256))]),l[4]||(l[4]=r("h3",null,"Within Math Mode",-1)),r("div",U,[(e(!0),t(h,null,k(a(s).shorthands.math,d=>(e(),t("div",X,y(d.name),1))),256))])])):g("",!0)],64)}}}),K={class:"func"},Q=["innerHTML"],Z=["innerHTML"],aa={key:2},ea=["innerHTML"],na={class:"func-params"},sa={class:"param"},ta={class:"param-title"},ra=["innerHTML"],pa={class:"param-props"},la={key:0,class:"prop"},oa=["innerHTML"],ca=["innerHTML"],ia={key:3,class:"func-scope scope"},I=z({__name:"func",props:{value:{required:!0},omitName:{default:!1},singlePage:{default:!0},paramIdPrefix:{default:""}},setup(n){const p=n;function s(o){return`${o[0].toUpperCase()}${o.slice(1,o.length)}`}function m(o){return o.map(i=>`<span class="typ typ-${i}">${i}</span>`)}function l(o){return p.singlePage?"summary":p.paramIdPrefix.length>0?`${p.paramIdPrefix}-${o}`:`definitions-${o}`}function u(o,i=""){return p.singlePage?`parameters-${o}`:p.paramIdPrefix.length>0?p.paramIdPrefix==="constructor"?`${p.paramIdPrefix}-${o}`:`${p.paramIdPrefix}-${i}-${o}`:`definitions-${i}-${o}`}function d(o){let i="";const q=o.params.length>=3;return o.self?i+="self.":o.path.length>0&&(i+=o.path.join(".")+"."),i+=o.name,i+="(",o.params.length>0&&(i+=q?`
   `:" ",i+=o.params.map(c=>{let w="";return c.name&&c.named&&(w+=`${c.name}: `),w+=m(c.types).join(" | "),w}).join(`,${q?`
   `:" "}`),i+=q?`
 `:" "),i+=")",o.returns.length>0&&(i+=` -> ${m(o.returns).join(" | ")}`),i}const f=p.value;return(o,i)=>{const q=I;return e(),t("div",K,[n.omitName?g("",!0):(e(),A(D(n.singlePage?"h1":"h3"),{key:0,id:l(a(f).name)},{default:C(()=>[r("code",null,y(a(f).name),1)]),_:1},8,["id"])),r("div",{class:"func-details",innerHTML:a(f).details},null,8,Q),a(f).example?(e(),t("div",{key:1,class:"func-example",innerHTML:a(f).example},null,8,Z)):g("",!0),n.singlePage?(e(),t("h2",aa,"Parameters")):g("",!0),r("pre",{class:"func-definition",innerHTML:`<code>${d(a(f))}</code>`},null,8,ea),r("div",na,[(e(!0),t(h,null,k(a(f).params,c=>(e(),t("div",sa,[r("div",ta,[(e(),A(D(n.singlePage?"h3":"h4"),{id:u(c.name,a(f).name)},{default:C(()=>[r("code",null,y(c.name),1)]),_:2},1032,["id"])),r("div",{class:"param-type",innerHTML:`<code>${m(c.types).join(" | ")}</code>`},null,8,ra),r("div",pa,[(e(),t(h,null,k(["positional","settable","variadic","required"],w=>(e(),t(h,null,[c[w]?(e(),t("span",la,y(s(w)),1)):g("",!0)],64))),64))])]),r("div",{class:"param-details",innerHTML:c.details},null,8,oa),c.example?(e(),t("div",{key:0,class:"param-example",innerHTML:c.example},null,8,ca)):g("",!0)]))),256))]),a(f).scope.length>0?(e(),t("div",ia,[i[0]||(i[0]=r("h2",{id:"definitions"},"Definitions",-1)),(e(!0),t(h,null,k(a(f).scope,c=>(e(),A(q,{"single-page":!1,value:c},null,8,["value"]))),256))])):g("",!0)])}}}),da={id:"summary"},ua=["innerHTML"],ha={key:0,class:"type-constructor"},fa={key:1,class:"type-scope scope"},ya=z({__name:"type",props:{value:{required:!0}},setup(n){const s=n.value;return(m,l)=>{const u=I;return e(),t(h,null,[r("h1",da,[r("code",null,y(a(s).name),1)]),r("div",{class:"type-details",innerHTML:a(s).details},null,8,ua),a(s).constructor?(e(),t("div",ha,[l[0]||(l[0]=r("h2",null,"Constructor",-1)),v(u,{"param-id-prefix":"constructor","omit-name":!0,"single-page":!1,value:a(s).constructor},null,8,["value"])])):g("",!0),a(s).scope.length>0?(e(),t("div",fa,[l[1]||(l[1]=r("h2",null,"Definitions",-1)),(e(!0),t(h,null,k(a(s).scope,d=>(e(),A(u,{"single-page":!1,value:d},null,8,["value"]))),256))])):g("",!0)],64)}}}),ma={id:"summary"},wa=["innerHTML"],ba={class:"group-functions"},ga=z({__name:"group",props:{value:{required:!0}},setup(n){const s=n.value;return(m,l)=>{const u=I;return e(),t(h,null,[r("h1",ma,y(a(s).title),1),r("div",{class:"group-details",innerHTML:a(s).details},null,8,wa),r("div",ba,[l[0]||(l[0]=r("h2",null,"Functions",-1)),(e(!0),t(h,null,k(a(s).functions,d=>(e(),A(u,{"param-id-prefix":"functions","single-page":!1,value:d},null,8,["value"]))),256))])],64)}}}),ka={id:"summary"},va=["innerHTML"],qa={class:"symbol-display"},xa={class:"symbol"},Sa=z({__name:"symbols",props:{value:{required:!0}},setup(n){const s=n.value;return(m,l)=>(e(),t(h,null,[r("h1",ka,y(a(s).name),1),r("div",{class:"symbol-details",innerHTML:a(s).details},null,8,va),r("div",qa,[(e(!0),t(h,null,k(a(s).list,u=>(e(),t("div",xa,y(u.name),1))),256))])],64))}});var b=(n=>(n.Category="category",n.Func="func",n.Type="type",n.Symbols="symbols",n.Group="group",n.HTML="html",n.Unknown="-",n.NotFound="not-found",n))(b||{});function j(n){return n.endsWith("/")?n.substring(0,n.length-1):n}const Ta={},za={class:"typ-str"};function Aa(n,p){return e(),t(h,null,[p[3]||(p[3]=r("h1",null,"404 - Not Found",-1)),r("p",null,[p[1]||(p[1]=F("你所请求的页面 ")),r("code",za,'"'+y(("useRoute"in n?n.useRoute:a(L))().fullPath)+'"',1),p[2]||(p[2]=F(" 不存在，请检查 URL 是否正确。")),r("button",{class:"nav-btn primary",onClick:p[0]||(p[0]=s=>("useRouter"in n?n.useRouter:a(W))().go(-1))},"« 返回上一页")])],64)}const Pa=H(Ta,[["render",Aa],["__scopeId","data-v-c694cd71"]]);function E(n,p){const s=n.filter(l=>j(l.route)===p);if(s.length>0)return s[0];const m=n.filter(l=>p.startsWith(j(l.route)));for(let l of m){let u=E(l.children,p);if(u)return u}return null}const Fa=[{route:"/docs/",title:"概览",description:`Learn how to use Typst to compose documents faster. Get started with the
@@ -2292,48 +2292,58 @@ arity (unary, binary) and precedence level (higher binds stronger).
 <tr><td style="text-align: center"><code>*=</code></td><td>乘赋值</td><td style="text-align: center">二元</td><td style="text-align: center">1</td></tr>
 <tr><td style="text-align: center"><code>/=</code></td><td>除赋值</td><td style="text-align: center">二元</td><td style="text-align: center">1</td></tr>
 </tbody></table>`},children:[]},{route:"/docs/reference/context/",title:"上下文",description:`How to deal with content that reacts to its location in the document.
-`,part:null,outline:[{id:"样式上下文",name:"样式上下文",children:[]},{id:"location-context",name:"Location Context",children:[]},{id:"nested-contexts",name:"Nested Contexts",children:[]},{id:"compiler-iterations",name:"Compiler Iterations",children:[]}],body:{kind:"html",content:`<h1>上下文</h1>
+`,part:null,outline:[{id:"样式上下文",name:"样式上下文",children:[]},{id:"位置上下文",name:"位置上下文",children:[]},{id:"嵌套上下文",name:"嵌套上下文",children:[]},{id:"编译器迭代",name:"编译器迭代",children:[]}],body:{kind:"html",content:`<h1>上下文</h1>
 <p>有时，我们需要根据在文档中所处的位置来创建元素，比如根据配置的文本语言来展示本地化的短语，或者更简单地，根据前文标题的个数来决定当前标题的标号。
 然而 Typst 中的代码并不能直接获取到它在文档中的位置。有些放在开头的代码最终会在文末生成内容。</p>
-<p>Sometimes, we want to create content that reacts to its location in the
+<original>
+Sometimes, we want to create content that reacts to its location in the
 document. This could be a localized phrase that depends on the configured text
 language or something as simple as a heading number which prints the right
 value based on how many headings came before it. However, Typst code isn't
 directly aware of its location in the document. Some code at the beginning of
-the source text could yield content that ends up at the back of the document.</p>
+the source text could yield content that ends up at the back of the document.
+</original>
 <p>要创建出能根据所处环境做出改变的内容，我们必须特地引导 Typst 这样做：把 <code><span class="typ-key">context</span></code> 关键字放在一个表达式的前面，从而表明它应当根据周围环境生成。
 正由于是根据环境生成的，上下文表达式本身会变得不可见，我们并不能在代码中直接访问它的值。
 准确地说，这是因为它依赖着上下文，导致它不存在唯一的结果，会在文档的不同位置发生变化。因此，每当需要获取这些上下文的数据时，必须将语句写在上下文表达式内部。</p>
-<p>To produce content that is reactive to its surroundings, we must thus
-specifically instruct Typst: We do this with the <code><span class="typ-key">context</span></code> keyword, which
+<original>
+To produce content that is reactive to its surroundings, we must thus
+specifically instruct Typst: We do this with the \`{context}\` keyword, which
 precedes an expression and ensures that it is computed with knowledge of its
 environment. In return, the context expression itself ends up opaque. We cannot
 directly access whatever results from it in our code, precisely because it is
 contextual: There is no one correct result, there may be multiple results in
 different places of the document. For this reason, everything that depends on
-the contextual data must happen inside of the context expression.</p>
+the contextual data must happen inside of the context expression.
+</original>
 <p>除了明确指定上下文表达式以外，上下文也可以在文档中那些位置可知的部分被隐式地创建：<a href="/docs/reference/styling/#show-rules">show rules</a> 自动提供上下文<sup class="footnote-reference"><a href="#2">1</a></sup>，另外例如大纲中的标号也提供了
 用于计数的上下文。</p>
-<p>Aside from explicit context expressions, context is also established implicitly
+<original>
+Aside from explicit context expressions, context is also established implicitly
 in some places that are also aware of their location in the document:
-<a href="/docs/reference/styling/#show-rules">Show rules</a> provide context<sup class="footnote-reference"><a href="#1">2</a></sup> and numberings in the
-outline, for instance, also provide the proper context to resolve counters.</p>
+[Show rules]($styling/#show-rules) provide context[^1] and numberings in the
+outline, for instance, also provide the proper context to resolve counters.
+</original>
 <h2 id="样式上下文">样式上下文</h2>
 <p>利用 set rules，我们可以修改文档中一小部分或者全文的样式属性，而如果没有已知的上下文，我们不可能访问到这些属性，因为它们在全文范围内会随时改变。
 上下文存在时，仅需当做元素字段进行访问，即可获取到它们。</p>
-<p>With set rules, we can adjust style properties for parts or the whole of our
+<original>
+With set rules, we can adjust style properties for parts or the whole of our
 document. We cannot access these without a known context, as they may change
 throughout the course of the document. When context is available, we can
 retrieve them simply by accessing them as fields on the respective element
-function.</p>
+function.
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">set</span> <span class="typ-func">text</span><span class="typ-punct">(</span>lang<span class="typ-punct">:</span> <span class="typ-str">&quot;de&quot;</span><span class="typ-punct">)</span>
 <span class="typ-key">#</span><span class="typ-key">context</span> text<span class="typ-punct">.</span>lang
 </code></pre><div class="preview"><img src="/docs/assets/ae4ccc7f3c138d00cde072a8e7d00280.png" alt="Preview" /></div></div>
 <p>如之前所说，上下文表达式会反映出它所处的位置。在下面的例子中，我们创建了一个上下文表达式，将其存储在了 <code>value</code> 变量里，并调用了多次，每次调用都正确地反映了它所处位置的信息。</p>
-<p>As explained above, a context expression is reactive to the different
+<original>
+As explained above, a context expression is reactive to the different
 environments it is placed into. In the example below, we create a single context
-expression, store it in the <code>value</code> variable and use it multiple times. Each use
-properly reacts to the current surroundings.</p>
+expression, store it in the \`value\` variable and use it multiple times. Each use
+properly reacts to the current surroundings.
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">let</span> value <span class="typ-op">=</span> <span class="typ-key">context</span> text<span class="typ-punct">.</span>lang
 <span class="typ-pol">#</span><span class="typ-pol">value</span>
 
@@ -2345,24 +2355,35 @@ properly reacts to the current surroundings.</p>
 </code></pre><div class="preview"><img src="/docs/assets/5432ec6ed4bd5d5b9ee6fe199c117a4f.png" alt="Preview" /></div></div>
 <p>注意，在创建之时，<code>value</code> 就变成了不可见的<a href="/docs/reference/foundations/content/">内容</a>。它的值只会在它被放在某个地方的时候解析出来，因为只有在这时上下文才已知。
 上下文表达式体可能被取值任意次，这取决于它被放在了多少个不同的位置。</p>
-<p>Crucially, upon creation, <code>value</code> becomes opaque <a href="/docs/reference/foundations/content/" title="content">content</a> that we cannot peek
+<original>
+Crucially, upon creation, \`value\` becomes opaque [content] that we cannot peek
 into. It can only be resolved when placed somewhere because only then the
 context is known. The body of a context expression may be evaluated zero, one,
-or multiple times, depending on how many different places it is put into.</p>
-<h2 id="location-context">Location context</h2>
-<p>We've already seen that context gives us access to set rule values. But it can
-do more: It also lets us know <em>where</em> in the document we currently are, relative
+or multiple times, depending on how many different places it is put into.
+</original>
+<h2 id="位置上下文">位置上下文</h2>
+<p>我们知道，借助上下文可以访问 set rule 的值。不过它的作用不仅限于此，它还可以让我们确定目前在文档中所处的位置，包括相对于其他元素的位置和对于整页的绝对位置。
+借助这些信息，我们可以与文章的不同部分灵活互动。这为一些特性奠定了基础，例如标题的标号、页面目录（TOC）以及那些依赖小节标题内容的页面标题。</p>
+<original>
+We've already seen that context gives us access to set rule values. But it can
+do more: It also lets us know _where_ in the document we currently are, relative
 to other elements, and absolutely on the pages. We can use this information to
 create very flexible interactions between different document parts. This
 underpins features like heading numbering, the table of contents, or page
-headers dependent on section headings.</p>
-<p>Some functions like <a href="/docs/reference/introspection/counter/#definitions-get"><code>counter.get</code></a> implicitly access the current
+headers dependent on section headings.
+</original>
+<p>有些函数，例如 <a href="/docs/reference/introspection/counter/#definitions-get"><code>counter.get</code></a>，会隐式地访问当前的位置。在下面的例子中，我们想要获取到标题计数器的值，由于它会在全文范围内发生变化，我们需要
+先进入一个上下文表达式中，然后再用 <code>get</code> 来获取计数器的值。该函数从上下文中获取到当前的位置信息（location），并解析出计数器的具体值。计数器有多层，<code>get</code> 返回的是它解析出的一系列数字数组。
+这样，我们就得到了下面的结果：</p>
+<original>
+Some functions like [\`counter.get\`]($counter.get) implicitly access the current
 location. In the example below, we want to retrieve the value of the heading
 counter. Since it changes throughout the document, we need to first enter a
-context expression. Then, we use <code>get</code> to retrieve the counter's current value.
+context expression. Then, we use \`get\` to retrieve the counter's current value.
 This function accesses the current location from the context to resolve the
-counter value. Counters have multiple levels and <code>get</code> returns an array with the
-resolved numbers. Thus, we get the following result:</p>
+counter value. Counters have multiple levels and \`get\` returns an array with the
+resolved numbers. Thus, we get the following result:
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">set</span> <span class="typ-func">heading</span><span class="typ-punct">(</span>numbering<span class="typ-punct">:</span> <span class="typ-str">&quot;1.&quot;</span><span class="typ-punct">)</span>
 
 <span class="typ-heading">= Introduction</span>
@@ -2375,20 +2396,28 @@ resolved numbers. Thus, we get the following result:</p>
 
 <span class="typ-key">#</span><span class="typ-key">context</span> <span class="typ-func">counter</span><span class="typ-punct">(</span>heading<span class="typ-punct">)</span><span class="typ-punct">.</span><span class="typ-func">get</span><span class="typ-punct">(</span><span class="typ-punct">)</span>
 </code></pre><div class="preview"><img src="/docs/assets/3639cbcb4dd8011e9f0bbf9c0a7fa459.png" alt="Preview" /></div></div>
-<p>For more flexibility, we can also use the <a href="/docs/reference/introspection/here/" title="\`here\`"><code>here</code></a> function to directly extract
-the current <a href="/docs/reference/introspection/location/" title="location">location</a> from the context. The example below
-demonstrates this:</p>
+<p>更灵活地，我们还可以用 <a href="/docs/reference/introspection/here/" title="\`here\`"><code>here</code></a> 函数直接从上下文中解析出当前的<a href="/docs/reference/introspection/location/">位置</a>。下面的例子解释了这一点：</p>
+<original>
+For more flexibility, we can also use the [\`here\`] function to directly extract
+the current [location] from the context. The example below
+demonstrates this:
+</original>
 <ul>
-<li>We first have <code><span class="typ-func">counter</span><span class="typ-punct">(</span>heading<span class="typ-punct">)</span><span class="typ-punct">.</span><span class="typ-func">get</span><span class="typ-punct">(</span><span class="typ-punct">)</span></code>, which resolves to <code><span class="typ-punct">(</span><span class="typ-num">2</span><span class="typ-punct">,</span><span class="typ-punct">)</span></code> as
-before.</li>
-<li>We then use the more powerful  <a href="/docs/reference/introspection/counter/#definitions-at" title="\`counter.at\`"><code>counter.at</code></a> with <a href="/docs/reference/introspection/here/" title="\`here\`"><code>here</code></a>, which in
-combination is equivalent to <code>get</code>, and thus get <code><span class="typ-punct">(</span><span class="typ-num">2</span><span class="typ-punct">,</span><span class="typ-punct">)</span></code>.</li>
-<li>Finally, we use <code>at</code> with a <a href="/docs/reference/foundations/label/" title="label">label</a> to retrieve the value of the counter at a
-<em>different</em> location in the document, in our case that of the introduction
-heading. This yields <code><span class="typ-punct">(</span><span class="typ-num">1</span><span class="typ-punct">,</span><span class="typ-punct">)</span></code>. Typst's context system gives us time travel
-abilities and lets us retrieve the values of any counters and states at <em>any</em>
-location in the document.</li>
+<li>我们先写了 <code><span class="typ-func">counter</span><span class="typ-punct">(</span>heading<span class="typ-punct">)</span><span class="typ-punct">.</span><span class="typ-func">get</span><span class="typ-punct">(</span><span class="typ-punct">)</span></code>，它和之前一样，被解析为 <code><span class="typ-punct">(</span><span class="typ-num">2</span><span class="typ-punct">,</span><span class="typ-punct">)</span></code></li>
+<li>然后，我们用到了功能更强的 <a href="/docs/reference/introspection/counter/#definitions-at" title="\`counter.at\`"><code>counter.at</code></a> 并配合 <a href="/docs/reference/introspection/here/" title="\`here\`"><code>here</code></a>，合起来相当于是 <code>get</code>，于是得到了 <code><span class="typ-punct">(</span><span class="typ-num">2</span><span class="typ-punct">,</span><span class="typ-punct">)</span></code></li>
+<li>最终，我们配合<a href="/docs/reference/foundations/label/">标签</a>，用 <code>at</code> 在另一个地方获取计数器的值。Typst 的上下文系统赋予了我们时间穿越的能力，让我们能够在文档的任何地方获取到任何一个计数器的值。</li>
 </ul>
+<original>
+- We first have \`{counter(heading).get()}\`, which resolves to \`{(2,)}\` as
+  before.
+- We then use the more powerful  [\`counter.at\`] with [\`here\`], which in
+  combination is equivalent to \`get\`, and thus get \`{(2,)}\`.
+- Finally, we use \`at\` with a [label] to retrieve the value of the counter at a
+  _different_ location in the document, in our case that of the introduction
+  heading. This yields \`{(1,)}\`. Typst's context system gives us time travel
+  abilities and lets us retrieve the values of any counters and states at _any_
+  location in the document.
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">set</span> <span class="typ-func">heading</span><span class="typ-punct">(</span>numbering<span class="typ-punct">:</span> <span class="typ-str">&quot;1.&quot;</span><span class="typ-punct">)</span>
 
 <span class="typ-heading">= Introduction</span> <span class="typ-label">&lt;intro&gt;</span>
@@ -2403,11 +2432,14 @@ location in the document.</li>
   <span class="typ-func">#</span><span class="typ-func">counter</span><span class="typ-punct">(</span>heading<span class="typ-punct">)</span><span class="typ-punct">.</span><span class="typ-func">at</span><span class="typ-punct">(</span><span class="typ-label">&lt;intro&gt;</span><span class="typ-punct">)</span>
 <span class="typ-punct">]</span>
 </code></pre><div class="preview"><img src="/docs/assets/6a9f07ae4087c22855f5c16aad4b0af3.png" alt="Preview" /></div></div>
-<p>As mentioned before, we can also use context to get the physical position of
-elements on the pages. We do this with the <a href="/docs/reference/introspection/locate/" title="\`locate\`"><code>locate</code></a> function, which works
-similarly to <code>counter.at</code>: It takes a location or other <a href="/docs/reference/foundations/selector/" title="selector">selector</a> that resolves
+<p>如之前提到的那样，我们还可以用上下文来获取到元素在页面中的物理位置，这一点可通过 <a href="/docs/reference/introspection/locate/" title="\`locate\`"><code>locate</code></a> 函数实现，它与 <code>counter.at</code> 原理差不多：它接收一个 location 或者指代一个独立元素的<a href="/docs/reference/foundations/selector/">选择器</a>（也可以是一个标签），返回该元素在页面中的位置。</p>
+<original>
+As mentioned before, we can also use context to get the physical position of
+elements on the pages. We do this with the [\`locate\`] function, which works
+similarly to \`counter.at\`: It takes a location or other [selector] that resolves
 to a unique element (could also be a label) and returns the position on the
-pages for that element.</p>
+pages for that element.
+</original>
 <div class="previewed-code"><pre><code>Background is at: <span class="typ-escape">\\</span>
 <span class="typ-key">#</span><span class="typ-key">context</span> <span class="typ-func">locate</span><span class="typ-punct">(</span><span class="typ-label">&lt;back&gt;</span><span class="typ-punct">)</span><span class="typ-punct">.</span><span class="typ-func">position</span><span class="typ-punct">(</span><span class="typ-punct">)</span>
 
@@ -2418,24 +2450,33 @@ pages for that element.</p>
 <span class="typ-heading">= Background</span> <span class="typ-label">&lt;back&gt;</span>
 <span class="typ-func">#</span><span class="typ-func">lorem</span><span class="typ-punct">(</span><span class="typ-num">5</span><span class="typ-punct">)</span>
 </code></pre><div class="preview"><img src="/docs/assets/2483765c598e2c29a72eb56cb39a37de.png" alt="Preview" /></div></div>
-<p>There are other functions that make use of the location context, most
-prominently <a href="/docs/reference/introspection/query/" title="\`query\`"><code>query</code></a>. Take a look at the
-<a href="/docs/reference/introspection/">introspection</a> category for more details on those.</p>
-<h2 id="nested-contexts">Nested contexts</h2>
-<p>Context is also accessible from within function calls nested in context blocks.
-In the example below, <code>foo</code> itself becomes a contextual function, just like
-<a href="/docs/reference/layout/length/#definitions-to-absolute"><code>to-absolute</code></a> is.</p>
+<p>还有一些其它的函数也会用到位置上下文（location context），尤其是 <a href="/docs/reference/introspection/query/" title="\`query\`"><code>query</code></a>。可参考<a href="/docs/reference/introspection/">内检</a>这一分类了解更多。</p>
+<original>
+There are other functions that make use of the location context, most
+prominently [\`query\`]. Take a look at the
+[introspection]($category/introspection) category for more details on those.
+</original>
+<h2 id="嵌套上下文">嵌套上下文</h2>
+<p>当函数调用嵌套于上下文块中的时候，也可以访问到上下文。在下面的例子中，<code>foo</code> 和 <a href="/docs/reference/layout/length/#definitions-to-absolute"><code>to-absolute</code></a> 一样变成了一个上下文函数（contextual function）。</p>
+<original>
+Context is also accessible from within function calls nested in context blocks.
+In the example below, \`foo\` itself becomes a contextual function, just like
+[\`to-absolute\`]($length.to-absolute) is.
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">let</span> <span class="typ-func">foo</span><span class="typ-punct">(</span><span class="typ-punct">)</span> <span class="typ-op">=</span> <span class="typ-num">1em</span><span class="typ-punct">.</span><span class="typ-func">to-absolute</span><span class="typ-punct">(</span><span class="typ-punct">)</span>
 <span class="typ-key">#</span><span class="typ-key">context</span> <span class="typ-punct">{</span>
   <span class="typ-func">foo</span><span class="typ-punct">(</span><span class="typ-punct">)</span> <span class="typ-op">==</span> text<span class="typ-punct">.</span>size
 <span class="typ-punct">}</span>
 </code></pre><div class="preview"><img src="/docs/assets/f9e2880aa5fe891e1068bbf63ac2dc43.png" alt="Preview" /></div></div>
-<p>Context blocks can be nested. Contextual code will then always access the
-innermost context. The example below demonstrates this: The first <code>text.lang</code>
-will access the outer context block's styles and as such, it will <strong>not</strong>
-see the effect of <code><span class="typ-key">set</span> <span class="typ-func">text</span><span class="typ-punct">(</span>lang<span class="typ-punct">:</span> <span class="typ-str">&quot;fr&quot;</span><span class="typ-punct">)</span></code>. The nested context block around the
-second <code>text.lang</code>, however, starts after the set rule and will thus show
-its effect.</p>
+<p>上下文块是可以嵌套的。与上下文相关的代码总是会访问最内层的上下文。下面的例子说明了这一点：第一个 <code>text.lang</code> 会访问到外层上下文块的样式，由于其本身的特性，它<strong>不会</strong>受到 <code><span class="typ-key">set</span> <span class="typ-func">text</span><span class="typ-punct">(</span>lang<span class="typ-punct">:</span> <span class="typ-str">&quot;fr&quot;</span><span class="typ-punct">)</span></code> 的影响。然而，第二个 <code>text.lang</code> 所在的嵌套上下块在 set rule 之后，所以会展示出相应的效果来。</p>
+<original>
+Context blocks can be nested. Contextual code will then always access the
+innermost context. The example below demonstrates this: The first \`text.lang\`
+will access the outer context block's styles and as such, it will **not**
+see the effect of \`{set text(lang: "fr")}\`. The nested context block around the
+second \`text.lang\`, however, starts after the set rule and will thus show
+its effect.
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">set</span> <span class="typ-func">text</span><span class="typ-punct">(</span>lang<span class="typ-punct">:</span> <span class="typ-str">&quot;de&quot;</span><span class="typ-punct">)</span>
 <span class="typ-key">#</span><span class="typ-key">context</span> <span class="typ-punct">[</span>
   <span class="typ-key">#</span><span class="typ-key">set</span> <span class="typ-func">text</span><span class="typ-punct">(</span>lang<span class="typ-punct">:</span> <span class="typ-str">&quot;fr&quot;</span><span class="typ-punct">)</span>
@@ -2443,12 +2484,16 @@ its effect.</p>
   <span class="typ-key">#</span><span class="typ-key">context</span> text<span class="typ-punct">.</span>lang
 <span class="typ-punct">]</span>
 </code></pre><div class="preview"><img src="/docs/assets/84968737ef88b5076ffd19b12b5d17b2.png" alt="Preview" /></div></div>
-<p>You might wonder why Typst ignores the French set rule when computing the first
-<code>text.lang</code> in the example above. The reason is that, in the general case, Typst
+<p>你可能会好奇为什么在上面的例子中 Typst 在计算第一个 <code>text.lang</code> 时忽略了法语 set rule（译者注：即 <code>#set text(lang: &quot;fr&quot;)</code>）的影响。这是因为，在一般情况下 Typst 不可能在内容被构建之时就知道即将应用到它上的所有样式。
+下面的 <code>text.lang</code> 在 template 函数应用之前就已经被计算了，所以它不可能知道在 template 内部还有对语言到法语的切换。</p>
+<original>
+You might wonder why Typst ignores the French set rule when computing the first
+\`text.lang\` in the example above. The reason is that, in the general case, Typst
 cannot know all the styles that will apply as set rules can be applied to
-content after it has been constructed. Below, <code>text.lang</code> is already computed
+content after it has been constructed. Below, \`text.lang\` is already computed
 when the template function is applied. As such, it cannot possibly be aware of
-the language change to French in the template.</p>
+the language change to French in the template.
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">let</span> <span class="typ-func">template</span><span class="typ-punct">(</span>body<span class="typ-punct">)</span> <span class="typ-op">=</span> <span class="typ-punct">{</span>
   <span class="typ-key">set</span> <span class="typ-func">text</span><span class="typ-punct">(</span>lang<span class="typ-punct">:</span> <span class="typ-str">&quot;fr&quot;</span><span class="typ-punct">)</span>
   <span class="typ-func">upper</span><span class="typ-punct">(</span>body<span class="typ-punct">)</span>
@@ -2461,12 +2506,19 @@ the language change to French in the template.</p>
   <span class="typ-key">#</span><span class="typ-key">context</span> text<span class="typ-punct">.</span>lang
 <span class="typ-punct">]</span>
 </code></pre><div class="preview"><img src="/docs/assets/544194fd5d0372127f75c6eaefb51e61.png" alt="Preview" /></div></div>
-<p>The second <code>text.lang</code>, however, <em>does</em> react to the language change because
+<p>然而第二个 <code>text.lang</code> 的确受到了语言切换的应先向，因为它所处的上下文块被延缓到所有相关样式都已知之后才执行。
+这说明了选择插入 context 的正确位置的重要性，只有选对了才能准确访问到正确的样式。</p>
+<original>
+The second \`text.lang\`, however, _does_ react to the language change because
 evaluation of its surrounding context block is deferred until the styles for it
-are known. This illustrates the importance of picking the right insertion point for a context to get access to precisely the right styles.</p>
-<p>The same also holds true for the location context. Below, the first
-<code>c<span class="typ-punct">.</span><span class="typ-func">display</span><span class="typ-punct">(</span><span class="typ-punct">)</span></code> call will access the outer context block and will thus not see
-the effect of <code>c<span class="typ-punct">.</span><span class="typ-func">update</span><span class="typ-punct">(</span><span class="typ-num">2</span><span class="typ-punct">)</span></code> while the second <code>c<span class="typ-punct">.</span><span class="typ-func">display</span><span class="typ-punct">(</span><span class="typ-punct">)</span></code> accesses the inner context and will thus see it.</p>
+are known. This illustrates the importance of picking the right insertion point for a context to get access to precisely the right styles.
+</original>
+<p>这对于位置上下文同样适用。下面的第一个 <code>c<span class="typ-punct">.</span><span class="typ-func">display</span><span class="typ-punct">(</span><span class="typ-punct">)</span></code> 调用只访问外部的上下文块，因此不会受到 <code>c<span class="typ-punct">.</span><span class="typ-func">update</span><span class="typ-punct">(</span><span class="typ-num">2</span><span class="typ-punct">)</span></code> 的影响，而第二个 <code>c<span class="typ-punct">.</span><span class="typ-func">display</span><span class="typ-punct">(</span><span class="typ-punct">)</span></code> 会访问内部的上下文，于是会受到影响。</p>
+<original>
+The same also holds true for the location context. Below, the first
+\`{c.display()}\` call will access the outer context block and will thus not see
+the effect of \`{c.update(2)}\` while the second \`{c.display()}\` accesses the inner context and will thus see it.
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">let</span> c <span class="typ-op">=</span> <span class="typ-func">counter</span><span class="typ-punct">(</span><span class="typ-str">&quot;mycounter&quot;</span><span class="typ-punct">)</span>
 <span class="typ-pol">#</span><span class="typ-pol">c</span><span class="typ-punct">.</span><span class="typ-func">update</span><span class="typ-punct">(</span><span class="typ-num">1</span><span class="typ-punct">)</span>
 <span class="typ-key">#</span><span class="typ-key">context</span> <span class="typ-punct">[</span>
@@ -2475,29 +2527,35 @@ the effect of <code>c<span class="typ-punct">.</span><span class="typ-func">upda
   <span class="typ-key">#</span><span class="typ-key">context</span> c<span class="typ-punct">.</span><span class="typ-func">display</span><span class="typ-punct">(</span><span class="typ-punct">)</span>
 <span class="typ-punct">]</span>
 </code></pre><div class="preview"><img src="/docs/assets/7ec6a39bee32c2c68fc346fb9098ff02.png" alt="Preview" /></div></div>
-<h2 id="compiler-iterations">Compiler iterations</h2>
-<p>To resolve contextual interactions, the Typst compiler processes your document
-multiple times. For instance, to resolve a <code>locate</code> call, Typst first provides a
+<h2 id="编译器迭代">编译器迭代</h2>
+<p>为了实现上下文的交互，Typst 编译器会将你的文档处理多次。比如，为了解析对 <code>locate</code> 的调用，Typst 先提供了一个占位的位置（译者注：只用作占位，不准确）进去，然后再去处理你文档的布局，最后再从最终的布局获取到确切的位置填进去。同样的方法也用在解析计数器（counters）、状态（states）和查询（queries）上面。在某些情况下，Typst 甚至还需要迭代超过两次才能解析所有东西。尽管这可能是必要的，这还可能是误用上下文函数的标志（比如滥用 <a href="/docs/reference/introspection/state/#caution">state</a>）。如果 Typst 尝试五次都无法将所有东西解析出来，就会停止，并输出警告 &quot;layout did not converge within 5
+attempts.&quot;（经过五次尝试后仍然无法集中内容）。</p>
+<original>
+To resolve contextual interactions, the Typst compiler processes your document
+multiple times. For instance, to resolve a \`locate\` call, Typst first provides a
 placeholder position, layouts your document and then recompiles with the known
 position from the finished layout. The same approach is taken to resolve
 counters, states, and queries. In certain cases, Typst may even need more than
 two iterations to resolve everything. While that's sometimes a necessity, it may
 also be a sign of misuse of contextual functions (e.g. of
-<a href="/docs/reference/introspection/state/#caution">state</a>). If Typst cannot resolve everything within five
-attempts, it will stop and output the warning &quot;layout did not converge within 5
-attempts.&quot;</p>
-<p>A very careful reader might have noticed that not all of the functions presented
+[state]($state/#caution)). If Typst cannot resolve everything within five
+attempts, it will stop and output the warning "layout did not converge within 5
+attempts."
+</original>
+<p>如果你在很谨慎地阅读文档，你可能注意到并不是上面举出的所有函数都利用了当前的位置信息。虽然 <code><span class="typ-func">counter</span><span class="typ-punct">(</span>heading<span class="typ-punct">)</span><span class="typ-punct">.</span><span class="typ-func">get</span><span class="typ-punct">(</span><span class="typ-punct">)</span></code> 肯定用到了，而像 <code><span class="typ-func">counter</span><span class="typ-punct">(</span>heading<span class="typ-punct">)</span><span class="typ-punct">.</span><span class="typ-func">at</span><span class="typ-punct">(</span><span class="typ-label">&lt;intro&gt;</span><span class="typ-punct">)</span></code> 就没有，但是它仍然需要上下文才行。它的值在单一的编译 <em>之中</em> 是保持一致的，但在迭代多次之后它的值也可能发生变化。如果有人在模块的顶层直接调用它，这整个模块及其导出内容会在数次迭代编译的过程中不断变化，这并不是我们想要的效果。</p>
+<original>
+A very careful reader might have noticed that not all of the functions presented
 above actually make use of the current location. While
-<code><span class="typ-func">counter</span><span class="typ-punct">(</span>heading<span class="typ-punct">)</span><span class="typ-punct">.</span><span class="typ-func">get</span><span class="typ-punct">(</span><span class="typ-punct">)</span></code> definitely depends on it,
-<code><span class="typ-func">counter</span><span class="typ-punct">(</span>heading<span class="typ-punct">)</span><span class="typ-punct">.</span><span class="typ-func">at</span><span class="typ-punct">(</span><span class="typ-label">&lt;intro&gt;</span><span class="typ-punct">)</span></code>, for instance, does not. However, it still
-requires context. While its value is always the same <em>within</em> one compilation
+\`{counter(heading).get()}\` definitely depends on it,
+\`{counter(heading).at(<..>)}\`, for instance, does not. However, it still
+requires context. While its value is always the same _within_ one compilation
 iteration, it may change over the course of multiple compiler iterations. If one
 could call it directly at the top level of a module, the whole module and its
 exports could change over the course of multiple compiler iterations, which
-would not be desirable.</p>
+would not be desirable.
+</original>
 <div class="footnote-definition" id="1"><sup class="footnote-definition-label">2</sup>
-<p>Currently, all show rules provide styling context, but only show rules on
-<a href="/docs/reference/introspection/location/#locatable">locatable</a> elements provide a location context.</p>
+<p>目前，所有的 show rule 都提供了样式上下文，但是只有针对<a href="/docs/reference/introspection/location/#locatable">可定位的</a>元素的 show rule 会提供位置上下文。</p>
 </div>`},children:[]},{route:"/docs/reference/foundations/",title:"Foundations",description:"Documentation for functions related to Foundations in Typst.",part:"Library",outline:[{id:"summary",name:"Summary",children:[]},{id:"definitions",name:"Definitions",children:[]}],body:{kind:"category",content:{name:"foundations",title:"Foundations",details:`<p>Foundational types and functions.</p>
 <p>Here, you'll find documentation for basic data types like <a href="/docs/reference/foundations/int/">integers</a>
 and <a href="/docs/reference/foundations/str/">strings</a> as well as details about core computational functions.</p>`,items:[{name:"arguments",route:"/docs/reference/foundations/arguments/",oneliner:"Captured arguments to a function.",code:!0},{name:"array",route:"/docs/reference/foundations/array/",oneliner:"A sequence of values.",code:!0},{name:"assert",route:"/docs/reference/foundations/assert/",oneliner:"Ensures that a condition is fulfilled.",code:!0},{name:"auto",route:"/docs/reference/foundations/auto/",oneliner:"A value that indicates a smart default.",code:!0},{name:"bool",route:"/docs/reference/foundations/bool/",oneliner:"A type with two states.",code:!0},{name:"bytes",route:"/docs/reference/foundations/bytes/",oneliner:"A sequence of bytes.",code:!0},{name:"calc",route:"/docs/reference/foundations/calc",oneliner:"Module for calculations and processing of numeric values.",code:!1},{name:"content",route:"/docs/reference/foundations/content/",oneliner:"A piece of document content.",code:!0},{name:"datetime",route:"/docs/reference/foundations/datetime/",oneliner:"Represents a date, a time, or a combination of both.",code:!0},{name:"decimal",route:"/docs/reference/foundations/decimal/",oneliner:"A fixed-point decimal number type.",code:!0},{name:"dictionary",route:"/docs/reference/foundations/dictionary/",oneliner:"A map from string keys to values.",code:!0},{name:"duration",route:"/docs/reference/foundations/duration/",oneliner:"Represents a positive or negative span of time.",code:!0},{name:"eval",route:"/docs/reference/foundations/eval/",oneliner:"Evaluates a string as Typst code.",code:!0},{name:"float",route:"/docs/reference/foundations/float/",oneliner:"A floating-point number.",code:!0},{name:"function",route:"/docs/reference/foundations/function/",oneliner:"A mapping from argument values to a return value.",code:!0},{name:"int",route:"/docs/reference/foundations/int/",oneliner:"A whole number.",code:!0},{name:"label",route:"/docs/reference/foundations/label/",oneliner:"A label for an element.",code:!0},{name:"module",route:"/docs/reference/foundations/module/",oneliner:"An evaluated module, either built-in or resulting from a file.",code:!0},{name:"none",route:"/docs/reference/foundations/none/",oneliner:"A value that indicates the absence of any other value.",code:!0},{name:"panic",route:"/docs/reference/foundations/panic/",oneliner:"Fails with an error.",code:!0},{name:"plugin",route:"/docs/reference/foundations/plugin/",oneliner:"A WebAssembly plugin.",code:!0},{name:"regex",route:"/docs/reference/foundations/regex/",oneliner:"A regular expression.",code:!0},{name:"repr",route:"/docs/reference/foundations/repr/",oneliner:"Returns the string representation of a value.",code:!0},{name:"selector",route:"/docs/reference/foundations/selector/",oneliner:"A filter for selecting elements within the document.",code:!0},{name:"str",route:"/docs/reference/foundations/str/",oneliner:"A sequence of Unicode codepoints.",code:!0},{name:"style",route:"/docs/reference/foundations/style/",oneliner:"Provides access to active styles.",code:!0},{name:"sys",route:"/docs/reference/foundations/sys",oneliner:"Module for system interactions.",code:!1},{name:"type",route:"/docs/reference/foundations/type/",oneliner:"Describes a kind of value.",code:!0},{name:"version",route:"/docs/reference/foundations/version/",oneliner:"A version with an arbitrary number of components.",code:!0}],shorthands:null}},children:[{route:"/docs/reference/foundations/arguments/",title:"Arguments",description:"Documentation for the Arguments type.",part:null,outline:[{id:"summary",name:"Summary",children:[]},{id:"argument-sinks",name:"Argument Sinks",children:[]},{id:"spreading",name:"Spreading",children:[]},{id:"constructor",name:"Constructor",children:[{id:"constructor-arguments",name:"arguments",children:[]}]},{id:"definitions",name:"Definitions",children:[{id:"definitions-at",name:"At",children:[{id:"definitions-at-key",name:"key",children:[]},{id:"definitions-at-default",name:"default",children:[]}]},{id:"definitions-pos",name:"Positional",children:[]},{id:"definitions-named",name:"Named",children:[]}]}],body:{kind:"type",content:{name:"arguments",title:"Arguments",keywords:[],oneliner:"Captured arguments to a function.",details:`<p>Captured arguments to a function.</p>
