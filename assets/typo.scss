@@ -164,4 +164,17 @@ main {
       font-weight: 600;
     }
   }
+
+  .footnote-definition {
+    border-top: 1px solid #e4e5ea;
+    display: flex;
+    font-size: 16px;
+    gap: 4px;
+    margin-top: 40px;
+    padding-top: calc(12px - .2rem);
+
+    p {
+      margin: 8px 0;
+    }
+  }
 }
