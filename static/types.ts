@@ -9,7 +9,7 @@ type Body<T extends string, V> = {
 
 export type Nullable<T> = null | T;
 
-type Part = 'Library' | 'Language' | null;
+export type Part = 'Library' | 'Language' | null;
 
 export interface Outline {
     id: string;
