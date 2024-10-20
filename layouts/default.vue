@@ -9,6 +9,7 @@
       <toc/>
     </client-only>
   </main>
+  <Footer/>
 </template>
 
 <script lang="ts" setup>
