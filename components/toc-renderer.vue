@@ -41,8 +41,12 @@ function getFirstVisible() {
 
 function setActive(id: string, tempDisable = false) {
   if (tempDisable) tempoDisableScrollSetActive.value = true;
-  Object.keys(activeMap).forEach(k => activeMap[k] = false);
+  setNonActive();
   activeMap[id] = true;
+}
+
+function setNonActive() {
+  Object.keys(activeMap).forEach(k => activeMap[k] = false);
 }
 
 function setActiveLastVisible() {
@@ -67,7 +71,8 @@ function listener() {
 }
 
 watch(() => useRoute().fullPath, () => {
-  setActiveFirstVisible();
+  if (useRoute().hash) setActive(useRoute().hash.replace('#', ''))
+  else setActiveFirstVisible();
 
   window.removeEventListener('scroll', listener);
   window.addEventListener('scroll', listener);
