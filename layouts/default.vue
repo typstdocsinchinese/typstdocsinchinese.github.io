@@ -21,5 +21,9 @@ main {
   gap: 36px;
   grid-template-columns: minmax(auto, 184px) minmax(auto, 800px) minmax(auto, 144px);
   justify-content: center;
+
+  @media (max-width: 1024px) {
+    grid-template-columns: minmax(auto, 184px) auto;
+  }
 }
 </style>
