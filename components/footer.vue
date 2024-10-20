@@ -17,6 +17,7 @@
 footer {
   padding: 16px;
   border-top: 1px solid rgba(0, 0, 0, .21);
+  margin-top: 100px;
 
   .wrapper {
     max-width: 1200px;
