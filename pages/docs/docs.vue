@@ -29,7 +29,6 @@ import {
   type Group,
   type Nullable,
   PageType,
-  type Route,
   type Symbols,
   type Type
 } from "@/static/types";
@@ -78,7 +77,6 @@ function fetchDocumentation() {
 
 function wrapOriginalContents() {
   if (document) {
-    console.log(document.querySelectorAll('p + original, .previewed-code + original, .info-box + original'))
 
     document.querySelectorAll('p + original, .previewed-code + original, .info-box + original, ol + original, ul + original').forEach(e => {
       const previous = e.previousElementSibling;
