@@ -137,6 +137,6 @@ export interface ContentsItem {
 }
 
 export interface ContentsItemChild extends Omit<ContentsItem, 'children'> {
-    part: string | null;
+    part: Part | null;
     children: ContentsItemChild[];
 }

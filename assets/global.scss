@@ -2,6 +2,10 @@
 @import "typo";
 @import "var";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
 }

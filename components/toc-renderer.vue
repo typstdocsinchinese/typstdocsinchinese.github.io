@@ -1,6 +1,6 @@
 <template>
   <div class="toc-item" v-for="x in object">
-    <a :href="`#${x.id}`">{{ x.name }}</a>
+    <a @click="setActive(x.id, true)" :class="{active: activeMap[x.id]}" :href="`#${x.id}`">{{ x.name }}</a>
     <toc-renderer v-if="x.children" :outline="x.children"/>
   </div>
 </template>
@@ -16,6 +16,64 @@ const props = defineProps({
 
 const object = ref(props.outline as Outline[]);
 watch(() => props.outline, v => object.value = props.outline as Outline[]);
+
+const activeMap = reactive<{[prop: string]: boolean}>({})
+const tempoDisableScrollSetActive = ref(false);
+
+function getVisible() {
+  const withId = Array.from(document.querySelectorAll('h2[id], h3[id]'));
+  const visible = withId.filter(x => isElementInViewport(x));
+  if (visible.length === 0) return null;
+  return visible;
+}
+
+function getLastVisible() {
+  const visible = getVisible();
+  if (visible === null) return null;
+  return visible[visible.length - 1];
+}
+
+function getFirstVisible() {
+  const visible = getVisible();
+  if (visible === null) return null;
+  return visible[0];
+}
+
+function setActive(id: string, tempDisable = false) {
+  if (tempDisable) tempoDisableScrollSetActive.value = true;
+  Object.keys(activeMap).forEach(k => activeMap[k] = false);
+  activeMap[id] = true;
+}
+
+function setActiveLastVisible() {
+  const lastVisible = getLastVisible();
+  if (lastVisible === null) return;
+  setActive(lastVisible.id);
+}
+
+function setActiveFirstVisible() {
+  const firstVisible = getFirstVisible();
+  if (firstVisible === null) return;
+  setActive(firstVisible.id);
+}
+
+function listener() {
+  if (tempoDisableScrollSetActive.value) {
+    tempoDisableScrollSetActive.value = false;
+    return;
+  }
+  if (window.scrollY === 0) setActiveFirstVisible();
+  else setActiveLastVisible();
+}
+
+watch(() => useRoute().fullPath, () => {
+  setActiveFirstVisible();
+
+  window.removeEventListener('scroll', listener);
+  window.addEventListener('scroll', listener);
+}, {
+  immediate: true
+})
 </script>
 
 <style lang="scss">
@@ -25,5 +83,14 @@ watch(() => props.outline, v => object.value = props.outline as Outline[]);
 
 .toc-item {
   margin-bottom: 4px;
+}
+
+.toc-item a {
+  color: inherit;
+  text-decoration: none;
+  &.active {
+    color: #11566c;
+    font-weight: bold;
+  }
 }
 </style>
