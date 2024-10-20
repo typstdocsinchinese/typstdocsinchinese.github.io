@@ -10,10 +10,12 @@
     </client-only>
   </main>
   <Footer/>
+  <back-to-top/>
 </template>
 
 <script lang="ts" setup>
 
+import BackToTop from "~/components/back-to-top.vue";
 </script>
 
 <style lang="scss" scoped>
