@@ -20,7 +20,7 @@ watch(() => props.outline, v => object.value = props.outline as Outline[]);
 const activeMap = reactive<{[prop: string]: boolean}>({})
 
 function getVisible() {
-  const withId = Array.from(document.querySelectorAll('h2[id], h3[id]'));
+  const withId = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id]'));
   const visible = withId.filter(x => isElementInViewport(x));
   if (visible.length === 0) return null;
   return visible;
