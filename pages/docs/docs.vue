@@ -36,11 +36,12 @@ import withoutEndingSlash from "~/utils/withoutEndingSlash";
 import useOutline from "~/composables/useOutline";
 import NotFound from "~/components/not-found.vue";
 import getDoc from "~/utils/getDoc";
+import useDocTitle from "~/composables/useDocTitle";
 
 const docPath = `/docs${withoutEndingSlash(useRoute().params.docPath as string)}`;
 
 const pageType = ref<PageType>(PageType.Unknown);
-const title = ref('');
+const title = useDocTitle();
 const description = ref('');
 const outline = useOutline();
 

@@ -16,6 +16,23 @@
 <script lang="ts" setup>
 
 import BackToTop from "~/components/back-to-top.vue";
+import useDocTitle from "~/composables/useDocTitle";
+
+const docTitle = useDocTitle();
+
+useHead({
+  title: () => docTitle.value.length > 0 ? `${docTitle.value} - Typst 非官方中文文档` : `Typst 非官方中文文档`,
+  meta: [
+    {name: 'description', content: 'Typst 的非官方中文文档，致力于提供易懂内容。'}
+  ]
+});
+
+useSeoMeta({
+  title: () => docTitle.value.length > 0 ? `${docTitle.value} - Typst 非官方中文文档` : `Typst 非官方中文文档`,
+  ogTitle: 'Typst 非官方中文文档 - by typstdocsinchinese',
+  description: 'Typst 的非官方中文文档，致力于提供易懂内容。',
+  ogDescription: 'Yet Another Typst 的非官方中文文档，致力于提供易懂内容。'
+})
 </script>
 
 <style lang="scss" scoped>
