@@ -1,7 +1,7 @@
-import{d as z,g as $,t as e,v as t,x as r,y,J as a,K as h,L as k,M as g,z as v,A as C,B as I,N as A,O as j,P as L,u as W,r as T,E as B}from"./BwTrSrec.js";import{u as _}from"./DdFz5K_3.js";import{_ as H}from"./DlAUqK2U.js";const N={id:"summary"},O=["innerHTML"],Y={key:0,class:"category-shorthands"},G={class:"shorthands"},V={class:"shorthand"},U={class:"shorthands"},X={class:"shorthand"},J=z({__name:"category",props:{value:{required:!0}},setup(n){const s=n.value;return(m,l)=>{const u=$("router-link");return e(),t(h,null,[r("h1",N,y(a(s).title),1),r("div",{class:"category-details",innerHTML:a(s).details},null,8,O),l[5]||(l[5]=r("h2",{id:"definitions"},"Definitions",-1)),r("ul",null,[(e(!0),t(h,null,k(a(s).items,d=>(e(),t("li",null,[v(u,{to:d.route},{default:C(()=>[I(y(d.name),1)]),_:2},1032,["to"]),I(" — "+y(d.oneliner),1)]))),256))]),a(s).shorthands?(e(),t("div",Y,[l[0]||(l[0]=r("h2",{id:"shorthands"},"Shorthands",-1)),l[1]||(l[1]=r("p",null,"Shorthands are concise sequences of characters that evoke specific glyphs. Shorthands and other ways to produce symbols can be used interchangeably. You can use different sets of shorthands in math and markup mode. Some shorthands, like ~ for a non-breaking space produce non-printing symbols, which are indicated with gray placeholder text.",-1)),l[2]||(l[2]=r("p",null," You can deactivate a shorthand's interpretation by escaping any of its characters. If you escape a single character in a shorthand, the remaining unescaped characters may form a different shorthand.",-1)),l[3]||(l[3]=r("h3",null,"Within Markup Mode",-1)),r("div",G,[(e(!0),t(h,null,k(a(s).shorthands.markup,d=>(e(),t("div",V,y(d.name),1))),256))]),l[4]||(l[4]=r("h3",null,"Within Math Mode",-1)),r("div",U,[(e(!0),t(h,null,k(a(s).shorthands.math,d=>(e(),t("div",X,y(d.name),1))),256))])])):g("",!0)],64)}}}),K={class:"func"},Q=["innerHTML"],Z=["innerHTML"],aa={key:2},ea=["innerHTML"],na={class:"func-params"},sa={class:"param"},ta={class:"param-title"},ra=["innerHTML"],pa={class:"param-props"},la={key:0,class:"prop"},oa=["innerHTML"],ca=["innerHTML"],ia={key:3,class:"func-scope scope"},F=z({__name:"func",props:{value:{required:!0},omitName:{default:!1},singlePage:{default:!0},paramIdPrefix:{default:""}},setup(n){const p=n;function s(o){return`${o[0].toUpperCase()}${o.slice(1,o.length)}`}function m(o){return o.map(i=>`<span class="typ typ-${i}">${i}</span>`)}function l(o){return p.singlePage?"summary":p.paramIdPrefix.length>0?`${p.paramIdPrefix}-${o}`:`definitions-${o}`}function u(o,i=""){return p.singlePage?`parameters-${o}`:p.paramIdPrefix.length>0?p.paramIdPrefix==="constructor"?`${p.paramIdPrefix}-${o}`:`${p.paramIdPrefix}-${i}-${o}`:`definitions-${i}-${o}`}function d(o){let i="";const q=o.params.length>=3;return o.self?i+="self.":o.path.length>0&&(i+=o.path.join(".")+"."),i+=o.name,i+="(",o.params.length>0&&(i+=q?`
+import{d as z,g as R,t as e,v as t,x as r,y,J as a,K as h,L as k,M as g,z as v,A as C,B as I,N as A,O as j,P as L,u as W,r as T,E as B}from"./DO6SfcTu.js";import{u as _}from"./BXO3R2ax.js";import{_ as H}from"./DlAUqK2U.js";const N={id:"summary"},O=["innerHTML"],Y={key:0,class:"category-shorthands"},G={class:"shorthands"},V={class:"shorthand"},U={class:"shorthands"},X={class:"shorthand"},J=z({__name:"category",props:{value:{required:!0}},setup(n){const s=n.value;return(m,l)=>{const u=R("router-link");return e(),t(h,null,[r("h1",N,y(a(s).title),1),r("div",{class:"category-details",innerHTML:a(s).details},null,8,O),l[5]||(l[5]=r("h2",{id:"definitions"},"Definitions",-1)),r("ul",null,[(e(!0),t(h,null,k(a(s).items,d=>(e(),t("li",null,[v(u,{to:d.route},{default:C(()=>[I(y(d.name),1)]),_:2},1032,["to"]),I(" — "+y(d.oneliner),1)]))),256))]),a(s).shorthands?(e(),t("div",Y,[l[0]||(l[0]=r("h2",{id:"shorthands"},"Shorthands",-1)),l[1]||(l[1]=r("p",null,"Shorthands are concise sequences of characters that evoke specific glyphs. Shorthands and other ways to produce symbols can be used interchangeably. You can use different sets of shorthands in math and markup mode. Some shorthands, like ~ for a non-breaking space produce non-printing symbols, which are indicated with gray placeholder text.",-1)),l[2]||(l[2]=r("p",null," You can deactivate a shorthand's interpretation by escaping any of its characters. If you escape a single character in a shorthand, the remaining unescaped characters may form a different shorthand.",-1)),l[3]||(l[3]=r("h3",null,"Within Markup Mode",-1)),r("div",G,[(e(!0),t(h,null,k(a(s).shorthands.markup,d=>(e(),t("div",V,y(d.name),1))),256))]),l[4]||(l[4]=r("h3",null,"Within Math Mode",-1)),r("div",U,[(e(!0),t(h,null,k(a(s).shorthands.math,d=>(e(),t("div",X,y(d.name),1))),256))])])):g("",!0)],64)}}}),K={class:"func"},Q=["innerHTML"],Z=["innerHTML"],aa={key:2},ea=["innerHTML"],na={class:"func-params"},sa={class:"param"},ta={class:"param-title"},ra=["innerHTML"],pa={class:"param-props"},la={key:0,class:"prop"},oa=["innerHTML"],ca=["innerHTML"],ia={key:3,class:"func-scope scope"},F=z({__name:"func",props:{value:{required:!0},omitName:{default:!1},singlePage:{default:!0},paramIdPrefix:{default:""}},setup(n){const p=n;function s(o){return`${o[0].toUpperCase()}${o.slice(1,o.length)}`}function m(o){return o.map(i=>`<span class="typ typ-${i}">${i}</span>`)}function l(o){return p.singlePage?"summary":p.paramIdPrefix.length>0?`${p.paramIdPrefix}-${o}`:`definitions-${o}`}function u(o,i=""){return p.singlePage?`parameters-${o}`:p.paramIdPrefix.length>0?p.paramIdPrefix==="constructor"?`${p.paramIdPrefix}-${o}`:`${p.paramIdPrefix}-${i}-${o}`:`definitions-${i}-${o}`}function d(o){let i="";const q=o.params.length>=3;return o.self?i+="self.":o.path.length>0&&(i+=o.path.join(".")+"."),i+=o.name,i+="(",o.params.length>0&&(i+=q?`
   `:" ",i+=o.params.map(c=>{let w="";return c.name&&c.named&&(w+=`${c.name}: `),w+=m(c.types).join(" | "),w}).join(`,${q?`
   `:" "}`),i+=q?`
-`:" "),i+=")",o.returns.length>0&&(i+=` -> ${m(o.returns).join(" | ")}`),i}const f=p.value;return(o,i)=>{const q=F;return e(),t("div",K,[n.omitName?g("",!0):(e(),A(j(n.singlePage?"h1":"h3"),{key:0,id:l(a(f).name)},{default:C(()=>[r("code",null,y(a(f).name),1)]),_:1},8,["id"])),r("div",{class:"func-details",innerHTML:a(f).details},null,8,Q),a(f).example?(e(),t("div",{key:1,class:"func-example",innerHTML:a(f).example},null,8,Z)):g("",!0),n.singlePage?(e(),t("h2",aa,"Parameters")):g("",!0),r("pre",{class:"func-definition",innerHTML:`<code>${d(a(f))}</code>`},null,8,ea),r("div",na,[(e(!0),t(h,null,k(a(f).params,c=>(e(),t("div",sa,[r("div",ta,[(e(),A(j(n.singlePage?"h3":"h4"),{id:u(c.name,a(f).name)},{default:C(()=>[r("code",null,y(c.name),1)]),_:2},1032,["id"])),r("div",{class:"param-type",innerHTML:`<code>${m(c.types).join(" | ")}</code>`},null,8,ra),r("div",pa,[(e(),t(h,null,k(["positional","settable","variadic","required"],w=>(e(),t(h,null,[c[w]?(e(),t("span",la,y(s(w)),1)):g("",!0)],64))),64))])]),r("div",{class:"param-details",innerHTML:c.details},null,8,oa),c.example?(e(),t("div",{key:0,class:"param-example",innerHTML:c.example},null,8,ca)):g("",!0)]))),256))]),a(f).scope.length>0?(e(),t("div",ia,[i[0]||(i[0]=r("h2",{id:"definitions"},"Definitions",-1)),(e(!0),t(h,null,k(a(f).scope,c=>(e(),A(q,{"single-page":!1,value:c},null,8,["value"]))),256))])):g("",!0)])}}}),da={id:"summary"},ua=["innerHTML"],ha={key:0,class:"type-constructor"},fa={key:1,class:"type-scope scope"},ya=z({__name:"type",props:{value:{required:!0}},setup(n){const s=n.value;return(m,l)=>{const u=F;return e(),t(h,null,[r("h1",da,[r("code",null,y(a(s).name),1)]),r("div",{class:"type-details",innerHTML:a(s).details},null,8,ua),a(s).constructor?(e(),t("div",ha,[l[0]||(l[0]=r("h2",null,"Constructor",-1)),v(u,{"param-id-prefix":"constructor","omit-name":!0,"single-page":!1,value:a(s).constructor},null,8,["value"])])):g("",!0),a(s).scope.length>0?(e(),t("div",fa,[l[1]||(l[1]=r("h2",null,"Definitions",-1)),(e(!0),t(h,null,k(a(s).scope,d=>(e(),A(u,{"single-page":!1,value:d},null,8,["value"]))),256))])):g("",!0)],64)}}}),ma={id:"summary"},wa=["innerHTML"],ba={class:"group-functions"},ga=z({__name:"group",props:{value:{required:!0}},setup(n){const s=n.value;return(m,l)=>{const u=F;return e(),t(h,null,[r("h1",ma,y(a(s).title),1),r("div",{class:"group-details",innerHTML:a(s).details},null,8,wa),r("div",ba,[l[0]||(l[0]=r("h2",null,"Functions",-1)),(e(!0),t(h,null,k(a(s).functions,d=>(e(),A(u,{"param-id-prefix":"functions","single-page":!1,value:d},null,8,["value"]))),256))])],64)}}}),ka={id:"summary"},va=["innerHTML"],qa={class:"symbol-display"},xa={class:"symbol"},Sa=z({__name:"symbols",props:{value:{required:!0}},setup(n){const s=n.value;return(m,l)=>(e(),t(h,null,[r("h1",ka,y(a(s).name),1),r("div",{class:"symbol-details",innerHTML:a(s).details},null,8,va),r("div",qa,[(e(!0),t(h,null,k(a(s).list,u=>(e(),t("div",xa,y(u.name),1))),256))])],64))}});var b=(n=>(n.Category="category",n.Func="func",n.Type="type",n.Symbols="symbols",n.Group="group",n.HTML="html",n.Unknown="-",n.NotFound="not-found",n))(b||{});function D(n){return n.endsWith("/")?n.substring(0,n.length-1):n}const Ta={},za={class:"typ-str"};function Aa(n,p){return e(),t(h,null,[p[3]||(p[3]=r("h1",null,"404 - Not Found",-1)),r("p",null,[p[1]||(p[1]=I("你所请求的页面 ")),r("code",za,'"'+y(("useRoute"in n?n.useRoute:a(L))().fullPath)+'"',1),p[2]||(p[2]=I(" 不存在，请检查 URL 是否正确。")),r("button",{class:"nav-btn primary",onClick:p[0]||(p[0]=s=>("useRouter"in n?n.useRouter:a(W))().go(-1))},"« 返回上一页")])],64)}const Pa=H(Ta,[["render",Aa],["__scopeId","data-v-c694cd71"]]);function E(n,p){const s=n.filter(l=>D(l.route)===p);if(s.length>0)return s[0];const m=n.filter(l=>p.startsWith(D(l.route)));for(let l of m){let u=E(l.children,p);if(u)return u}return null}const Ia=[{route:"/docs/",title:"概览",description:`Learn how to use Typst to compose documents faster. Get started with the
+`:" "),i+=")",o.returns.length>0&&(i+=` -> ${m(o.returns).join(" | ")}`),i}const f=p.value;return(o,i)=>{const q=F;return e(),t("div",K,[n.omitName?g("",!0):(e(),A(j(n.singlePage?"h1":"h3"),{key:0,id:l(a(f).name)},{default:C(()=>[r("code",null,y(a(f).name),1)]),_:1},8,["id"])),r("div",{class:"func-details",innerHTML:a(f).details},null,8,Q),a(f).example?(e(),t("div",{key:1,class:"func-example",innerHTML:a(f).example},null,8,Z)):g("",!0),n.singlePage?(e(),t("h2",aa,"Parameters")):g("",!0),r("pre",{class:"func-definition",innerHTML:`<code>${d(a(f))}</code>`},null,8,ea),r("div",na,[(e(!0),t(h,null,k(a(f).params,c=>(e(),t("div",sa,[r("div",ta,[(e(),A(j(n.singlePage?"h3":"h4"),{id:u(c.name,a(f).name)},{default:C(()=>[r("code",null,y(c.name),1)]),_:2},1032,["id"])),r("div",{class:"param-type",innerHTML:`<code>${m(c.types).join(" | ")}</code>`},null,8,ra),r("div",pa,[(e(),t(h,null,k(["positional","settable","variadic","required"],w=>(e(),t(h,null,[c[w]?(e(),t("span",la,y(s(w)),1)):g("",!0)],64))),64))])]),r("div",{class:"param-details",innerHTML:c.details},null,8,oa),c.example?(e(),t("div",{key:0,class:"param-example",innerHTML:c.example},null,8,ca)):g("",!0)]))),256))]),a(f).scope.length>0?(e(),t("div",ia,[i[0]||(i[0]=r("h2",{id:"definitions"},"Definitions",-1)),(e(!0),t(h,null,k(a(f).scope,c=>(e(),A(q,{"single-page":!1,value:c},null,8,["value"]))),256))])):g("",!0)])}}}),da={id:"summary"},ua=["innerHTML"],ha={key:0,class:"type-constructor"},fa={key:1,class:"type-scope scope"},ya=z({__name:"type",props:{value:{required:!0}},setup(n){const s=n.value;return(m,l)=>{const u=F;return e(),t(h,null,[r("h1",da,[r("code",null,y(a(s).name),1)]),r("div",{class:"type-details",innerHTML:a(s).details},null,8,ua),a(s).constructor?(e(),t("div",ha,[l[0]||(l[0]=r("h2",null,"Constructor",-1)),v(u,{"param-id-prefix":"constructor","omit-name":!0,"single-page":!1,value:a(s).constructor},null,8,["value"])])):g("",!0),a(s).scope.length>0?(e(),t("div",fa,[l[1]||(l[1]=r("h2",null,"Definitions",-1)),(e(!0),t(h,null,k(a(s).scope,d=>(e(),A(u,{"single-page":!1,value:d},null,8,["value"]))),256))])):g("",!0)],64)}}}),ma={id:"summary"},wa=["innerHTML"],ba={class:"group-functions"},ga=z({__name:"group",props:{value:{required:!0}},setup(n){const s=n.value;return(m,l)=>{const u=F;return e(),t(h,null,[r("h1",ma,y(a(s).title),1),r("div",{class:"group-details",innerHTML:a(s).details},null,8,wa),r("div",ba,[l[0]||(l[0]=r("h2",null,"Functions",-1)),(e(!0),t(h,null,k(a(s).functions,d=>(e(),A(u,{"param-id-prefix":"functions","single-page":!1,value:d},null,8,["value"]))),256))])],64)}}}),ka={id:"summary"},va=["innerHTML"],qa={class:"symbol-display"},xa={class:"symbol"},Sa=z({__name:"symbols",props:{value:{required:!0}},setup(n){const s=n.value;return(m,l)=>(e(),t(h,null,[r("h1",ka,y(a(s).name),1),r("div",{class:"symbol-details",innerHTML:a(s).details},null,8,va),r("div",qa,[(e(!0),t(h,null,k(a(s).list,u=>(e(),t("div",xa,y(u.name),1))),256))])],64))}});var b=(n=>(n.Category="category",n.Func="func",n.Type="type",n.Symbols="symbols",n.Group="group",n.HTML="html",n.Unknown="-",n.NotFound="not-found",n))(b||{});function D(n){return n.endsWith("/")?n.substring(0,n.length-1):n}const Ta={},za={class:"typ-str"};function Aa(n,p){return e(),t(h,null,[p[3]||(p[3]=r("h1",null,"404 - Not Found",-1)),r("p",null,[p[1]||(p[1]=I("你所请求的页面 ")),r("code",za,'"'+y(("useRoute"in n?n.useRoute:a(L))().fullPath)+'"',1),p[2]||(p[2]=I(" 不存在，请检查 URL 是否正确。")),r("button",{class:"nav-btn primary",onClick:p[0]||(p[0]=s=>("useRouter"in n?n.useRouter:a(W))().go(-1))},"« 返回上一页")])],64)}const Pa=H(Ta,[["render",Aa],["__scopeId","data-v-c694cd71"]]);function $(n,p){const s=n.filter(l=>D(l.route)===p);if(s.length>0)return s[0];const m=n.filter(l=>p.startsWith(D(l.route)));for(let l of m){let u=$(l.children,p);if(u)return u}return null}const Ia=[{route:"/docs/",title:"概览",description:`Learn how to use Typst to compose documents faster. Get started with the
 tutorial, or dive into the reference.
 `,part:null,outline:[],body:{kind:"html",content:`<h1>概览</h1>
 <p>欢迎来到 Typst 的文档！Typst 是为科研工作而开发的一样以标记为基础的排版系统。Typst 计划成为现有的工具（例如高阶的 LaTeX 和相对基础的 Word 和 Google Docs）中的又一个选择。我们的目标是构建一个在功能完备的同时也能愉悦使用的排版工具。</p>
@@ -10376,24 +10376,30 @@ tools</a> or
 <a href="https://inkscape.org/">Inkscape</a>. The web app will automatically convert PDF
 files to SVG files upon uploading them.</p>
 </li>
-</ul>`},children:[]},{route:"/docs/guides/page-setup-guide/",title:"Page setup guide",description:`An in-depth guide to setting page dimensions, margins, and page numbers in
+</ul>`},children:[]},{route:"/docs/guides/page-setup-guide/",title:"页面配置指南",description:`An in-depth guide to setting page dimensions, margins, and page numbers in
 Typst. Learn how to create appealing and clear layouts and get there quickly.
-`,part:null,outline:[{id:"customize-margins",name:"Customize Margins",children:[{id:"change-margins",name:"Change Margins",children:[]},{id:"alternating-margins",name:"Alternating Margins",children:[]}]},{id:"headers-and-footers",name:"Headers And Footers",children:[{id:"specific-pages",name:"Specific Pages",children:[]},{id:"specific-elements",name:"Specific Elements",children:[]}]},{id:"page-numbers",name:"Page Numbers",children:[{id:"custom-footer-with-page-numbers",name:"Custom Footer With Page Numbers",children:[]},{id:"skip-pages",name:"Skip Pages",children:[]}]},{id:"columns",name:"Columns",children:[{id:"columns-anywhere",name:"Columns Anywhere",children:[]},{id:"balanced-columns",name:"Balanced Columns",children:[]}]},{id:"one-off-modifications",name:"One Off Modifications",children:[]}],body:{kind:"html",content:`<h1>Page setup guide</h1>
-<p>Your page setup is a big part of the first impression your document gives. Line
+`,part:null,outline:[{id:"自定页面大小和边距",name:"自定页面大小和边距",children:[{id:"更改页边距",name:"更改页边距",children:[]},{id:"为奇-偶页面设置不同的边距",name:"为奇 偶页面设置不同的边距",children:[]}]},{id:"添加页眉和页脚",name:"添加页眉和页脚",children:[{id:"针对特定页面设置页眉页脚",name:"针对特定页面设置页眉页脚",children:[]},{id:"在具有特定元素的页面上修改页眉页脚",name:"在具有特定元素的页面上修改页眉页脚",children:[]}]},{id:"页码的添加与自定义",name:"页码的添加与自定义",children:[{id:"利用页码自定义页脚",name:"利用页码自定义页脚",children:[]},{id:"重置页码与跳过页面",name:"重置页码与跳过页面",children:[]}]},{id:"添加分栏",name:"添加分栏",children:[{id:"在文档的任何地方使用分栏",name:"在文档的任何地方使用分栏",children:[]},{id:"平衡分栏",name:"平衡分栏",children:[]}]},{id:"一次性的修改",name:"一次性的修改",children:[]}],body:{kind:"html",content:`<h1>页面配置指南</h1>
+<p>页面配置很大程度上决定了你的文档给人的第一印象。行长、边距以及栏目的安排都会影响到文章的<a href="https://practicaltypography.com/page-margins.html">观感</a>和<a href="https://designregression.com/article/line-length-revisited-following-the-research">可读性</a>，同时正确的页眉和页脚信息能够让读者更轻松地翻阅你的文档。这篇指南会指导你自定义页面本身及其边距、页眉页脚和页码，让它们与你的文档相称，以便你开展接下来的编写工作。</p>
+<original>
+Your page setup is a big part of the first impression your document gives. Line
 lengths, margins, and columns influence
-<a href="https://practicaltypography.com/page-margins.html">appearance</a> and
-<a href="https://designregression.com/article/line-length-revisited-following-the-research">legibility</a>
+[appearance](https://practicaltypography.com/page-margins.html) and
+[legibility](https://designregression.com/article/line-length-revisited-following-the-research)
 while the right headers and footers will help your reader easily navigate your
 document. This guide will help you to customize pages, margins, headers,
 footers, and page numbers so that they are the right fit for your content and
-you can get started with writing.</p>
-<p>In Typst, each page has a width, a height, and margins on all four sides. The
+you can get started with writing.
+</original>
+<p>在 Typst 中，每一页面都有长度、宽度以及四个方向上的边距。上下边距的空白区域内可包含页眉和页脚。这一系列配置工作都在 <a href="/docs/reference/layout/page/"><code>page</code></a> 元素的 set rule 里完成。当你对该 set rule 进行修改时，Typst 会始终确保一个遵循该配置的空页面存在于最后，因此该 set rule 可能导致页面的切换。因此，最好在你文档的开头处插入 <a href="/docs/reference/layout/page/"><code>page</code></a> set rule。</p>
+<original>
+In Typst, each page has a width, a height, and margins on all four sides. The
 top and bottom margins may contain a header and footer. The set rule of the
-<a href="/docs/reference/layout/page/"><code>page</code></a> element is where you control all of the page setup. If you
+[\`{page}\`]($page) element is where you control all of the page setup. If you
 make changes with this set rule, Typst will ensure that there is a new and
 conforming empty page afterward, so it may insert a page break. Therefore, it is
-best to specify your <a href="/docs/reference/layout/page/"><code>page</code></a> set rule at the start of your document or
-in your template.</p>
+best to specify your [\`{page}\`]($page) set rule at the start of your document or
+in your template.
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">set</span> <span class="typ-func">rect</span><span class="typ-punct">(</span>
   width<span class="typ-punct">:</span> <span class="typ-num">100%</span><span class="typ-punct">,</span>
   height<span class="typ-punct">:</span> <span class="typ-num">100%</span><span class="typ-punct">,</span>
@@ -10409,44 +10415,63 @@ in your template.</p>
 
 <span class="typ-func">#</span><span class="typ-func">rect</span><span class="typ-punct">(</span>fill<span class="typ-punct">:</span> aqua<span class="typ-punct">.</span><span class="typ-func">lighten</span><span class="typ-punct">(</span><span class="typ-num">40%</span><span class="typ-punct">)</span><span class="typ-punct">)</span>
 </code></pre><div class="preview"><img src="/docs/assets/7fe9722cc3b9bdd5ee00ca23dbcb3702.png" alt="Preview" /></div></div>
-<p>This example visualizes the dimensions for page content, headers, and footers.
+<p>该例子让页面的正文、页眉和页脚的部分分别显形。正文部分是页面整体大小（在这里是 ISO B7 规定的）减去每个方向上的默认边距得来的。上下边距内有用带边框的矩形标记出的页眉和页脚部分，它们不会影响到正文，而是根据各自的边距进行 30% 的偏移。
+你可以用 <a href="/docs/reference/layout/page/#parameters-header-ascent"><code>header-ascent</code></a> 和 <a href="/docs/reference/layout/page/#parameters-footer-descent"><code>footer-descent</code></a> 参数来修改这一偏移量。</p>
+<original>
+This example visualizes the dimensions for page content, headers, and footers.
 The page content is the page size (ISO B7) minus each side's default margin. In
 the top and the bottom margin, there are stroked rectangles visualizing the
 header and footer. They do not touch the main content, instead, they are offset
 by 30% of the respective margin. You can control this offset by specifying the
-<a href="/docs/reference/layout/page/#parameters-header-ascent"><code>header-ascent</code></a> and
-<a href="/docs/reference/layout/page/#parameters-footer-descent"><code>footer-descent</code></a> arguments.</p>
-<p>Below, the guide will go more into detail on how to accomplish common page setup
-requirements with examples.</p>
-<h2 id="customize-margins">Customize page size and margins</h2>
-<p>Typst's default page size is A4 paper. Depending on your region and your use
+[\`header-ascent\`]($page.header-ascent) and
+[\`footer-descent\`]($page.footer-descent) arguments.
+</original>
+<p>接下来，本指南会用例子来更加深入地陈述如何满足一些常见的页面配置需求。</p>
+<original>
+Below, the guide will go more into detail on how to accomplish common page setup
+requirements with examples.
+</original>
+<h2 id="自定页面大小和边距">自定页面大小和边距</h2>
+<p>Typst 默认的页面大小和 A4 纸相同。考虑到地域以及实际情况的不同，你可能需要改变页面大小。这需要你编写一个 <a href="/docs/reference/layout/page/"><code>page</code></a> set rule，然后传入一个字符串参数来指定一个常见的页面大小标准。该参数支持整个 ISO 216 标准（比如 <code>&quot;iso-a4&quot;</code>、<code>&quot;iso-c2&quot;</code> 等）以及一些像 <code>&quot;us-legal&quot;</code>、<code>&quot;us-letter&quot;</code> 这样习惯上的美式格式等。参阅 <a href="/docs/reference/layout/page/#parameters-paper">page 函数的 paper 参数</a>来了解所有可选值。</p>
+<original>
+Typst's default page size is A4 paper. Depending on your region and your use
 case, you will want to change this. You can do this by using the
-<a href="/docs/reference/layout/page/"><code>page</code></a> set rule and passing it a string argument to use a common page
-size. Options include the complete ISO 216 series (e.g. <code>&quot;iso-a4&quot;</code>, <code>&quot;iso-c2&quot;</code>),
-customary US formats like <code>&quot;us-legal&quot;</code> or <code>&quot;us-letter&quot;</code>, and more. Check out the
-reference for the <a href="/docs/reference/layout/page/#parameters-paper">page's paper argument</a> to learn about all
-available options.</p>
+[\`{page}\`]($page) set rule and passing it a string argument to use a common page
+size. Options include the complete ISO 216 series (e.g. \`"iso-a4"\`, \`"iso-c2"\`),
+customary US formats like \`"us-legal"\` or \`"us-letter"\`, and more. Check out the
+reference for the [page's paper argument]($page.paper) to learn about all
+available options.
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">set</span> <span class="typ-func">page</span><span class="typ-punct">(</span><span class="typ-str">&quot;us-letter&quot;</span><span class="typ-punct">)</span>
 
 This page likes freedom.
 </code></pre><div class="preview"><img src="/docs/assets/4246fd7d86f948c7c3689eb7698c9c4f.png" alt="Preview" /></div></div>
-<p>If you need to customize your page size to some dimensions, you can specify the
-named arguments <a href="/docs/reference/layout/page/#parameters-width"><code>width</code></a> and <a href="/docs/reference/layout/page/#parameters-height"><code>height</code></a> instead.</p>
+<p>如果你需要在长宽上修改页面大小，也可以指定 <a href="/docs/reference/layout/page/#parameters-width"><code>width</code></a> 和 <a href="/docs/reference/layout/page/#parameters-height"><code>height</code></a> 这两个具名参数。</p>
+<original>
+If you need to customize your page size to some dimensions, you can specify the
+named arguments [\`width\`]($page.width) and [\`height\`]($page.height) instead.
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">set</span> <span class="typ-func">page</span><span class="typ-punct">(</span>width<span class="typ-punct">:</span> <span class="typ-num">12cm</span><span class="typ-punct">,</span> height<span class="typ-punct">:</span> <span class="typ-num">12cm</span><span class="typ-punct">)</span>
 
 This page is a square.
 </code></pre><div class="preview"><img src="/docs/assets/465b6b3f98e32a2fea10d872f41f87c9.png" alt="Preview" /></div></div>
-<h3 id="change-margins">Change the page's margins</h3>
-<p>Margins are a vital ingredient for good typography:
-<a href="http://webtypography.net/2.1.2">Typographers consider lines that fit between 45 and 75 characters best length
-for legibility</a> and your margins and
-<a href="#columns">columns</a> help define line widths. By default, Typst will create
+<h3 id="更改页边距">更改页边距</h3>
+<p>边距的设置是一个好排版的重要组成部分：<a href="http://webtypography.net/2.1.2">排印专家认为长度大致在 45 到 75 个英文字符之间的段落最清晰易读</a>，而边距和<a href="#%E6%B7%BB%E5%8A%A0%E5%88%86%E6%A0%8F">分栏</a>可用于调整一行的宽度。默认情况下，Typst 会按照比例，相对于文档页面大小来设置边距。如需自定边距的值，你需要在<a href="/docs/reference/layout/page/"><code>page</code></a> set rule 里用到 <a href="/docs/reference/layout/page/#parameters-margin"><code>margin</code></a> 参数。</p>
+<original>
+Margins are a vital ingredient for good typography:
+[Typographers consider lines that fit between 45 and 75 characters best length
+for legibility](http://webtypography.net/2.1.2) and your margins and
+[columns](#columns) help define line widths. By default, Typst will create
 margins proportional to the page size of your document. To set custom margins,
-you will use the <a href="/docs/reference/layout/page/#parameters-margin"><code>margin</code></a> argument in the <a href="/docs/reference/layout/page/"><code>page</code></a> set
-rule.</p>
-<p>The <code>margin</code> argument will accept a length if you want to set all margins to the
+you will use the [\`margin\`]($page.margin) argument in the [\`{page}\`]($page) set
+rule.
+</original>
+<p>如果你想将所有的边距都设定为同一数值的话，可向 <code>margin</code> 参数传入一个长度值。然而，一般情况下每一侧的边距是不一样的，这时需要传入一个字典：</p>
+<original>
+The \`margin\` argument will accept a length if you want to set all margins to the
 same width. However, you often want to set different margins on each side. To do
-this, you can pass a dictionary:</p>
+this, you can pass a dictionary:
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">set</span> <span class="typ-func">page</span><span class="typ-punct">(</span>margin<span class="typ-punct">:</span> <span class="typ-punct">(</span>
   top<span class="typ-punct">:</span> <span class="typ-num">3cm</span><span class="typ-punct">,</span>
   bottom<span class="typ-punct">:</span> <span class="typ-num">2cm</span><span class="typ-punct">,</span>
@@ -10455,46 +10480,65 @@ this, you can pass a dictionary:</p>
 
 <span class="typ-func">#</span><span class="typ-func">lorem</span><span class="typ-punct">(</span><span class="typ-num">100</span><span class="typ-punct">)</span>
 </code></pre><div class="preview"><img src="/docs/assets/c896f60e6558035f03087583440e7441.png" alt="Preview" /></div></div>
-<p>The page margin dictionary can have keys for each side (<code>top</code>, <code>bottom</code>, <code>left</code>,
-<code>right</code>), but you can also control left and right together by setting the <code>x</code>
+<p>页边距字典中可以包括每一个方向的键（<code>top</code>、<code>bottom</code>、<code>left</code> 和 <code>right</code>），你还可以直接用 <code>x</code> 键来同时控制左右边距，就像例子中的那样。同理，上下边距可以用 <code>y</code> 键来统一调整。</p>
+<original>
+The page margin dictionary can have keys for each side (\`top\`, \`bottom\`, \`left\`,
+\`right\`), but you can also control left and right together by setting the \`x\`
 key of the margin dictionary, like in the example. Likewise, the top and bottom
-margins can be adjusted together by setting the <code>y</code> key.</p>
-<p>If you do not specify margins for all sides in the margin dictionary, the old
+margins can be adjusted together by setting the \`y\` key.
+</original>
+<p>如果你没有在字典规定每个方向上的边距，那么原先的边距将保留。如果不想这样而是需要让没有特地设置的边距都为另外一个值，可以用 <code>rest</code> 键来规定。例如，<code><span class="typ-key">#</span><span class="typ-key">set</span> <span class="typ-func">page</span><span class="typ-punct">(</span>margin<span class="typ-punct">:</span> <span class="typ-punct">(</span>left<span class="typ-punct">:</span> <span class="typ-num">1.5in</span><span class="typ-punct">,</span> rest<span class="typ-punct">:</span> <span class="typ-num">1in</span><span class="typ-punct">)</span><span class="typ-punct">)</span></code> 会将左边距设置为 1.5 英寸，其余的边距设定为一英寸。</p>
+<original>
+If you do not specify margins for all sides in the margin dictionary, the old
 margins will remain in effect for the unset sides. To prevent this and set all
-remaining margins to a common size, you can use the <code>rest</code> key. For example,
-<code><span class="typ-key">#</span><span class="typ-key">set</span> <span class="typ-func">page</span><span class="typ-punct">(</span>margin<span class="typ-punct">:</span> <span class="typ-punct">(</span>left<span class="typ-punct">:</span> <span class="typ-num">1.5in</span><span class="typ-punct">,</span> rest<span class="typ-punct">:</span> <span class="typ-num">1in</span><span class="typ-punct">)</span><span class="typ-punct">)</span></code> will set the left margin to 1.5
-inches and the remaining margins to one inch.</p>
-<h3 id="alternating-margins">Different margins on alternating pages</h3>
-<p>Sometimes, you'll need to alternate horizontal margins for even and odd pages,
+remaining margins to a common size, you can use the \`rest\` key. For example,
+\`[#set page(margin: (left: 1.5in, rest: 1in))]\` will set the left margin to 1.5
+inches and the remaining margins to one inch.
+</original>
+<h3 id="为奇-偶页面设置不同的边距">为奇、偶页面设置不同的边距</h3>
+<p>有时你需要为奇偶页面设置不同的横向边距，例如你可能会想在靠近书脊的地方而不是外部留下更多的边距空白。Typst 在页面变量中保存了页面是在左侧还是在右侧的相关信息，所以你可以利用这些信息，并设置边距字典的 <code>inside</code> 和 <code>outside</code> 键来控制边距。<code>inside</code> 代表的是靠近书脊的部分边距，<code>outside</code> 则是靠近书的外边缘部分边距。</p>
+<original>
+Sometimes, you'll need to alternate horizontal margins for even and odd pages,
 for example, to have more room towards the spine of a book than on the outsides
 of its pages. Typst keeps track of whether a page is to the left or right of the
-binding. You can use this information and set the <code>inside</code> or <code>outside</code> keys of
-the margin dictionary. The <code>inside</code> margin points towards the spine, and the
-<code>outside</code> margin points towards the edge of the bound book.</p>
+binding. You can use this information and set the \`inside\` or \`outside\` keys of
+the margin dictionary. The \`inside\` margin points towards the spine, and the
+\`outside\` margin points towards the edge of the bound book.
+</original>
 <pre><code><span class="typ-key">#</span><span class="typ-key">set</span> <span class="typ-func">page</span><span class="typ-punct">(</span>margin<span class="typ-punct">:</span> <span class="typ-punct">(</span>inside<span class="typ-punct">:</span> <span class="typ-num">2.5cm</span><span class="typ-punct">,</span> outside<span class="typ-punct">:</span> <span class="typ-num">2cm</span><span class="typ-punct">,</span> y<span class="typ-punct">:</span> <span class="typ-num">1.75cm</span><span class="typ-punct">)</span><span class="typ-punct">)</span>
 </code></pre>
-<p>Typst will assume that documents written in Left-to-Right scripts are bound on
+<p>Typst 会假设按照从左到右顺序书写的文档按左侧装订，而按照从右到左顺序书写的文档则按右侧装订。不过，有时你可能需要改变这一点，例如当你的第一页内容是由其它程序生成的，其装订顺序与 Typst 的恰好相反，这是就需要进行修改了。另外，在有些书中，例如英文漫画书，即使英文本身是从左向右书写的，有时这些书也特地按右侧装订。如需手动修改装订方式并定义 <code>inside</code> 和 <code>outside</code> 的具体指向，请在设置 <a href="/docs/reference/layout/page/"><code>page</code></a> set rule 中的 <a href="/docs/reference/layout/page/#parameters-binding"><code>binding</code></a> 参数。</p>
+<original>
+Typst will assume that documents written in Left-to-Right scripts are bound on
 the left while books written in Right-to-Left scripts are bound on the right.
 However, you will need to change this in some cases: If your first page is
 output by a different app, the binding is reversed from Typst's perspective.
 Also, some books, like English-language Mangas are customarily bound on the
 right, despite English using Left-to-Right script. To change the binding side
-and explicitly set where the <code>inside</code> and <code>outside</code> are, set the
-<a href="/docs/reference/layout/page/#parameters-binding"><code>binding</code></a> argument in the <a href="/docs/reference/layout/page/"><code>page</code></a> set rule.</p>
+and explicitly set where the \`inside\` and \`outside\` are, set the
+[\`binding\`]($page.binding) argument in the [\`{page}\`]($page) set rule.
+</original>
 <pre><code><span class="typ-comment">// Produce a book bound on the right,</span>
 <span class="typ-comment">// even though it is set in Spanish.</span>
 <span class="typ-key">#</span><span class="typ-key">set</span> <span class="typ-func">text</span><span class="typ-punct">(</span>lang<span class="typ-punct">:</span> <span class="typ-str">&quot;es&quot;</span><span class="typ-punct">)</span>
 <span class="typ-key">#</span><span class="typ-key">set</span> <span class="typ-func">page</span><span class="typ-punct">(</span>binding<span class="typ-punct">:</span> right<span class="typ-punct">)</span>
 </code></pre>
+<p>如果 <code>binding</code> 的值是 <code>left</code>，<code>inside</code> 边距在奇数页上位于左侧，以此类推（译者注：原文此处是“反之亦然” vice versa）。</p>
 <p>If <code>binding</code> is <code>left</code>, <code>inside</code> margins will be on the left on odd pages, and
 vice versa.</p>
-<h2 id="headers-and-footers">Add headers and footers</h2>
-<p>Headers and footers are inserted in the top and bottom margins of every page.
-You can add custom headers and footers or just insert a page number.</p>
-<p>In case you need more than just a page number, the best way to insert a header
-and a footer are the <a href="/docs/reference/layout/page/#parameters-header"><code>header</code></a> and <a href="/docs/reference/layout/page/#parameters-footer"><code>footer</code></a>
-arguments of the <a href="/docs/reference/layout/page/"><code>page</code></a> set rule. You can pass any content as their
-values:</p>
+<h2 id="添加页眉和页脚">添加页眉和页脚</h2>
+<p>页眉和页脚会插入到每个页面的顶部和底部。你可以自定义其内容，或者单纯地放上页码。</p>
+<original>
+Headers and footers are inserted in the top and bottom margins of every page.
+You can add custom headers and footers or just insert a page number.
+</original>
+<p>考虑到你可能不仅仅需要放页码，插入页眉和页脚的最好办法其实是 <a href="/docs/reference/layout/page/"><code>page</code></a> set rule 的 <a href="/docs/reference/layout/page/#parameters-header"><code>header</code></a> 和 <a href="/docs/reference/layout/page/#parameters-footer"><code>footer</code></a> 参数，它们可以传入任意值。</p>
+<original>
+In case you need more than just a page number, the best way to insert a header
+and a footer are the [\`header\`]($page.header) and [\`footer\`]($page.footer)
+arguments of the [\`{page}\`]($page) set rule. You can pass any content as their
+values:
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">set</span> <span class="typ-func">page</span><span class="typ-punct">(</span>header<span class="typ-punct">:</span> <span class="typ-punct">[</span>
   <span class="typ-emph">_Lisa Strassner&#39;s Thesis_</span>
   <span class="typ-func">#</span><span class="typ-func">h</span><span class="typ-punct">(</span><span class="typ-num">1fr</span><span class="typ-punct">)</span>
@@ -10503,13 +10547,19 @@ values:</p>
 
 <span class="typ-func">#</span><span class="typ-func">lorem</span><span class="typ-punct">(</span><span class="typ-num">150</span><span class="typ-punct">)</span>
 </code></pre><div class="preview"><img src="/docs/assets/f0814aae5cf80934a96205a02aad36b4.png" alt="Preview" /></div></div>
-<p>Headers are bottom-aligned by default so that they do not collide with the top
+<p>页眉的内容默认情况下是置底的，这样它们就不会抵着页面的上缘了。你可以将页眉用 <a href="/docs/reference/layout/align/"><code>align</code></a> 函数来调整其定位方式。</p>
+<original>
+Headers are bottom-aligned by default so that they do not collide with the top
 edge of the page. You can change this by wrapping your header in the
-<a href="/docs/reference/layout/align/"><code>align</code></a> function.</p>
-<h3 id="specific-pages">Different header and footer on specific pages</h3>
-<p>You'll need different headers and footers on some pages. For example, you may
+[\`{align}\`]($align) function.
+</original>
+<h3 id="针对特定页面设置页眉页脚">针对特定页面设置页眉页脚</h3>
+<p>在某些页面上你可能需要不一样的页眉页脚。比如说，在包含了标题的页面上你可能需要去掉它们。下面的例子展示了如何按照条件删掉第一页的页眉。</p>
+<original>
+You'll need different headers and footers on some pages. For example, you may
 not want a header and footer on the title page. The example below shows how to
-conditionally remove the header on the first page:</p>
+conditionally remove the header on the first page:
+</original>
 <pre><code><span class="typ-key">#</span><span class="typ-key">set</span> <span class="typ-func">page</span><span class="typ-punct">(</span>header<span class="typ-punct">:</span> <span class="typ-key">context</span> <span class="typ-punct">{</span>
   <span class="typ-key">if</span> <span class="typ-func">counter</span><span class="typ-punct">(</span>page<span class="typ-punct">)</span><span class="typ-punct">.</span><span class="typ-func">get</span><span class="typ-punct">(</span><span class="typ-punct">)</span><span class="typ-punct">.</span><span class="typ-func">first</span><span class="typ-punct">(</span><span class="typ-punct">)</span> <span class="typ-op">&gt;</span> <span class="typ-num">1</span> <span class="typ-punct">[</span>
     <span class="typ-emph">_Lisa Strassner&#39;s Thesis_</span>
@@ -10520,21 +10570,30 @@ conditionally remove the header on the first page:</p>
 
 <span class="typ-func">#</span><span class="typ-func">lorem</span><span class="typ-punct">(</span><span class="typ-num">150</span><span class="typ-punct">)</span>
 </code></pre>
-<p>This example may look intimidating, but let's break it down: By using the
-<code><span class="typ-key">context</span></code> keyword, we are telling Typst that the header depends on where we
-are in the document. We then ask Typst if the page <a href="/docs/reference/introspection/counter/" title="counter">counter</a> is larger than one
+<p>这个例子里的写法看起来可能很吓人，但我们可以将其逐步拆解：我们利用 <code><span class="typ-key">context</span></code> 关键字来表示页眉与其在文档中的位置有关。然后我们判断了页面的<a href="/docs/reference/introspection/counter/">计数器</a>是否大于我们目前（根据上下文）的位置。页面的计数器是从 1 开始的，所以我们在第一页上跳过了页眉的插入。计数器可能有多层，这是像标题这样的元素的特性，但是计数器总会有第一层，所以我们只需要考虑它即可。</p>
+<original>
+This example may look intimidating, but let's break it down: By using the
+\`{context}\` keyword, we are telling Typst that the header depends on where we
+are in the document. We then ask Typst if the page [counter] is larger than one
 at our (context-dependent) current position. The page counter starts at one, so
 we are skipping the header on a single page. Counters may have multiple levels.
 This feature is used for items like headings, but the page counter will always
-have a single level, so we can just look at the first one.</p>
-<p>You can, of course, add an <code>else</code> to this example to add a different header to
-the first page instead.</p>
-<h3 id="specific-elements">Adapt headers and footers on pages with specific elements</h3>
-<p>The technique described in the previous section can be adapted to perform more
+have a single level, so we can just look at the first one.
+</original>
+<p>当然，你还可以在这个例子的代码中加上一个 <code>else</code> 来为第一页添加一个不同的页眉。</p>
+<original>
+You can, of course, add an \`else\` to this example to add a different header to
+the first page instead.
+</original>
+<h3 id="在具有特定元素的页面上修改页眉页脚">在具有特定元素的页面上修改页眉页脚</h3>
+<p>在上一节中提到的方法经过修改，利用 Typst 的标签功能，可以实现更多复杂的需求。例如，那些展示了大表格的页面上的页眉应当省略，避免凌乱。我们用一个 <code>&lt;big-table&gt;</code> <a href="/docs/reference/foundations/label/">标签</a>标记该表，然后用<a href="/docs/reference/introspection/query/">查询系统</a>判断当前页面上是否存在一个带有该标签的元素。</p>
+<original>
+The technique described in the previous section can be adapted to perform more
 advanced tasks using Typst's labels. For example, pages with big tables could
 omit their headers to help keep clutter down. We will mark our tables with a
-<code>&lt;big-table&gt;</code> <a href="/docs/reference/foundations/label/" title="label">label</a> and use the <a href="/docs/reference/introspection/query/">query system</a> to find out if such a
-label exists on the current page:</p>
+\`<..>\` [label] and use the [query system]($query) to find out if such a
+label exists on the current page:
+</original>
 <pre><code><span class="typ-key">#</span><span class="typ-key">set</span> <span class="typ-func">page</span><span class="typ-punct">(</span>header<span class="typ-punct">:</span> <span class="typ-key">context</span> <span class="typ-punct">{</span>
   <span class="typ-key">let</span> page-counter <span class="typ-op">=</span>
   <span class="typ-key">let</span> matches <span class="typ-op">=</span> <span class="typ-func">query</span><span class="typ-punct">(</span><span class="typ-label">&lt;big-table&gt;</span><span class="typ-punct">)</span>
@@ -10559,48 +10618,69 @@ label exists on the current page:</p>
   <span class="typ-punct">[</span>C<span class="typ-punct">]</span><span class="typ-punct">,</span> <span class="typ-punct">[</span>D<span class="typ-punct">]</span><span class="typ-punct">,</span>
 <span class="typ-punct">)</span> <span class="typ-label">&lt;big-table&gt;</span>
 </code></pre>
-<p>Here, we query for all instances of the <code>&lt;big-table&gt;</code> label. We then check that
+<p>在这里我们查询了所有带 <code>&lt;big-table&gt;</code> 标签的实实例，然后判断了我们当前的位置是否存在表格，如果不存在，就输出页眉。这个例子里用到了变量来保持简洁。和上面一样，你也可以用 <code>else</code> 来添加另一个页眉而不是单纯地去掉它。</p>
+<original>
+Here, we query for all instances of the \`<..>\` label. We then check that
 none of the tables are on the page at our current position. If so, we print the
 header. This example also uses variables to be more concise. Just as above, you
-could add an <code>else</code> to add another header instead of deleting it.</p>
-<h2 id="page-numbers">Add and customize page numbers</h2>
-<p>Page numbers help readers keep track of and reference your document more easily.
-The simplest way to insert page numbers is the <a href="/docs/reference/layout/page/#parameters-numbering"><code>numbering</code></a>
-argument of the <a href="/docs/reference/layout/page/"><code>page</code></a> set rule. You can pass a
-<a href="/docs/reference/model/numbering/#parameters-numbering"><em>numbering pattern</em></a> string that shows how you want your
-pages to be numbered.</p>
+could add an \`else\` to add another header instead of deleting it.
+</original>
+<h2 id="页码的添加与自定义">页码的添加与自定义</h2>
+<p>页码可帮助读者更好地跟进和引用你的文档。添加页码最简单的方法是利用 <a href="/docs/reference/layout/page/"><code>page</code></a> set rule 的 <a href="/docs/reference/layout/page/#parameters-numbering"><code>numbering</code></a> 参数。你可以插入一个<a href="/docs/reference/model/numbering/#parameters-numbering"><em>标号模板</em></a>字符串来表示你想要以何种形式标记页码。</p>
+<original>
+Page numbers help readers keep track of and reference your document more easily.
+The simplest way to insert page numbers is the [\`numbering\`]($page.numbering)
+argument of the [\`{page}\`]($page) set rule. You can pass a
+[_numbering pattern_]($numbering.numbering) string that shows how you want your
+pages to be numbered.
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">set</span> <span class="typ-func">page</span><span class="typ-punct">(</span>numbering<span class="typ-punct">:</span> <span class="typ-str">&quot;1&quot;</span><span class="typ-punct">)</span>
 
 This is a numbered page.
 </code></pre><div class="preview"><img src="/docs/assets/b48b5390c93bf60c40473268b2bc55b2.png" alt="Preview" /></div></div>
-<p>Above, you can check out the simplest conceivable example. It adds a single
+<p>在上面你可以看到一个构思出的最简单例子。它在页脚的中间添加了一个单一的阿拉伯数字页码。你可以填入除了 <code>&quot;1&quot;</code> 以外的其他字符来得到其他的编号。例如，<code>&quot;i&quot;</code> 会产生小写的罗马数字。任何没有被识别为数字的字符会原样输出。例如，当你想要在页码两侧加上横杠，可以这样写：</p>
+<original>
+Above, you can check out the simplest conceivable example. It adds a single
 Arabic page number at the center of the footer. You can specify other characters
-than <code>&quot;1&quot;</code> to get other numerals. For example, <code>&quot;i&quot;</code> will yield lowercase Roman
+than \`"1"\` to get other numerals. For example, \`"i"\` will yield lowercase Roman
 numerals. Any character that is not interpreted as a number will be output
-as-is. For example, put dashes around your page number by typing this:</p>
+as-is. For example, put dashes around your page number by typing this:
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">set</span> <span class="typ-func">page</span><span class="typ-punct">(</span>numbering<span class="typ-punct">:</span> <span class="typ-str">&quot;— 1 —&quot;</span><span class="typ-punct">)</span>
 
 This is a — numbered — page.
 </code></pre><div class="preview"><img src="/docs/assets/d7f4767d2392e3a857f037af58edd21f.png" alt="Preview" /></div></div>
-<p>You can add the total number of pages by entering a second number character in
-the string.</p>
+<p>在标号字符串中填入第二个数字，即可插入页面总数。</p>
+<original>
+You can add the total number of pages by entering a second number character in
+the string.
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">set</span> <span class="typ-func">page</span><span class="typ-punct">(</span>numbering<span class="typ-punct">:</span> <span class="typ-str">&quot;1 of 1&quot;</span><span class="typ-punct">)</span>
 
 This is one of many numbered pages.
 </code></pre><div class="preview"><img src="/docs/assets/cbb2198058d0bedc9aabffd8b12f7c30.png" alt="Preview" /></div></div>
-<p>Go to the <a href="/docs/reference/model/numbering/#parameters-numbering"><code>numbering</code> function reference</a> to learn more
-about the arguments you can pass here.</p>
-<p>In case you need to right- or left-align the page number, use the
-<a href="/docs/reference/layout/page/#parameters-number-align"><code>number-align</code></a> argument of the <a href="/docs/reference/layout/page/"><code>page</code></a> set rule.
+<p>查看 <a href="/docs/reference/model/numbering/#parameters-numbering"><code>numbering</code> 函数的参考信息</a>来了解更多你可以传入的参数。</p>
+<original>
+Go to the [\`{numbering}\` function reference]($numbering.numbering) to learn more
+about the arguments you can pass here.
+</original>
+<p>考虑到你可能需要将页码置于左侧或者右侧，可通过 <a href="/docs/reference/layout/page/"><code>page</code></a> set rule 的 <a href="/docs/reference/layout/page/#parameters-number-align"><code>number-align</code></a> 参数来实现。但目前不能用此参数在奇偶页面上切换定位的方向。要实现这个，你需要按照上面选择性地去掉页眉页脚的方法，插入自定义的页脚并调用页面计数器。</p>
+<original>
+In case you need to right- or left-align the page number, use the
+[\`number-align\`]($page.number-align) argument of the [\`{page}\`]($page) set rule.
 Alternating alignment between even and odd pages is not currently supported
 using this property. To do this, you'll need to specify a custom footer with
 your footnote and query the page counter as described in the section on
-conditionally omitting headers and footers.</p>
-<h3 id="custom-footer-with-page-numbers">Custom footer with page numbers</h3>
-<p>Sometimes, you need to add other content than a page number to your footer.
-However, once a footer is specified, the <a href="/docs/reference/layout/page/#parameters-numbering"><code>numbering</code></a> argument
-of the <a href="/docs/reference/layout/page/"><code>page</code></a> set rule is ignored. This section shows you how to add
-a custom footer with page numbers and more.</p>
+conditionally omitting headers and footers.
+</original>
+<h3 id="利用页码自定义页脚">利用页码自定义页脚</h3>
+<p>有时你可能还需要在页脚里添加页码以外的内容。但是，一旦页脚被指定，<a href="/docs/reference/layout/page/"><code>page</code></a> set rule 的 <a href="/docs/reference/layout/page/#parameters-numbering"><code>numbering</code></a> 参数就会被忽略掉。本节将展示如何添加一个不仅有页码还有其它内容的页脚。</p>
+<original>
+Sometimes, you need to add other content than a page number to your footer.
+However, once a footer is specified, the [\`numbering\`]($page.numbering) argument
+of the [\`{page}\`]($page) set rule is ignored. This section shows you how to add
+a custom footer with page numbers and more.
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">set</span> <span class="typ-func">page</span><span class="typ-punct">(</span>footer<span class="typ-punct">:</span> <span class="typ-key">context</span> <span class="typ-punct">[</span>
   <span class="typ-strong">*American Society of Proceedings*</span>
   <span class="typ-func">#</span><span class="typ-func">h</span><span class="typ-punct">(</span><span class="typ-num">1fr</span><span class="typ-punct">)</span>
@@ -10612,13 +10692,19 @@ a custom footer with page numbers and more.</p>
 
 This page has a custom footer.
 </code></pre><div class="preview"><img src="/docs/assets/a5ae057e4480999f126c73098458484c.png" alt="Preview" /></div></div>
-<p>First, we add some strongly emphasized text on the left and add free space to
-fill the line. Then, we call <code>counter(page)</code> to retrieve the page counter and
-use its <code>display</code> function to show its current value. We also set <code>both</code> to
-<code><span class="typ-key">true</span></code> so that our numbering pattern applies to the current <em>and</em> final page
-number.</p>
-<p>We can also get more creative with the page number. For example, let's insert a
-circle for each page.</p>
+<p>首先我们在左侧添加了一些着重强调的文字（译者注：此处指粗体），然后占满中间的空间，再调用 <code>counter(page)</code> 获取当前页面的计数器，借它的 <code>display</code> 方法输出它当前的值。我们还将 <code>both</code> 设置成了 <code><span class="typ-key">true</span></code>，这样标号格式就会应用到当前和最终的页码上。</p>
+<original>
+First, we add some strongly emphasized text on the left and add free space to
+fill the line. Then, we call \`counter(page)\` to retrieve the page counter and
+use its \`display\` function to show its current value. We also set \`both\` to
+\`{true}\` so that our numbering pattern applies to the current _and_ final page
+number.
+</original>
+<p>对于页码，我们还可以继续发挥想象力，比如说可以在每一页插入一个圆圈。</p>
+<original>
+We can also get more creative with the page number. For example, let's insert a
+circle for each page.
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">set</span> <span class="typ-func">page</span><span class="typ-punct">(</span>footer<span class="typ-punct">:</span> <span class="typ-key">context</span> <span class="typ-punct">[</span>
   <span class="typ-strong">*Fun Typography Club*</span>
   <span class="typ-func">#</span><span class="typ-func">h</span><span class="typ-punct">(</span><span class="typ-num">1fr</span><span class="typ-punct">)</span>
@@ -10637,62 +10723,95 @@ circle for each page.</p>
 
 This page has a custom footer.
 </code></pre><div class="preview"><img src="/docs/assets/3f1e0c8050c6661e537d30705124bf28.png" alt="Preview" /></div></div>
-<p>In this example, we use the number of pages to create an array of
-<a href="/docs/reference/visualize/circle/">circles</a>. The circles are wrapped in a <a href="/docs/reference/layout/box/" title="box">box</a> so they can all appear on
+<p>在这个例子里，我们用当前页码创建了一串<a href="/docs/reference/visualize/circle/">圆圈</a>，它们被包围在了一个 <a href="/docs/reference/layout/box/" title="box">box</a> 里，这样它们就会排在同一行里，否则就会另起行。这个<a href="/docs/reference/foundations/array/">数组</a>的长度取决于当前的页码数值。</p>
+<original>
+In this example, we use the number of pages to create an array of
+[circles]($circle). The circles are wrapped in a [box] so they can all appear on
 the same line because they are blocks and would otherwise create paragraph
-breaks. The length of this <a href="/docs/reference/foundations/array/" title="array">array</a> depends on the current page number.</p>
-<p>We then insert the circles at the right side of the footer, with 1pt of space
+breaks. The length of this [array] depends on the current page number.
+</original>
+<p>然后，我们将这些圆圈放在了页脚的右侧，并在它们彼此之间加上了 1pt 的空隙。数组的 join 函数会尝试将数组中的不同值伴随着参数<a href="/docs/reference/scripting/#blocks">合并</a>到一个值里去。在我们的例子中，最终合并的值是有空隙的一系列圆圈，这些空隙可以用 align 函数进行对齐。最后，我们用到了另一个 box 来确保文本和圆圈在同一行，还用到 <a href="/docs/reference/layout/box/#parameters-inset"><code>inset</code> 参数</a>来略微提高圆圈的位置使得它们能与文本更好地对齐。</p>
+<original>
+We then insert the circles at the right side of the footer, with 1pt of space
 between them. The join method of an array will attempt to
-<a href="/docs/reference/scripting/#blocks"><em>join</em></a> the different values of an array into a single
+[_join_]($scripting/#blocks) the different values of an array into a single
 value, interspersed with its argument. In our case, we get a single content
 value with circles and spaces between them that we can use with the align
 function. Finally, we use another box to ensure that the text and the circles
-can share a line and use the <a href="/docs/reference/layout/box/#parameters-inset"><code>inset</code> argument</a> to raise the circles
-a bit so they line up nicely with the text.</p>
-<h3 id="skip-pages">Reset the page number and skip pages</h3>
-<p>Do you, at some point in your document, need to reset the page number? Maybe you
+can share a line and use the [\`inset\` argument]($box.inset) to raise the circles
+a bit so they line up nicely with the text.
+</original>
+<h3 id="重置页码与跳过页面">重置页码与跳过页面</h3>
+<p>在文档的某些位置，你是否需要重置页码的数值呢？或许你想要从带标题的页面之后才开始编号，又或者你需要跳过一些页码以便在最后的成品中自己手动加纸进去。</p>
+<original>
+Do you, at some point in your document, need to reset the page number? Maybe you
 want to start with the first page only after the title page. Or maybe you need
 to skip a few page numbers because you will insert pages into the final printed
-product.</p>
-<p>The right way to modify the page number is to manipulate the page <a href="/docs/reference/introspection/counter/" title="counter">counter</a>. The
-simplest manipulation is to set the counter back to 1.</p>
+product.
+</original>
+<p>修改页码的正确方式是去调控页面的<a href="/docs/reference/introspection/counter/">计数器</a>，最简单地，就是将计数器回调为 1。</p>
+<original>
+The right way to modify the page number is to manipulate the page [counter]. The
+simplest manipulation is to set the counter back to 1.
+</original>
 <pre><code><span class="typ-func">#</span><span class="typ-func">counter</span><span class="typ-punct">(</span>page<span class="typ-punct">)</span><span class="typ-punct">.</span><span class="typ-func">update</span><span class="typ-punct">(</span><span class="typ-num">1</span><span class="typ-punct">)</span>
 </code></pre>
-<p>This line will reset the page counter back to one. It should be placed at the
+<p>这行代码会将页面的计数器重置为 1。它应该放在页面的开头，否则可能会导致分页。你还可以基于原值来修改计数器的值，此时需传入一个函数：</p>
+<original>
+This line will reset the page counter back to one. It should be placed at the
 start of a page because it will otherwise create a page break. You can also
-update the counter given its previous value by passing a function:</p>
+update the counter given its previous value by passing a function:
+</original>
 <pre><code><span class="typ-func">#</span><span class="typ-func">counter</span><span class="typ-punct">(</span>page<span class="typ-punct">)</span><span class="typ-punct">.</span><span class="typ-func">update</span><span class="typ-punct">(</span>n <span class="typ-op">=&gt;</span> n <span class="typ-op">+</span> <span class="typ-num">5</span><span class="typ-punct">)</span>
 </code></pre>
-<p>In this example, we skip five pages. <code>n</code> is the current value of the page
-counter and <code>n + 5</code> is the return value of our function.</p>
-<p>In case you need to retrieve the actual page number instead of the value of the
-page counter, you can use the <a href="/docs/reference/introspection/location/#definitions-page"><code>page</code></a> method on the return
-value of the <a href="/docs/reference/introspection/here/" title="\`here\`"><code>here</code></a> function:</p>
+<p>在这个例子里，我们跳过了五页。<code>n</code> 是当前页面计数器的值，<code>n + 5</code> 是我们函数的返回值。</p>
+<original>
+In this example, we skip five pages. \`n\` is the current value of the page
+counter and \`n + 5\` is the return value of our function.
+</original>
+<p>你还可能需要获取到真实页码而非当前页的计数器，这一点可以通过调用 <a href="/docs/reference/introspection/here/" title="\`here\`"><code>here</code></a> 函数返回值上的 <a href="/docs/reference/introspection/location/#definitions-page"><code>page</code></a> 方法来实现。</p>
+<original>
+In case you need to retrieve the actual page number instead of the value of the
+page counter, you can use the [\`page\`]($location.page) method on the return
+value of the [\`here\`] function:
+</original>
 <div class="previewed-code"><pre><code><span class="typ-func">#</span><span class="typ-func">counter</span><span class="typ-punct">(</span>page<span class="typ-punct">)</span><span class="typ-punct">.</span><span class="typ-func">update</span><span class="typ-punct">(</span>n <span class="typ-op">=&gt;</span> n <span class="typ-op">+</span> <span class="typ-num">5</span><span class="typ-punct">)</span>
 
 <span class="typ-comment">// This returns one even though the</span>
 <span class="typ-comment">// page counter was incremented by 5.</span>
 <span class="typ-key">#</span><span class="typ-key">context</span> <span class="typ-func">here</span><span class="typ-punct">(</span><span class="typ-punct">)</span><span class="typ-punct">.</span><span class="typ-func">page</span><span class="typ-punct">(</span><span class="typ-punct">)</span>
 </code></pre><div class="preview"><img src="/docs/assets/d3dcad44515b9bf64e2f18e46b5e67fd.png" alt="Preview" /></div></div>
-<p>You can also obtain the page numbering pattern from the location returned by
-<code>here</code> with the <a href="/docs/reference/introspection/location/#definitions-page-numbering"><code>page-numbering</code></a> method.</p>
-<h2 id="columns">Add columns</h2>
-<p>Add columns to your document to fit more on a page while maintaining legible
+<p>你还可以用 <code>here</code> 返回值上的 <a href="/docs/reference/introspection/location/#definitions-page-numbering"><code>page-numbering</code></a> 方法获取到当前页面的标号模板。</p>
+<original>
+You can also obtain the page numbering pattern from the location returned by
+\`here\` with the [\`page-numbering\`]($location.page-numbering) method.
+</original>
+<h2 id="添加分栏">添加分栏</h2>
+<p>在你的文档中添加分栏可以使其布局更加合理，同时也能保持行宽，维持可读性。分栏本质上是空白分隔的垂直文本块，这些空白部分严格称为 gutter。</p>
+<original>
+Add columns to your document to fit more on a page while maintaining legible
 line lengths. Columns are vertical blocks of text which are separated by some
-whitespace. This space is called the gutter.</p>
-<p>To lay out your content in columns, just specify the desired number of columns
-in a <a href="/docs/reference/layout/page/#parameters-columns"><code>page</code></a> set rule. To adjust the amount of space between
-the columns, add a set rule on the <a href="/docs/reference/layout/columns/"><code>columns</code> function</a>, specifying
-the <code>gutter</code> parameter.</p>
+whitespace. This space is called the gutter.
+</original>
+<p>要在栏目中填入你的内容，只需在 <a href="/docs/reference/layout/page/#parameters-columns"><code>page</code></a> set rule 中指定对应的栏目序号。通过添加一个针对 <a href="/docs/reference/layout/columns/"><code>columns</code> 函数</a>的 set rule 并指定 <code>gutter</code> 参数，你可以调整栏与栏之间的空隙大小。</p>
+<original>
+To lay out your content in columns, just specify the desired number of columns
+in a [\`{page}\`]($page.columns) set rule. To adjust the amount of space between
+the columns, add a set rule on the [\`columns\` function]($columns), specifying
+the \`gutter\` parameter.
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">set</span> <span class="typ-func">page</span><span class="typ-punct">(</span>columns<span class="typ-punct">:</span> <span class="typ-num">2</span><span class="typ-punct">)</span>
 <span class="typ-key">#</span><span class="typ-key">set</span> <span class="typ-func">columns</span><span class="typ-punct">(</span>gutter<span class="typ-punct">:</span> <span class="typ-num">12pt</span><span class="typ-punct">)</span>
 
 <span class="typ-func">#</span><span class="typ-func">lorem</span><span class="typ-punct">(</span><span class="typ-num">30</span><span class="typ-punct">)</span>
 </code></pre><div class="preview"><img src="/docs/assets/160439991e4175b3b075a3ef990b2cfb.png" alt="Preview" /></div></div>
-<p>Very commonly, scientific papers have a single-column title and abstract, while
-the main body is set in two-columns. To achieve this effect, Typst's <a href="/docs/reference/layout/place/"><code>place</code>
-function</a> can temporarily escape the two-column layout by specifying
-<code>float: <span class="typ-key">true</span></code> and <code>scope: <span class="typ-str">&quot;parent&quot;</span></code>:</p>
+<p>正常情况下，科研论文的标题和摘要都是单栏的，正文则是双栏的。要达到这种效果，可用到 <a href="/docs/reference/layout/place/"><code>place</code> 函数</a> 并指定 <code>float: <span class="typ-key">true</span></code> 和 <code>scope: <span class="typ-str">&quot;parent&quot;</span></code>，它可以使内容暂时脱离两栏布局。</p>
+<original>
+Very commonly, scientific papers have a single-column title and abstract, while
+the main body is set in two-columns. To achieve this effect, Typst's [\`place\`
+function]($place) can temporarily escape the two-column layout by specifying
+\`{float: true}\` and \`{scope: "parent"}\`:
+</original>
 <div class="previewed-code"><pre><code><span class="typ-key">#</span><span class="typ-key">set</span> <span class="typ-func">page</span><span class="typ-punct">(</span>columns<span class="typ-punct">:</span> <span class="typ-num">2</span><span class="typ-punct">)</span>
 <span class="typ-key">#</span><span class="typ-key">set</span> <span class="typ-func">par</span><span class="typ-punct">(</span>justify<span class="typ-punct">:</span> <span class="typ-key">true</span><span class="typ-punct">)</span>
 
@@ -10708,15 +10827,21 @@ function</a> can temporarily escape the two-column layout by specifying
 <span class="typ-heading">== About seals in the wild</span>
 <span class="typ-func">#</span><span class="typ-func">lorem</span><span class="typ-punct">(</span><span class="typ-num">80</span><span class="typ-punct">)</span>
 </code></pre><div class="preview"><img src="/docs/assets/af081b829515e76f76dc6155ffd6c211.png" alt="Preview" /></div></div>
-<p><em>Floating placement</em> refers to elements being pushed to the top or bottom of the
+<p><em>浮动定位</em> 是指那些被推至栏目或者整个页面的顶部或者底部的元素（的定位方式），其余内容在它们之间排列。这种定位方式经常用于<a href="/docs/reference/model/figure/#parameters-placement">图表</a>上。</p>
+<original>
+_Floating placement_ refers to elements being pushed to the top or bottom of the
 column or page, with the remaining content flowing in between. It is also
-frequently used for <a href="/docs/reference/model/figure/#parameters-placement">figures</a>.</p>
-<h3 id="columns-anywhere">Use columns anywhere in your document</h3>
-<p>To create columns within a nested layout, e.g. within a rectangle, you can use
-the <a href="/docs/reference/layout/columns/"><code>columns</code> function</a> directly. However, it really should only be
+frequently used for [figures]($figure.placement).
+</original>
+<h3 id="在文档的任何地方使用分栏">在文档的任何地方使用分栏</h3>
+<p>若要在一个嵌套的布局（比如一个矩形）里加入分栏，你可以直接调用 <a href="/docs/reference/layout/columns/"><code>columns</code> 函数</a>。不过，它只应在嵌套布局里使用。在页面的层级中更应该使用 page set rule，这样页面级的浮动、脚注以及行标号等处理起来更方便。</p>
+<original>
+To create columns within a nested layout, e.g. within a rectangle, you can use
+the [\`columns\` function]($columns) directly. However, it really should only be
 used within nested layouts. At the page-level, the page set rule is preferrable
 because it has better interactions with things like page-level floats,
-footnotes, and line numbers.</p>
+footnotes, and line numbers.
+</original>
 <div class="previewed-code"><pre><code><span class="typ-func">#</span><span class="typ-func">rect</span><span class="typ-punct">(</span>
   width<span class="typ-punct">:</span> <span class="typ-num">6cm</span><span class="typ-punct">,</span>
   height<span class="typ-punct">:</span> <span class="typ-num">3.5cm</span><span class="typ-punct">,</span>
@@ -10730,21 +10855,27 @@ footnotes, and line numbers.</p>
   <span class="typ-punct">]</span>
 <span class="typ-punct">)</span>
 </code></pre><div class="preview"><img src="/docs/assets/e1a95ddb12510e9685331557bbb6a251.png" alt="Preview" /></div></div>
-<h3 id="balanced-columns">Balanced columns</h3>
-<p>If the columns on the last page of a document differ greatly in length, they may
+<h3 id="平衡分栏">平衡分栏</h3>
+<p>如果文档最后一页的栏目在长度上差别很大，文档的布局就会显得不平衡不好看。这就是为什么排印家们经常会让最后一页的各栏目长度大致相同，以达到一种被称为平衡分栏的效果。Typst 目前还不能自动地去平衡分栏，但你可以在内容的恰当位置加入一个 <a href="/docs/reference/layout/colbreak/"><code><span class="typ-func">#</span><span class="typ-func">colbreak</span><span class="typ-punct">(</span><span class="typ-punct">)</span></code></a> 来手动创建合适的分栏。</p>
+<original>
+If the columns on the last page of a document differ greatly in length, they may
 create a lopsided and unappealing layout. That's why typographers will often
 equalize the length of columns on the last page. This effect is called balancing
 columns. Typst cannot yet balance columns automatically. However, you can
-balance columns manually by placing <a href="/docs/reference/layout/colbreak/"><code><span class="typ-func">#</span><span class="typ-func">colbreak</span><span class="typ-punct">(</span><span class="typ-punct">)</span></code></a> at an
-appropriate spot in your markup, creating the desired column break manually.</p>
-<h2 id="one-off-modifications">One-off modifications</h2>
-<p>You do not need to override your page settings if you need to insert a single
+balance columns manually by placing [\`[#colbreak()]\`]($colbreak) at an
+appropriate spot in your markup, creating the desired column break manually.
+</original>
+<h2 id="一次性的修改">一次性的修改</h2>
+<p>如果你需要插入一个具有不同配置的页面，并不需要去覆盖当前的页面设置。比如，你可能需要插入一个翻转的页面用于容纳一个大型表格，或者调整标题页的边距与分栏。在这种情况下，你可以用函数的方式来调用 <a href="/docs/reference/layout/page/"><code>page</code></a>，传入你的内容，然后在其它参数上指定要覆盖的设置。这样，这些内容就会以调整后的设置被插入到文档中，并且会生成足量的页面。在这一调用之后，Typst 会将页面恢复到 set rule 里的配置。</p>
+<original>
+You do not need to override your page settings if you need to insert a single
 page with a different setup. For example, you may want to insert a page that's
 flipped to landscape to insert a big table or change the margin and columns for
-your title page. In this case, you can call <a href="/docs/reference/layout/page/"><code>page</code></a> as a function with
+your title page. In this case, you can call [\`{page}\`]($page) as a function with
 your content as an argument and the overrides as the other arguments. This will
 insert enough new pages with your overridden settings to place your content on
-them. Typst will revert to the page settings from the set rule after the call.</p>
+them. Typst will revert to the page settings from the set rule after the call.
+</original>
 <div class="previewed-code"><pre><code><span class="typ-func">#</span><span class="typ-func">page</span><span class="typ-punct">(</span>flipped<span class="typ-punct">:</span> <span class="typ-key">true</span><span class="typ-punct">)</span><span class="typ-punct">[</span>
   <span class="typ-heading">= Multiplication table</span>
 
@@ -13973,4 +14104,4 @@ and <code>dict<span class="typ-punct">.</span><span class="typ-func">insert</spa
 <li>Added redirection to the page originally navigated to after signin</li>
 </ul>
 </li>
-</ul>`},children:[]}]}];function Fa(n){const p=E(Ia,n);return p===null?null:p}const Ca=["innerHTML"],Da={key:1,class:"page-category"},ja={key:2,class:"page-type"},La={key:3,class:"page-func"},Ea={key:4,class:"page-group"},Ma={key:5,class:"page-symbols"},Ra={key:6,class:"page-notfound"},_a=z({__name:"docs",setup(n){const p=`/docs${D(L().params.docPath)}`,s=T(b.Unknown),m=T(""),l=T(""),u=_(),d=T(null),f=T(""),o=T(null);function i(){const c=Fa(p);if(!c){s.value=b.NotFound;return}switch(s.value=c.body.kind,m.value=c.title,u.value=c.outline,l.value=c.description,c.body.kind){case b.HTML:{f.value=c.body.content;break}default:{o.value=c.body.content;break}}}function q(){document&&document.querySelectorAll("p + original, .previewed-code + original, .info-box + original, ol + original, ul + original").forEach(c=>{var P;const w=c.previousElementSibling;if(!w)return;const S=document.createElement("div");S.classList.add("with-original"),S.appendChild(w.cloneNode(!0));const x=c.cloneNode(!0);x.innerText=x.innerText.trim(),x.innerHTML=`<span>原文</span><div class="content">${x.innerHTML}</div>`,S.appendChild(x),(P=c.parentNode)==null||P.insertBefore(S,c),c.remove(),w.remove()})}return i(),B(d,()=>q()),(c,w)=>{const S=J,x=ya,P=F,M=ga,R=Sa;return e(),t("article",{ref_key:"arti",ref:d},[a(s)===a(b).HTML?(e(),t("div",{key:0,class:"page-html",innerHTML:a(f)},null,8,Ca)):a(s)===a(b).Category?(e(),t("div",Da,[v(S,{value:a(o)},null,8,["value"])])):a(s)===a(b).Type?(e(),t("div",ja,[v(x,{value:a(o)},null,8,["value"])])):a(s)===a(b).Func?(e(),t("div",La,[v(P,{value:a(o)},null,8,["value"])])):a(s)===a(b).Group?(e(),t("div",Ea,[v(M,{value:a(o)},null,8,["value"])])):a(s)===a(b).Symbols?(e(),t("div",Ma,[v(R,{value:a(o)},null,8,["value"])])):a(s)===a(b).NotFound?(e(),t("div",Ra,[v(Pa)])):g("",!0)],512)}}});export{_a as default};
+</ul>`},children:[]}]}];function Fa(n){const p=$(Ia,n);return p===null?null:p}const Ca=["innerHTML"],Da={key:1,class:"page-category"},ja={key:2,class:"page-type"},La={key:3,class:"page-func"},$a={key:4,class:"page-group"},Ea={key:5,class:"page-symbols"},Ma={key:6,class:"page-notfound"},_a=z({__name:"docs",setup(n){const p=`/docs${D(L().params.docPath)}`,s=T(b.Unknown),m=T(""),l=T(""),u=_(),d=T(null),f=T(""),o=T(null);function i(){const c=Fa(p);if(!c){s.value=b.NotFound;return}switch(s.value=c.body.kind,m.value=c.title,u.value=c.outline,l.value=c.description,c.body.kind){case b.HTML:{f.value=c.body.content;break}default:{o.value=c.body.content;break}}}function q(){document&&document.querySelectorAll("p + original, .previewed-code + original, .info-box + original, ol + original, ul + original").forEach(c=>{var P;const w=c.previousElementSibling;if(!w)return;const S=document.createElement("div");S.classList.add("with-original"),S.appendChild(w.cloneNode(!0));const x=c.cloneNode(!0);x.innerText=x.innerText.trim(),x.innerHTML=`<span>原文</span><div class="content">${x.innerHTML}</div>`,S.appendChild(x),(P=c.parentNode)==null||P.insertBefore(S,c),c.remove(),w.remove()})}return i(),B(d,()=>q()),(c,w)=>{const S=J,x=ya,P=F,E=ga,M=Sa;return e(),t("article",{ref_key:"arti",ref:d},[a(s)===a(b).HTML?(e(),t("div",{key:0,class:"page-html",innerHTML:a(f)},null,8,Ca)):a(s)===a(b).Category?(e(),t("div",Da,[v(S,{value:a(o)},null,8,["value"])])):a(s)===a(b).Type?(e(),t("div",ja,[v(x,{value:a(o)},null,8,["value"])])):a(s)===a(b).Func?(e(),t("div",La,[v(P,{value:a(o)},null,8,["value"])])):a(s)===a(b).Group?(e(),t("div",$a,[v(E,{value:a(o)},null,8,["value"])])):a(s)===a(b).Symbols?(e(),t("div",Ea,[v(M,{value:a(o)},null,8,["value"])])):a(s)===a(b).NotFound?(e(),t("div",Ma,[v(Pa)])):g("",!0)],512)}}});export{_a as default};
