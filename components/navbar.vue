@@ -7,10 +7,10 @@
     <div class="spacer"/>
     <div class="right">
       <button class="nav-btn primary">
-        访问 Typst 仓库
+        访问 Typst 官方仓库
       </button>
-      <a href="https://typst.app/docs" target="_blank">官方文档</a>
-      <a href="https://github.com/typstdocsinchinese" target="_blank">翻译仓库</a>
+      <a href="https://typst.app/docs" target="_blank">英文原文</a>
+      <a href="https://github.com/typstdocsinchinese" target="_blank">参与贡献</a>
     </div>
   </nav>
 </template>
