@@ -1,6 +1,6 @@
 <template>
   <div class="sidebar-link-wrapper">
-    <div class="sidebar-link" :class="{'exact-active': exactActive}" @click.self="navigateTo(route)">
+    <div class="sidebar-link" :class="{'exact-active': exactActive}" @click.self="onLinkClick">
       {{ title }}
       <template v-if="collapsable">
         <div class="spacer"/>
@@ -11,6 +11,8 @@
 </template>
 
 <script lang="ts" setup>
+import useDrawerState from "~/composables/useDrawerState";
+
 const props = defineProps({
   route: {
     required: true,
@@ -23,10 +25,20 @@ const props = defineProps({
   collapsable: {
     required: true,
     type: Boolean
+  },
+  isDrawer: {
+    type: Boolean,
+    default: false
   }
 });
 
 const exactActive = computed(() => useRoute().fullPath === props.route);
+const drawerState = useDrawerState();
+
+function onLinkClick() {
+  navigateTo(props.route);
+  if (props.isDrawer) drawerState.value = false;
+}
 </script>
 
 <style lang="scss">

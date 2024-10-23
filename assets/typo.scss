@@ -110,6 +110,10 @@ main {
       margin-bottom: 8px;
       color: #aaa;
     }
+
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
 
   .with-original {
@@ -137,6 +141,7 @@ main {
 
   .info-box {
     background: rgba($primary, .1);
+    border: 1px solid $primary;
     padding: 16px;
     border-radius: 10px;
 

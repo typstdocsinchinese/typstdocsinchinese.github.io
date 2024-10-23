@@ -19,11 +19,20 @@ footer {
   border-top: 1px solid rgba(0, 0, 0, .21);
   margin-top: 100px;
 
+  @media (max-width: 768px) {
+    padding: 20px;
+  }
+
   .wrapper {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    align-self: flex-start;
+    align-items: flex-start;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 4px;
+    }
   }
 
   .left {
@@ -39,6 +48,10 @@ footer {
     display: flex;
     align-items: center;
     min-width: 200px;
+
+    @media (max-width: 768px) {
+      min-width: unset;
+    }
   }
 }
 </style>

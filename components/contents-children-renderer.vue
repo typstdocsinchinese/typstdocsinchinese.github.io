@@ -2,7 +2,7 @@
   <div class="content-item-children-wrapper">
     <div class="content-item-children" :class="{active: active[i]}" v-for="(x, i) in object">
       <span class="part" v-if="x.part">{{ translatePart(x.part) }}</span>
-      <sidebar-link @toggle-collapse="active[i] = !active[i]" :title="x.title" :collapsable="x.children.length > 0" :route="x.route"/>
+      <sidebar-link :is-drawer="isDrawer" @toggle-collapse="active[i] = !active[i]" :title="x.title" :collapsable="x.children.length > 0" :route="x.route"/>
       <contents-children-renderer v-if="x.children.length > 0" :contents="x.children"/>
     </div>
   </div>
@@ -14,6 +14,10 @@ import type {ContentsItemChild, Part} from "~/static/types";
 const props = defineProps({
   contents: {
     required: true
+  },
+  isDrawer: {
+    type: Boolean,
+    default: false
   }
 });
 

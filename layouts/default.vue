@@ -2,7 +2,7 @@
   <navbar/>
   <main>
     <client-only>
-      <contents/>
+      <contents class="geq-768"/>
     </client-only>
     <slot/>
     <client-only>
@@ -44,6 +44,15 @@ main {
 
   @media (max-width: 1024px) {
     grid-template-columns: minmax(auto, 184px) auto;
+  }
+
+  @media (max-width: 1200px) {
+    padding: 0 32px;
+  }
+
+  @media (max-width: 768px) {
+    display: flex;
+    padding: 0 16px;
   }
 }
 </style>

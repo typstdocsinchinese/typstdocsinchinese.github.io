@@ -30,3 +30,15 @@ a:visited {
 a:link {
   color: #007aff;
 }
+
+.geq-768 {
+  @media (max-width: 768px) {
+    display: none !important;
+  }
+}
+
+.leq-768 {
+  @media (min-width: 768px) {
+    display: none !important;
+  }
+}
