@@ -17,7 +17,7 @@ function scroll() {
 
 if (window) {
   window.addEventListener("scroll", e => {
-    active.value = window.scrollY >= 700;
+    active.value =  window.scrollY >= (window.innerWidth <= 768 ? 300 : 700);
   })
 }
 </script>
