@@ -45,7 +45,7 @@
 .fade-enter-active,
 .fade-leave-active,
 .flow-left-enter-active,
-.flow-left-leave-active{
+.flow-left-leave-active {
   transition: all .2s ease;
 }
 
@@ -117,13 +117,15 @@
   display: flex;
   align-items: stretch;
   justify-content: flex-start;
-  z-index: 200;
+  z-index: 800;
 
   .drawer {
     background: white;
     min-width: 70%;
     box-sizing: border-box;
     padding: 16px;
+    overflow-y: auto;
+    scrollbar-width: none;
 
     .drawer-header {
       display: flex;
