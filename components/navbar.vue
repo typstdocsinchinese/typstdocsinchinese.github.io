@@ -68,6 +68,9 @@
   background: white;
   transition: all .2s ease;
   cursor: pointer;
+  position: fixed;
+  top: 24px;
+  z-index: 20;
 
   &:hover {
     background: #efefef;
