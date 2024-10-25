@@ -22,8 +22,13 @@ const docTitle = useDocTitle();
 
 useHead({
   title: () => docTitle.value.length > 0 ? `${docTitle.value} - Typst 非官方中文文档` : `Typst 非官方中文文档`,
-  meta: [
-    {name: 'description', content: 'Typst 的非官方中文文档，致力于提供易懂内容。'}
+  link: [
+    {rel: 'canonical', href: 'https://typstdocsinchinese.github.io/docs'},
+    {rel: 'manifest', href: '/assets/site.webmanifest'},
+    {rel: 'mask-icon', href: '/assets/safari-pinned-tab.svg'},
+    {rel: 'apple-touch-icon', href: '/assets/apple-touch-icon.png'},
+    {rel: 'icon', href: '/assets/favicon-32x32.png', sizes: '32x32'},
+    {rel: 'icon', href: '/assets/favicon-16x16.png', sizes: '16x16'},
   ]
 });
 
@@ -31,7 +36,15 @@ useSeoMeta({
   title: () => docTitle.value.length > 0 ? `${docTitle.value} - Typst 非官方中文文档` : `Typst 非官方中文文档`,
   ogTitle: 'Typst 非官方中文文档 - by typstdocsinchinese',
   description: 'Typst 的非官方中文文档，致力于提供易懂内容。',
-  ogDescription: 'Yet Another Typst 的非官方中文文档，致力于提供易懂内容。'
+  ogDescription: 'Yet Another Typst 的非官方中文文档，致力于提供易懂内容。',
+  ogImage: 'https://typst.app/assets/social.png',
+  ogImageWidth: '1200',
+  ogImageHeight: '630',
+  ogImageAlt: '该图片展示了一个文本编辑器的左部分，上带有多种颜色的指针，旁边写着“Compose papers faster, Typst”',
+  ogType: 'website',
+  themeColor: '#239dad',
+  twitterCard: 'summary_large_image',
+  twitterSite: '@typstapp',
 })
 </script>
 
