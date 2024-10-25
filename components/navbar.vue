@@ -9,10 +9,10 @@
     </div>
     <div class="spacer"/>
     <div class="right">
-      <button class="nav-btn primary geq-768">
+      <button @click="open('https://github.com/typst/typst')" class="nav-btn primary geq-768">
         访问 Typst 官方仓库
       </button>
-      <button class="nav-btn primary leq-768">
+      <button @click="open('https://github.com/typst/typst')" class="nav-btn primary leq-768">
         官方仓库
       </button>
       <a href="https://typst.app/docs" target="_blank">英文原文</a>
@@ -209,6 +209,7 @@ nav {
 <script setup lang="ts">
 import {mdiMenu} from "@mdi/js";
 import useDrawerState from "~/composables/useDrawerState";
+import open from '@/utils/open';
 
 const drawerState = useDrawerState();
 
