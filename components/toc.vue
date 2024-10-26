@@ -1,6 +1,6 @@
 <template>
   <div class="outlines" v-if="outline !== null && outline.length !== 0">
-    <div class="outline-title">ON THIS PAGE</div>
+    <div class="outline-title">本页内容</div>
     <toc-renderer :outline="outline"/>
   </div>
 </template>

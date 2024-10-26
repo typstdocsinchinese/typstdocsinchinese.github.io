@@ -1,6 +1,6 @@
 <template>
   <div class="sidebar-link-wrapper">
-    <div class="sidebar-link" :class="{'exact-active': exactActive}" @click.self="onLinkClick">
+    <div :data-target="props.route" class="sidebar-link" :class="{'exact-active': exactActive}" @click.self="onLinkClick">
       {{ title }}
       <template v-if="collapsable">
         <div class="spacer"/>
