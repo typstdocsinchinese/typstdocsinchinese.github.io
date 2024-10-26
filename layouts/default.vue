@@ -24,11 +24,11 @@ useHead({
   title: () => docTitle.value.length > 0 ? `${docTitle.value} - Typst 非官方中文文档` : `Typst 非官方中文文档`,
   link: [
     {rel: 'canonical', href: 'https://typstdocsinchinese.github.io/docs'},
-    {rel: 'manifest', href: '/assets/site.webmanifest'},
-    {rel: 'mask-icon', href: '/assets/safari-pinned-tab.svg'},
-    {rel: 'apple-touch-icon', href: '/assets/apple-touch-icon.png'},
-    {rel: 'icon', href: '/assets/favicon-32x32.png', sizes: '32x32'},
-    {rel: 'icon', href: '/assets/favicon-16x16.png', sizes: '16x16'},
+    {rel: 'manifest', href: '/resources/site.webmanifest'},
+    {rel: 'mask-icon', href: '/resources/safari-pinned-tab.svg'},
+    {rel: 'apple-touch-icon', href: '/resources/apple-touch-icon.png'},
+    {rel: 'icon', href: '/resources/favicon-32x32.png', sizes: '32x32'},
+    {rel: 'icon', href: '/resources/favicon-16x16.png', sizes: '16x16'},
   ]
 });
 
