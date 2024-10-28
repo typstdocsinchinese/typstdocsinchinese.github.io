@@ -32,7 +32,7 @@ jobs:
         cd tt
         git remote set-url origin https://Subilan:${{ secrets.TOKEN }}@github.com/typstdocsinchinese/typstdocsinchinese.github.io
         git switch public
-        rm -rf _nuxt docs
+        rm -rf _nuxt docs resources
         mv ../.output/public/** .
         git add *
         git commit -m 'update built site'
